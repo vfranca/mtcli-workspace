@@ -1,9 +1,9 @@
 @echo off
-set prefix=wdo
-set sufix=$n
-set digits=2
+set prefix=usdchf
+set sufix=micro
+set digits=4
 
-call mtx b3
+call mtx xm
 call dg %digits%
 call s %prefix%%sufix%
 rem start %prefix%.txt

@@ -1,9 +1,11 @@
 @echo off
-set prefix=wdo
-set sufix=$n
+rem entradas
+set prefix=usdx
+set sufix=-mar21
 set digits=2
-
-call mtx b3
+rem ajuda
+rem comandos
+call mtx xm
 call dg %digits%
 call s %prefix%%sufix%
 rem start %prefix%.txt

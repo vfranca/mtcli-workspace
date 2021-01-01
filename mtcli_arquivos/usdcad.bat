@@ -1,9 +1,11 @@
 @echo off
-set prefix=wdo
-set sufix=$n
-set digits=2
-
-call mtx b3
+rem entradas
+set prefix=usdcad
+set sufix=micro
+set digits=4
+rem ajuda
+rem comandos
+call mtx xm
 call dg %digits%
 call s %prefix%%sufix%
 rem start %prefix%.txt
