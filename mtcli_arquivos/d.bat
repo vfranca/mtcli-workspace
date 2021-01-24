@@ -1,8 +1,9 @@
 @echo off
 @rem aliases para comandos do mtcli
 rem entradas
-set a=2020
-set m=12
+set aaaa=2021
+set mm=01
+set dd=%1
 rem ajuda
 if "%1" == "-h" (
 echo d [dia] [mes] [ano]
@@ -17,12 +18,10 @@ set d=""
 echo data intraday vazia
 goto :EOF
 )
-
 if "%2" == "" (
-set d=%a%.%m%.%1
-echo data intraday %a%.%m%.%1
+set d=%aaaa%.%mm%.%dd%
+echo data intraday %aaaa%.%mm%.%dd%
 goto :EOF
 )
-
 set d=%3.%2.%1
-echo data intraday %3.%2.%1
+echo data intraday %3.%2.%dd%
