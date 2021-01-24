@@ -6,16 +6,27 @@ rem ajuda
 if "%1" == "" (
 echo altera o MetaTrader do terminal
 echo Digite uma das seguintes opcoes:
-echo b3 - Para MetaTrader da Clear
+echo b3 ou clear - Para MetaTrader da Clear
+echo clear2 - Para MetaTrader da Clear demo
 echo icm - Para MetaTrader da Ic Markets
 echo xm - Para MetaTrader da XM
+echo xm2 - Para MetaTrader da XM demo
 echo at - Para MetaTrader da ActivTrades
 goto :EOF
 )
 rem comandos
 rem Seleciona MT5 da Clear
 if "%1" == "b3" (
-copy %envdir%.env-b3 %envdir%.env
+copy %envdir%.env-clear %envdir%.env
+goto :EOF
+)
+if "%1" == "clear" (
+copy %envdir%.env-clear %envdir%.env
+goto :EOF
+)
+rem Seleciona MT5 da Clear demo
+if "%1" == "clear2" (
+copy %envdir%.env-clear-demo %envdir%.env
 goto :EOF
 )
 rem Seleciona MT5 da IC Markets
@@ -26,6 +37,11 @@ goto :EOF
 rem Seleciona MT5 da XM
 if "%1" == "xm" (
 copy %envdir%.env-xm %envdir%.env
+goto :EOF
+)
+rem Seleciona MT5 da XM demo
+if "%1" == "xm2" (
+copy %envdir%.env-xm-demo %envdir%.env
 goto :EOF
 )
 rem Seleciona MT5 da ActivTrades
