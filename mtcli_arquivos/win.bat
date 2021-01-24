@@ -1,11 +1,12 @@
 @echo off
 rem entradas
 set prefix=win
-set sufix=$n
+set sufix=g21
 set digits=0
+set mt5=clear
+rem ajuda
 rem comandos
-call mtx b3
+cls
+call mtx %mt5%
 call dg %digits%
 call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls

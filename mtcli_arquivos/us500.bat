@@ -1,8 +1,9 @@
 @echo off
-rem variaveis de entrada
+rem entrada
 set prefix=us500
 set sufix=cash
 set digits=0
+rem ajuda
 rem comandos
 call mtx xm
 call dg %digits%

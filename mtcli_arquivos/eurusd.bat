@@ -1,9 +1,10 @@
 @echo off
-rem variaveis de entrada
+rem entradas
 set prefix=eurusd
 set sufix=micro
 set digits=4
-rem
+rem ajuda
+rem comandos
 call mtx xm
 call dg %digits%
 call s %prefix%%sufix%

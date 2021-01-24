@@ -1,10 +1,13 @@
 @echo off
-rem varivais de entrada
+rem entradas
 set prefix=corn
 set sufix=-mar21
 set digits=2
-rem
-call mtx xm
+set mt5=xm
+rem ajuda
+rem comandos
+cls
+call mtx %mt5%
 call dg %digits%
 call s %prefix%%sufix%
 rem start %prefix%.txt
