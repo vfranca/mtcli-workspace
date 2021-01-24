@@ -1,2 +1,8 @@
 @echo off
-d1 ohlc 100
+rem entradas
+set view=ohlc
+set count=100
+rem ajuda
+rem comandos
+cls
+mt bars %t% --view %view% --count %count%
