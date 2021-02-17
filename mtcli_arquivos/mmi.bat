@@ -1,21 +1,21 @@
 @echo off
 rem Aliases para comandos do mtcli
 rem Médias móveis do intraday
-
+rem entradas
+set mm=20
+set tf_operacional=m15
+set tf_longo1=h1
+set tf_longo2=h4
 rem ajuda
 if "%1" == "-h" (
-echo medias moveis simples do intraday
-echo mm20 do m5
-echo mm20 do m15
-echo mm20 do h1
+echo medias moveis do intraday
+echo mm20 do %tf_operacional%
+echo mm20 do %tf_longo1%
+echo mm20 do %tf_longo2%
 goto :EOF
 )
-
-rem fechamento
+rem comandos
 mt bars %t% --period daily --view c --count 1
-rem média móvel simples de 20 períodos do m5
-mt sma %t% --period m5 --count 20
-rem média móvel simples de 20 periodos do m15
-mt sma %t% --period m15 --count 20
-rem média móvel simples de 20 períodos do h1
-mt sma %t% --period h1 --count 20
+mt sma %t% --period %tf_operacional% --count %mm%
+mt sma %t% --period %tf_longo1% --count %mm%
+mt sma %t% --period %tf_longo2% --count %mm%
