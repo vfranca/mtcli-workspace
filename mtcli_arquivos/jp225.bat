@@ -1,13 +1,11 @@
 @echo off
+rem mtcli workspace
+rem perfil jp225
 rem variaveis de entrada
 set prefix=jp225
 set sufix=cash
 set digits=0
+set mt5=xm
 rem ajuda
 rem comandos
-cls
-call mtx xm
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+call perfil

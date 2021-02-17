@@ -1,13 +1,11 @@
 @echo off
-rem variaveis de entrada
+rem mtcli workspace
+rem perfil aus200
+rem entradas
 set prefix=aus200
 set sufix=cash
 set digits=0
+set mt5=xm2
 rem ajuda
 rem comandos
-cls
-call mtx xm
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+call perfil

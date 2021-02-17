@@ -1,9 +1,9 @@
 @echo off
 rem mtcli workspace
-rem perfil coffe
+rem perfil nzdusd
 rem entradas
-set prefix=coffe
-set sufix=-may21
+set prefix=nzdusd
+set sufix=micro
 set digits=4
 set mt5=xm
 rem ajuda

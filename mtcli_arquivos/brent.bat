@@ -1,12 +1,11 @@
 @echo off
+rem mtcli workspace
+rem perfil brent
 rem entradas
 set prefix=brent
 set sufix=-mar21
 set digits=2
+set mt5=xm
 rem ajuda
 rem comandos
-call mtx xm
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+call perfil

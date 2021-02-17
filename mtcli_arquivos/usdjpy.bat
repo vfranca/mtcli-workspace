@@ -1,11 +1,11 @@
 @echo off
-rem variaveis de entrada
+rem mtcli workspace
+rem perfil usdjpy
+rem entradas
 set prefix=usdjpy
 set sufix=micro
-set digits=2
-rem
-call mtx xm
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+set digits=4
+set mt5=xm
+rem ajuda
+rem comandos
+call perfil

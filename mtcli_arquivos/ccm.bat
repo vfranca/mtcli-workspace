@@ -1,13 +1,11 @@
 @echo off
+rem mtcli workspace
+rem perfil ccm
 rem entradas
 set prefix=ccm
-set sufix=$n
+set sufix=h21
 set digits=2
+set mt5=clear
 rem ajuda
 rem comandos
-cls
-call mtx b3
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+call perfil
