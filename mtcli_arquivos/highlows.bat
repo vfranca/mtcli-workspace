@@ -1,22 +1,18 @@
 @echo off
 rem aliases para comandos do mtcli
 rem grafico de máximas e mínimas
+rem entradas
+set defaultview=ch
+set defaultcount=108
+set defaultma=20
+set view="%1"
+set count="%2"
+rem ajuda
+rem comandos
 cls
-rem Exibe o comando do alias
-if "%1" == "-e" (
-echo mt bars %t% --period %p% --date %d% --view ch --count 108
-echo mt sma %t% --period %p% --count 20
-goto :EOF
-)
-if "%3" == "-e" (
-echo mt bars %t% --period %p% --date %d% --view %1 --count %2
-echo mt sma %t% --period %p% --count 20
-goto :EOF
-)
-if "%1" == "" (
-mt bars %t% --period %p% --date %d% --view ch --count 108
+if %view% == "" (
+mt bars %t% --period %p% --date %d% --view %defaultview% --count %defaultcount%
 ) else (
-mt bars %t% --period %p% --date %d% --view %1 --count %2
+mt bars %t% --period %p% --date %d% --view %view% --count %count%
 )
-mt sma %t% --period %p% --count 20
-time /t
+mt sma %t% --period %p% --count %defaultma%
