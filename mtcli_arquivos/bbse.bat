@@ -1,10 +1,10 @@
 @echo off
 rem mtcli workspace
-rem perfil ibov
+rem perfil bbse3
 rem entradas
-set prefix=ibov
-set sufix=
-set digits=0
+set prefix=bbse
+set sufix=3
+set digits=2
 set mt5=clear
 rem ajuda
 rem comandos
