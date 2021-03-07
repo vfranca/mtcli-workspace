@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mtcli-start"
+version = "0.1.0"
+description = ""
+authors = ["Valmir Franca <vfranca3@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+mock = "^4.0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
