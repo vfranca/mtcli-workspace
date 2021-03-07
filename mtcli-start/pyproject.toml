@@ -14,3 +14,6 @@ mock = "^4.0.3"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mtclistart = "mtcli_start:get_csv_path"
