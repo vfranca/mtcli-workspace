@@ -1,11 +1,11 @@
 @echo off
 rem mtcli workspace
-rem perfil brent
+rem perfil suzb3
 rem entradas
-set prefix=brent
-set sufix=-mar21
+set prefix=suzb
+set sufix=3
 set digits=2
-set mt5=xm
+set mt5=clear
 rem ajuda
 rem comandos
 call perfil
