@@ -15,4 +15,4 @@ mt bars %t% --period %p% --date %d% --view %defaultview% --count %defaultcount%
 ) else (
 mt bars %t% --period %p% --date %d% --view %view% --count %count%
 )
-mt sma %t% --period %p% --count %defaultma%
+sma %t% --period %p% --count %defaultma%

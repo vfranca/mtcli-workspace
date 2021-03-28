@@ -16,6 +16,6 @@ goto :EOF
 )
 rem comandos
 mt bars %t% --period daily --view c --count 1
-mt sma %t% --period %tf_operacional% --count %mm%
-mt sma %t% --period %tf_longo1% --count %mm%
-mt sma %t% --period %tf_longo2% --count %mm%
+sma %t% --period %tf_operacional% --count %mm%
+sma %t% --period %tf_longo1% --count %mm%
+sma %t% --period %tf_longo2% --count %mm%

@@ -16,6 +16,6 @@ goto :EOF
 )
 rem comandos
 mt bars %t% --period daily --view c --count 1
-mt sma %t% --period daily --count %curta%
-mt sma %t% --period daily --count %inter%
-mt sma %t% --period daily --count %longa%
+sma %t% --period daily --count %curta%
+sma %t% --period daily --count %inter%
+sma %t% --period daily --count %longa%

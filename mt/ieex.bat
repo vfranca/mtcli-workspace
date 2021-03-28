@@ -1,11 +1,11 @@
 @echo off
+rem mtcli workspace
+rem perfil indx
 rem entradas
 set prefix=ieex
 set sufix=
 set digits=0
+set mt5=clear
+rem ajuda
 rem comandos
-call mtx b3
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+call perfil
