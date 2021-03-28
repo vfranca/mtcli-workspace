@@ -1,3 +1,3 @@
 @echo off
-set file=Indic_Rates_1.01.ex5
+set file=mtcli.ex5
 start %file%
