@@ -1,11 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil aus200
-rem entradas
+rem perfil AUS200
 set prefix=aus200
 set sufix=cash
 set digits=0
-set mt5=xm2
-rem ajuda
-rem comandos
+rem set mt5=xm2
 call perfil

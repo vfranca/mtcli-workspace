@@ -1,10 +1,8 @@
 @echo off
 rem mtcli workspace
-rem entradas
+rem perfil US CORN
 set prefix=corn
-set sufix=-mar21
+set sufix=-may21
 set digits=2
-set mt5=xm
-rem ajuda
-rem comandos
+rem set mt5=xm
 call perfil

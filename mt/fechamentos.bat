@@ -9,4 +9,4 @@ rem ajuda
 rem comandos
 cls
 mt bars %t% --period %p% --date %d% --view %defaultview% --count %defaultcount%
-mt sma %t% --period %p% --count %defaultma%
+sma %t% --period %p% --count %defaultma%

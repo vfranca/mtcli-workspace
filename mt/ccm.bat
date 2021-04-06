@@ -1,11 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil ccm
-rem entradas
+rem perfil CCM
 set prefix=ccm
-set sufix=h21
+set sufix=k21
 set digits=2
-set mt5=clear
-rem ajuda
-rem comandos
+rem set mt5=clear
 call perfil

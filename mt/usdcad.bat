@@ -1,11 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil usdcad
-rem entradas
+rem perfil USDCAD
 set prefix=usdcad
 set sufix=micro
 set digits=4
-set mt5=xm
-rem ajuda
-rem comandos
+rem set mt5=xm
 call perfil

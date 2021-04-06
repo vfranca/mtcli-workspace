@@ -1,11 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil bbdc4
-rem entradas
+rem perfil BBDC4
 set prefix=bbdc
 set sufix=4
 set digits=2
-set mt5=clear
-rem ajuda
-rem comandos
+rem set mt5=clear
 call perfil

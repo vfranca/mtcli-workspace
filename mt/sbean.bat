@@ -1,11 +1,8 @@
 @echo off
-rem variavais de entrada
+rem mtcli workspace
+rem perfil US SOYBEAN
 set prefix=sbean
-set sufix=-jan21
+set sufix=-may21
 set digits=2
-rem
-call mtx xm
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+rem set mt5=xm
+call perfil

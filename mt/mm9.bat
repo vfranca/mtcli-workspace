@@ -8,5 +8,5 @@ set mm_longa=20
 rem ajuda
 rem comandos
 mt bars %symbol% -p daily -v c -c 1
-mt sma %symbol% -p daily -c %mm_curta%
-mt sma %symbol% -p daily -c %mm_longa%
+sma %symbol% -p daily -c %mm_curta%
+sma %symbol% -p daily -c %mm_longa%

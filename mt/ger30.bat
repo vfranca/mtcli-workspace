@@ -1,11 +1,9 @@
 @echo off
 rem mtcli workspace 
-rem perfil ger30
+rem perfil GER30
 rem entradas
 set prefix=ger30
 set sufix=cash
 set digits=0
-set mt5=xm
-rem ajuda
-rem comandos
+rem set mt5=xm
 call perfil

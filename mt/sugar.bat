@@ -1,11 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil sugar
-rem entradas
+rem perfil US SUGAR
 set prefix=sugar
 set sufix=-mar21
 set digits=2
-set mt5=xm
-rem ajuda
-rem comandos
+rem set mt5=xm
 call perfil

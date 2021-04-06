@@ -1,11 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil jp225
-rem variaveis de entrada
+rem perfil JP225
 set prefix=jp225
 set sufix=cash
 set digits=0
-set mt5=xm
-rem ajuda
-rem comandos
+rem set mt5=xm
 call perfil

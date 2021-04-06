@@ -1,12 +1,8 @@
 @echo off
-rem entradas
+rem mtcli workspace
+rem perfil ABEV3
 set prefix=abev
 set sufix=3
 set digits=2
-rem ajuda
-rem comandos
-call mtx b3
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+rem set mt5=clear
+call perfil
