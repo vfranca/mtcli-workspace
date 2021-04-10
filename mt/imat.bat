@@ -1,11 +1,8 @@
 @echo off
-rem entradas
+rem mtcli workspace
+rem perfil IMAT
 set prefix=imat
 set sufix=
 set digits=0
-rem comandos
-call mtx b3
-call dg %digits%
-call s %prefix%%sufix%
-rem start %prefix%.txt
-rem start %prefix%.xls
+rem set mt5=clear
+call perfil

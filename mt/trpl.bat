@@ -1,8 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil IEEX
-set prefix=ieex
-set sufix=
-set digits=0
+rem perfil TRPL4
+set prefix=trpl
+set sufix=4
+set digits=2
 rem set mt5=clear
 call perfil
