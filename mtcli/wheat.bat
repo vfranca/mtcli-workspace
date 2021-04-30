@@ -1,8 +1,8 @@
 @echo off
 rem mtcli workspace
-rem perfil US WHEAT
+rem perfil WHEAT
 set prefix=wheat
-set sufix=-may21
+set /p sufix=sufixo:
 set digits=2
 rem set mt5=xm
 call perfil
