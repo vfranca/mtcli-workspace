@@ -1,6 +1,6 @@
 @echo off
 rem mtcli workspace
-rem perfil ação
+rem perfil genérico
 set /p prefix=prefixo:
 set /p sufix=sufixo:
 set digits=2
