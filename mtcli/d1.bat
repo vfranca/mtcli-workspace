@@ -1,10 +1,6 @@
 @echo off
 rem aliases para comandos do mtcli
-rem grafico de máximas e mínimas do daily
-rem entradas
+rem grafico de máximas e mínimas do diário
 set p=daily
 set d=""
-rem ajuda
-rem comandos
-cls
-call highlows %*
+call maxmin %*
