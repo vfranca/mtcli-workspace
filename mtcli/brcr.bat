@@ -1,8 +1,6 @@
 @echo off
 rem mtcli workspace
-rem perfil BRCR11
-set prefix=brcr
+set prefix=BRCR
 set sufix=11
 set digits=2
-rem set mt5=clear
 call perfil

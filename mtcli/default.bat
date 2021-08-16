@@ -1,18 +1,13 @@
 @echo off
 rem aliases para comandos do mtcli
 rem gráfico default
-rem entradas
 set defaultview=default
-set defaultcount=108
-set defaultma=20
-set view="%1"
-set count="%2"
-rem ajuda
-rem comandos
+set defaultcount=26
+set count="%1"
 cls
-if %view% == "" (
+if %count% == "" (
 mt bars %t% --period %p% --date %d% --count %defaultcount%
 ) else (
-mt bars %t% --period %p% --date %d% --view %view% --count %count%
+mt bars %t% --period %p% --date %d% --view %defaultview% --count %count%
 )
-sma %t% --period %p% --count %defaultma%
+sma %t% --period %p% --count 20

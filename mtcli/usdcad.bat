@@ -1,8 +1,6 @@
 @echo off
 rem mtcli workspace
-rem perfil USDCAD
-set prefix=usdcad
-set sufix=micro
+set prefix=USDCAD
+set sufix=Micro
 set digits=4
-rem set mt5=xm
 call perfil

@@ -1,10 +1,7 @@
 @echo off
 rem mtcli workspace
-rem entradas
 set prefix=usdx
-set sufix=-mar21
+set /p sufix=sufixo:
 set digits=2
-set mt5=xm
-rem ajuda
-rem comandos
+rem set mt5=xm
 call perfil
