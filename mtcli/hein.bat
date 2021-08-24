@@ -1,6 +1,6 @@
 @echo off
 rem mtcli workspace
-set prefix=SUZB
-set sufix=3
+set prefix=Heineken
+set sufix=""
 set digits=2
 call perfil
