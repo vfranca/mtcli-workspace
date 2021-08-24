@@ -1,7 +1,6 @@
 @echo off
 rem aliases para comandos do mtcli
 rem exibe/define o symbol do terminal
-rem variaveis de entrada
 set symbol=%1
 rem ajuda
 if "%1" == "-h" (
