@@ -10,11 +10,11 @@ if "%1" == "-h" (
 echo medias moveis do intraday
 echo mm20 do %tf_operacional%
 echo mm20 do %tf_longo1%
-rem echo mm20 do %tf_longo2%
+echo mm20 do %tf_longo2%
 goto :EOF
 )
 rem comandos
 mt bars %t% --period daily --view c --count 1
 sma %t% --period %tf_operacional% --count %mm%
 sma %t% --period %tf_longo1% --count %mm%
-rem sma %t% --period %tf_longo2% --count %mm%
+sma %t% --period %tf_longo2% --count %mm%
