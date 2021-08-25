@@ -1,5 +1,5 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem gráfico de oscilações
 cls
-mt bars %t% --period %p% --date %d% --view var --count 108
+mt bars %t% --period %p% --date %id% --view var --count 108
