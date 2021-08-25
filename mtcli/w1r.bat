@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico de ranges do weekly
 set p=weekly
-set d=""
+set id=""
 call ranges %*

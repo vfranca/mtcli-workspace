@@ -1,9 +1,9 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico de fechamentos do weekly
 rem entradas
 set p=weekly
-set d=""
+set id=""
 rem ajuda
 rem comandos
 cls

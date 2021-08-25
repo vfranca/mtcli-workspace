@@ -1,7 +1,7 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico de oscilações percentuais do diário
 set p=daily
-set d=""
+set id=""
 cls
 call oscilacoes %*

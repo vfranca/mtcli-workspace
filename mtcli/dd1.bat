@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico padrão do diário
 set p=daily
-set d=""
+set id=""
 call default %*

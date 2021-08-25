@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico de ranges do monthly
 set p=monthly
-set d=""
+set id=""
 call ranges %*

@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico de ranges do daily
 set p=daily
-set d=""
+set id=""
 call ranges %*

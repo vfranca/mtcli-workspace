@@ -1,10 +1,7 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico de fechamentos do daily
-rem entradas
 set p=daily
-set d=""
-rem ajuda
-rem comandos
+set id=""
 cls
 call fechamentos %*

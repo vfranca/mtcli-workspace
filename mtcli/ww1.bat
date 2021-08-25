@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
+rem mtcli
 rem grafico padrão do semanal
 set p=weekly
-set d=""
+set id=""
 call default %*
