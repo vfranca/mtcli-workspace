@@ -1,7 +1,8 @@
 @echo off
-rem mtcli workspace
-set prefix=usdx
-set /p sufix=sufixo:
+rem mtcli
+rem configura ativo
+set prefix=USDX
+set /p sufix=contrato:
+set sufix=-%sufix%
 set digits=2
-rem set mt5=xm
 call perfil

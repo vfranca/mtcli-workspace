@@ -1,11 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil us500
-rem entrada
-set prefix=us500
-set sufix=cash
+rem mtcli
+rem configura ativo
+set prefix=US500
+set sufix=Cash
 set digits=0
-set mt5=xm
-rem ajuda
-rem comandos
 call perfil

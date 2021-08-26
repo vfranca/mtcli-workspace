@@ -1,9 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil CCM
-set prefix=ccm
-set /p sufix=sufixo:
-rem set sufix=k21
+rem mtcli
+rem configura ativo
+set prefix=CCM
+set /p sufix=contrato:
 set digits=2
-rem set mt5=clear
 call perfil

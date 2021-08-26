@@ -1,8 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil JP225
-set prefix=jp225
-set sufix=cash
+rem mtcli
+rem configura ativo
+set prefix=JP225
+set sufix=Cash
 set digits=0
-rem set mt5=xm
 call perfil

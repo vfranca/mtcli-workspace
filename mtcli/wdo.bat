@@ -1,6 +1,7 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configura ativo
 set prefix=WDO
-set /p sufix=sufixo:
+set /p sufix=contrato:
 set digits=0
 call perfil

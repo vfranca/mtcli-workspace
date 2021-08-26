@@ -1,8 +1,6 @@
 @echo off
-rem mtcli workspace
-rem chamado pelos perfis de terminal
-cls
-rem call mt5 %mt5%
-call dg %digits%
+rem mtcli
+rem configura terminal
+rem incluído nas configuracoes de ativo
+call d %digits%
 call s %prefix%%sufix%
-rem call conf

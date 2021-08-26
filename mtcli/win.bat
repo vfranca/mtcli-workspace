@@ -1,8 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil WIN
-set prefix=win
-set /p sufix=sufixo:
+rem mtcli
+rem configura ativo
+set prefix=WIN
+set /p sufix=contrato:
 set digits=0
-rem set mt5=clear
 call perfil

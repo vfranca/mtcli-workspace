@@ -1,8 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil US CORN
-set prefix=corn
-set /p sufix=sufixo:
+rem mtcli
+rem configura ativo
+set prefix=CORN
+set /p sufix=contrato:
+set sufix=-%sufix%
 set digits=2
-rem set mt5=xm
 call perfil

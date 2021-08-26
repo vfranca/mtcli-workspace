@@ -1,5 +1,6 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configura ativo
 set prefix=EU50
 set sufix=Cash
 set digits=0
