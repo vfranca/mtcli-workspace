@@ -1,5 +1,4 @@
 @echo off
 rem mtcli
-rem média móvel simples
-set /p periodos=periodos:
-sma %t% --period %p% --count %periodos%
+rem média móvel  do diário
+sma %t% -p daily -c 20
