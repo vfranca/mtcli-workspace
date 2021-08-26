@@ -2,7 +2,7 @@
 rem mtcli
 rem variaveis
 if "%1" == "" (
-echo %ccma%
+echo %rbbdc%
 goto :EOF
 )
-set ccma=%1
+set rbbdc=%1

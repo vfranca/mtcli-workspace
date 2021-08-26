@@ -1,6 +1,8 @@
 @echo off
+rem mtcli
+rem variaveis
 if "%1" == "" (
-echo %awdo%
+echo %wdoa%
 goto :EOF
 )
-set awdo=%1
+set wdoa=%1

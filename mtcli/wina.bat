@@ -1,6 +1,8 @@
 @echo off
+rem mtcli
+rem variaveis
 if "%1" == "" (
-echo %awin%
+echo %wina%
 goto :EOF
 )
-set awin=%1
+set wina=%1
