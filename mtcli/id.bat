@@ -7,9 +7,10 @@ set intraday=desligado
 set intraday=ligado
 )
 if "%1" == "" (
-echo %ano%.%mes%.%dia% %intraday%
+set id=""
+echo %ano%.%mes%.%dia% intraday desativado
 goto :EOF
 )
 set dia=%1
 set id=%ano%.%mes%.%dia%
-echo %id% ligado
+echo %id% intraday ativado
