@@ -1,8 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil USDJPY
-set prefix=usdjpy
-set sufix=micro
+rem mtcli
+rem configuração de ativo
+set prefix=USDJPY
+set sufix=Micro
 set digits=2
-rem set mt5=xm
 call perfil

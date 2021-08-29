@@ -1,8 +1,9 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
+rem terço inferior
 if "%1" == "" (
-echo %f2%
+echo %winti%
 goto :EOF
 )
-set f2=%1
+set winti=%1

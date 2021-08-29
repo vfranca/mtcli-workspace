@@ -1,8 +1,9 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
+rem terço superior
 if "%1" == "" (
-echo %tercosuperior%
+echo %ts%
 goto :EOF
 )
-set tercosuperior=%1
+set ts=%1

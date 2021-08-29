@@ -1,6 +1,5 @@
 @echo off
-rem deprecated
-rem aliases para comandos do mtcli
-rem grafico de ranges
-set p=monthly
-mt bars %t% --view r --period %p% --count 107
+rem mtcli
+rem atalhos mtcli
+rem range of month
+mt bars %t% -v r -c 1 -p monthly

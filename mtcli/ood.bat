@@ -2,7 +2,7 @@
 rem mtcli
 rem variáveis de ambiente
 if "%1" == "" (
-echo %f2%
+echo %ood%
 goto :EOF
 )
-set f2=%1
+set ood=%1

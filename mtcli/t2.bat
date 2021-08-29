@@ -2,7 +2,7 @@
 rem mtcli
 rem variáveis de ambiente
 if "%1" == "" (
-echo %topo2%
+echo %t2%
 goto :EOF
 )
-set topo2=%1
+set t2=%1

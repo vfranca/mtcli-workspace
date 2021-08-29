@@ -1,8 +1,9 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
+rem pullback de 2/3
 if "%1" == "" (
-echo %f2%
+echo %pb3%
 goto :EOF
 )
-set f2=%1
+set pb3=%1

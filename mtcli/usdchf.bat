@@ -1,5 +1,6 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configuração de ativo
 set prefix=USDCHF
 set sufix=Micro
 set digits=4

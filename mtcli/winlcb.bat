@@ -2,7 +2,7 @@
 rem mtcli
 rem variáveis de ambiente
 if "%1" == "" (
-echo %f2%
+echo %winlcb%
 goto :EOF
 )
-set f2=%1
+set winlcb=%1

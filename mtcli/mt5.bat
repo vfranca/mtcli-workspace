@@ -1,5 +1,5 @@
 @echo off
-rem workspace do mtcli
+rem mtcli
 rem Altera o MT5 do mtcli
 set envdir=C:\
 rem set mt5="%1"
