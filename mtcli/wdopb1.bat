@@ -1,9 +1,9 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
-rem ajuste
+rem pullback de 1/3
 if "%1" == "" (
-echo %a%
+echo %wdopb1%
 goto :EOF
 )
-set a=%1
+set wdopb1=%1

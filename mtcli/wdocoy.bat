@@ -1,9 +1,8 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
-rem ajuste
 if "%1" == "" (
-echo %a%
+echo %coy%
 goto :EOF
 )
-set a=%1
+set coy=%1
