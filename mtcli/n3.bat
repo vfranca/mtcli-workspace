@@ -6,4 +6,4 @@ if "%1" == "" (
 echo %n3%
 goto :EOF
 )
-set n3%1
+set n3=%1
