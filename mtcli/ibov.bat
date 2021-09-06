@@ -1,5 +1,6 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configuração de ativo
 set prefix=IBOV
 set sufix=""
 set digits=0
