@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
+rem atalhos de comando
 rem fechamento
-mt bars winv21 -v c -c 1
+mt bars WIN%winct% -v c -c 1
