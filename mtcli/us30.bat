@@ -1,7 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil US30
-set prefix=us30
-set sufix=cash
+rem mtcli
+rem configuração de ativo
+set prefix=US30
+set sufix=Cash
 set digits=0
 call perfil
