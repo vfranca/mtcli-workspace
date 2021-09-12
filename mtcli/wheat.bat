@@ -1,8 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil WHEAT
-set prefix=wheat
-set /p sufix=sufixo:
+rem mtcli
+rem configura ativo
+set prefix=WHEAT
+set /p sufix=contrato:
+set sufix=-%sufix%
 set digits=2
-rem set mt5=xm
 call perfil
