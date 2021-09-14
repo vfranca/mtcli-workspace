@@ -1,32 +1,14 @@
 @echo off
-rem aliases para comandos do mtcli
-rem gerencia as variáveis de ambiente
-rem entradas
-rem ajuda
-rem comandos
+rem mtcli
+rem gerencia o .env
+set envpath=C:/.env
 cls
-rem lista as variáveis de ambiente
-if "%1" == "" (
-echo symbol=%t%
-echo period=%p%
-echo date=%d%
-echo mt5=%mt5%
-dotenv --file C:/.env get DIGITS
-dotenv --file C:/.env get CSV_PATH
+if "%~1" == "" (
+dotenv --file %envpath% list 
 goto :EOF
 )
-rem inicia as variáveis de ambiente
-if "%1" == "init" (
-set t=petr4
-echo symbol PETR4
-set p=m15
-echo period Daily
-set d=""
-echo data vazio
-prompt $$
-echo alterado prompt
-title mtcli
-echo alterado titulo do terminal
-echo diretorio pronto para trabalho
+if "%~2" == "" (
+dotenv --file %envpath% get %1
 goto :EOF
 )
+dotenv --file %envpath% set %1 %2
