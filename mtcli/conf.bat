@@ -2,7 +2,6 @@
 rem mtcli
 rem gerencia o .env
 set envpath=C:/.env
-cls
 if "%~1" == "" (
 dotenv --file %envpath% list 
 goto :EOF

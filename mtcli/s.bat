@@ -2,10 +2,10 @@
 rem mtcli
 rem variaveis de ambiente
 if "%~1" == "" (
-echo symbol=%t%
+echo SYMBOL=%t%
 goto :EOF
 )
 set t=%1
-set symbol=%t%
+set SYMBOL=%t%
 title %t%
-echo symbol=%t%
+echo SYMBOL=%t%
