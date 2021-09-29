@@ -7,5 +7,6 @@ goto :EOF
 )
 set t=%1
 set SYMBOL=%t%
+set id=%ano%.%mes%.%dia%
 title %t%
 echo SYMBOL=%t%
