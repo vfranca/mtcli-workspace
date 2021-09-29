@@ -1,5 +1,6 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configuração de ativo
 set prefix=SAPR
 set sufix=4
 set digits=2

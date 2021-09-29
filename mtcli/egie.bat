@@ -1,8 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil EGIE3
-set prefix=egie
+rem mtcli
+rem configuração de ativo
+set prefix=EGIE
 set sufix=3
 set digits=2
-rem set mt5=clear
 call perfil

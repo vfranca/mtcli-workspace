@@ -1,6 +1,7 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configuração de ativo
 set prefix=BTCUSD
-set sufix=
+set sufix=""
 set digits=0
 call perfil

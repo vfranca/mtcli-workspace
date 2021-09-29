@@ -1,6 +1,7 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configuração de ativo
 set prefix=KLBN
-set sufix=11
+set sufix=4
 set digits=2
 call perfil

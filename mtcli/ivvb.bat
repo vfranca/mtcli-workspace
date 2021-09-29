@@ -1,5 +1,6 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem configuração de ativo
 set prefix=IVVB
 set sufix=11
 set digits=2

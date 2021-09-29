@@ -1,8 +1,7 @@
 @echo off
-rem mtcli workspace
-rem perfil TRPL4
-set prefix=trpl
+rem mtcli
+rem configuração de ativo
+set prefix=TRPL
 set sufix=4
 set digits=2
-rem set mt5=clear
 call perfil
