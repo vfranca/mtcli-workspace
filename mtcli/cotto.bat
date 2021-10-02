@@ -1,8 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil US COTTO
-set prefix=cotto
-set /p sufix=sufixo:
-set digits=4
-rem set mt5=xm
+rem mtcli
+rem configura ativo
+set prefix=COTTO
+set /p sufix=contrato:
+set sufix=-%sufix%
+set digits=2
 call perfil
