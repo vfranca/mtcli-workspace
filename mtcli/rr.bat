@@ -1,6 +1,6 @@
 @echo off
 if "%1" == "" (
-echo %r%
+echo %rr%
 goto :EOF
 )
-set r=%1
+set rr=%1
