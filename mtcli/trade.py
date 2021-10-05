@@ -1,3 +1,8 @@
+"""
+rem ferramentas de trading
+rem Copyright 2021 Valmir França
+operação de compra/venda
+"""
 import click
 
 

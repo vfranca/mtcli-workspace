@@ -1,8 +1,9 @@
 @echo off
-rem mtcli workspace
-rem perfil US SUGAR
-set prefix=sugar
-set /p sufix=sufixo:
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=SUGAR
+set /p sufix=contrato:
+set sufix=-%sufix%
 set digits=4
-rem set mt5=xm
 call perfil

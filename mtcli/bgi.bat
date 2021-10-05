@@ -1,9 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil BGI
-set prefix=bgi
-set /p sufix=sufixo:
-rem set sufix=k21
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=BGI
+set /p sufix=contrato:
 set digits=2
-rem set mt5=clear
 call perfil

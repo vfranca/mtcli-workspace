@@ -1,5 +1,6 @@
 """
-Sistema  de trading
+ferramentas de trading
+Copyright 2021 Valmir França
 Taxa de acerto
 """
 import click

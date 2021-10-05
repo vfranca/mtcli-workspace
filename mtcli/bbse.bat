@@ -1,8 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil BBSE3
-set prefix=bbse
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=BBSE
 set sufix=3
 set digits=2
-rem set mt5=clear
 call perfil

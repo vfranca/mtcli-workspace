@@ -1,11 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil di1
-rem entradas
-set prefix=di1
-set sufix=$n
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=DI1
+set /p sufix=contrato:
 set digits=2
-set mt5=clear
-rem ajuda
-rem comandos
 call perfil

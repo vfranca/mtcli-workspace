@@ -1,5 +1,6 @@
 @echo off
-rem sistema de trading
+rem ferramentas de trading
+rem Copyright 2021 Valmir França
 rem taxa de acerto
 set /p acertos=acertos:
 set /p erros=erros:

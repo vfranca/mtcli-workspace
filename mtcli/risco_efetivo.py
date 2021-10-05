@@ -1,6 +1,7 @@
 """
-Kit do trader
-Risco efetivo
+ferramentas de trading
+Copyright 2021 Valmir França
+risco efetivo
 """
 import click
 

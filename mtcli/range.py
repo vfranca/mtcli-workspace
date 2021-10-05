@@ -1,6 +1,7 @@
 """
-Ferramentas de trading
-Projeções com o range médio
+rem ferramentas de trading
+rem Copyright 2021 Valmir França
+range operacional
 """
 import click
 

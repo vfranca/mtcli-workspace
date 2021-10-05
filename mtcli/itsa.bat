@@ -1,10 +1,8 @@
 @echo off
-rem mtcli workspace
-rem entradas
-set prefix=itsa
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=ITSA
 set sufix=4
 set digits=2
-set mt5=clear
-rem ajuda
-rem comandos
 call perfil

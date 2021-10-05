@@ -1,5 +1,6 @@
 @echo off
-rem kit do trader
+rem ferramentas de trading
+rem Copyright 2021 Valmir França
 rem risco efetivo
 set /p entrada=entrada:
 set /p loss=loss atingido:
