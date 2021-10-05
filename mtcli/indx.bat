@@ -1,11 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil indx
-rem entradas
-set prefix=indx
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=INDX
 set sufix=
 set digits=0
-set mt5=clear
-rem ajuda
-rem comandos
 call perfil

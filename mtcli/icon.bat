@@ -1,7 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil ICON
-set prefix=icon
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=ICON
 set sufix=
 set digits=0
 rem set mt5=clear

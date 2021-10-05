@@ -1,12 +1,8 @@
 @echo off
-rem entradas
-set prefix=smll
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=SMLL
 set sufix=
 set digits=0
-set mt5=clear
-rem ajuda
-rem comandos
-cls
-call mtx %mt5%
-call dg %digits%
-call s %prefix%%sufix%
+call perfil

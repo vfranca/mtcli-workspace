@@ -1,5 +1,7 @@
 @echo off
-rem mtcli workspace
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
 set prefix=BRCR
 set sufix=11
 set digits=2

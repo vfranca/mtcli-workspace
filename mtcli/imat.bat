@@ -1,8 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil IMAT
-set prefix=imat
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de ativo
+set prefix=IMAT
 set sufix=
 set digits=0
-rem set mt5=clear
 call perfil
