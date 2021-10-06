@@ -2,9 +2,9 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem variáveis de ambiente
-rem ajuste
+rem preço
 if "%~1" == "" (
-echo %a%
+echo %x%
 goto :EOF
 )
-set a=%1
+set x=%1

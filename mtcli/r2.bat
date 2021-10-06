@@ -2,9 +2,9 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem variáveis de ambiente
-rem ajuste
+rem resistência 2
 if "%~1" == "" (
-echo %a%
+echo %r2%
 goto :EOF
 )
-set a=%1
+set r2=%1
