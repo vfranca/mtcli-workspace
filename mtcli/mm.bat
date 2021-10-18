@@ -1,9 +1,8 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
-rem movimento projetado
+rem média móvel  do diário
 if "%1" == "" (
-echo %mm%
+sma %t% -p daily -c 20
 goto :EOF
 )
-set mm=%1
+sma %t% -p daily -c %1
