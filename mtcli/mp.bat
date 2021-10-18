@@ -1,8 +1,9 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
+rem movimento projetado
 if "%1" == "" (
-echo %mp%
+echo %mm%
 goto :EOF
 )
-set mp=%1
+set mm=%1
