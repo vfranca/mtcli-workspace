@@ -1,11 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil b3sa3
-rem entradas
-set prefix=b3sa
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de terminal
+set prefix=B3SA
 set sufix=3
 set digits=2
-set mt5=clear
-rem ajuda
-rem comandos
-call perfil
+call terminal

@@ -1,11 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil cogn3
-rem entradas
-set prefix=cogn
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de terminal
+set prefix=COGN
 set sufix=3
 set digits=2
-set mt5=clear
-rem ajuda
-rem comandos
-call perfil
+call terminal

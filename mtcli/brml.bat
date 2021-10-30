@@ -1,8 +1,8 @@
 @echo off
-rem mtcli workspace
-rem perfil BRML3
-set prefix=brml
+rem mtcli
+rem Copyright 2021 Valmir França
+rem configuração de terminal
+set prefix=BRML
 set sufix=3
 set digits=2
-rem set mt5=clear
-call perfil
+call terminal

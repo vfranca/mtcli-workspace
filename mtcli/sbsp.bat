@@ -1,7 +1,8 @@
 @echo off
 rem mtcli
-rem configuração de ativo
+rem Copyright 2021 Valmir França
+rem configuração de terminal
 set prefix=SBSP
 set sufix=3
 set digits=2
-call perfil
+call terminal
