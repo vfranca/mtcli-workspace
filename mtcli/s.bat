@@ -3,7 +3,7 @@ rem mtcli
 rem Copyright 2021 Valmir França
 rem variaveis de ambiente
 if "%~1" == "" (
-echo SYMBOL=%t%
+echo %t%
 goto :EOF
 )
 set t=%1
