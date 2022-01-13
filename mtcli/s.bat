@@ -10,7 +10,8 @@ goto :EOF
 )
 set t=%1
 set SYMBOL=%t%
-rem set id=%ano%.%mes%.%dia%
+if not defined id set id=""
+if not defined intraday set intraday=desligado
 title %t%
 prompt $$
 echo SYMBOL=%t%
