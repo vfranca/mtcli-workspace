@@ -1,4 +1,5 @@
 @echo off
-call s3
-call s2
+mt bars --view c --count 1 %symbol%
 call s1
+call s2
+call s3
