@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 rem fechamento
-mt bars %t% -v c -c 1
+mt bars %symbol% --view c --count 1 --period %p%

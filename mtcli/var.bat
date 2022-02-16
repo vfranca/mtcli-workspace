@@ -2,4 +2,4 @@
 rem mtcli
 rem atalhos mtcli
 rem oscilação percentual do diário
-mt bars %t% -c 1 -v var -p daily
+mt bars %symbol% --count 1 --view var --period D1

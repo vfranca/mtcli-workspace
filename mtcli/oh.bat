@@ -5,4 +5,4 @@ set count=100
 rem ajuda
 rem comandos
 cls
-mt bars %t% --view %view% --count %count%
+mt bars %symbol% --view %view% --count %count% --period D1

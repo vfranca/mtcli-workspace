@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 rem minima do dia
-mt bars %t% -v l -p daily -c 1
+mt bars %symbol% --view l --period D1 --count 1

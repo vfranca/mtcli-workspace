@@ -2,7 +2,7 @@
 rem mtcli
 rem média móvel  do diário
 if "%1" == "" (
-sma %t% -p daily -c 20
+mt mm %symbol% --period D1 --count 20
 goto :EOF
 )
-sma %t% -p daily -c %1
+mt mm %symbol% --period D1 --count %1

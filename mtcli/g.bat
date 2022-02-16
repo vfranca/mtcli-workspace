@@ -2,4 +2,4 @@
 rem mtcli
 rem atalhos mtcli
 rem range of day
-mt bars %t% -v r -p daily -c 1
+mt bars %symbol% --view r --period D1 --count 1
