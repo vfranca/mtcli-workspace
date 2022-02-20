@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 rem maxima da semana
-mt bars %t% -v h -p weekly -c 1
+mt bars %symbol% --view h --period W1 --count 1

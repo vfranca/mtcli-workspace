@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 rem minima da semana
-mt bars %t% -v l -p weekly -c 1
+mt bars %symbol% --view l --period W1 --count 1
