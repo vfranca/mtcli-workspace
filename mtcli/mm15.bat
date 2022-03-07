@@ -1,6 +1,6 @@
 @echo off
 rem mtcli
-rem gráfico cheio do m15
-set p=m15
+rem Copyright 2021 Valmir França
+set PERIOD=M15
 call default %*
 time /t

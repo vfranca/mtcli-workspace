@@ -1,4 +1,4 @@
 @echo off
-mt bars %symbol% -v c -c 1
-mt mm %symbol% -p m15 -c 20
-mt mm %symbol% -p m15 -c 80
+mt bars %symbol% --view c --count 1 --period D1
+mt mm %symbol% --period m15 --count 20
+mt mm %symbol% --period m15 --count 80

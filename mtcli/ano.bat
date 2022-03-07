@@ -1,6 +1,7 @@
 @echo off
 rem mtcli
-rem variaveis de ambiente
+rem Copyright 2021 Valmir França
+rem variáveis de ambiente
 if "%1" == "" (
 echo %ano%
 goto :EOF

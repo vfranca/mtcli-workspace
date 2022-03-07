@@ -1,5 +1,6 @@
 @echo off
 rem mtcli
-rem gráfico cheio do h4
-set p=h4
+rem Copyright 2021 Valmir França
+set PERIOD=H4
 call default %*
+time /t

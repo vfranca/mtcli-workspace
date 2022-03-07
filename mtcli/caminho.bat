@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
-call conf DIGITS 2
+rem Copyright 2021 Valmir França
+rem variáveis de ambiente
 call conf CSV_PATH %1

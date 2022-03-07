@@ -1,5 +1,6 @@
 @echo off
 rem mtcli
-rem gráfico cheio do H2
-set p=H2
+rem Copyright 2021 Valmir França
+set PERIOD=H2
 call default %*
+time /t

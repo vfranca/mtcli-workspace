@@ -1,6 +1,7 @@
 @echo off
-rem ferramentas de trading
+rem mtcli
 rem Copyright 2021 Valmir França
+rem ferramentas de trading
 rem expectativa matemática
 set /p ta=taxa de acerto:
 set /p gm=ganho medio:
