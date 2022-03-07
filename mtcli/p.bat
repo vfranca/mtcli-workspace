@@ -1,22 +1,12 @@
 @echo off
-rem aliases para comandos do mtcli
-rem exibe/define a variável period
-rem variaveis de entrada
-set period=%1
-rem ajuda
-if "%1" == "-h" (
-echo exibe/define o period do terminal
-echo digite p period
-echo exemplo:
-echo p m15
-goto :EOF
-)
-rem comandos
-rem exibe o period do terminal
+rem mtcli
+rem Copyright 2021 Valmir França
+rem variaveis de ambiente
+set envfile=%SystemDrive%/.env
 if "%1" == "" (
-echo period=%p%
+dotenv --file %envfile% get PERIOD
 goto :EOF
 )
-rem define o period do terminal
-set p=%period%
-echo period=%p%
+set PERIOD=%1
+set p=%PERIOD%
+dotenv --file %envfile% set PERIOD %1

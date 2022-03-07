@@ -1,7 +1,6 @@
 @echo off
 rem mtcli
-rem grafico de oscilações percentuais do semanal
-set p=weekly
-set id=""
-cls
+rem Copyright 2021 Valmir França
+set PERIOD=W1
+set ID=""
 call oscilacoes %*

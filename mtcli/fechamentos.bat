@@ -1,12 +1,10 @@
 @echo off
 rem mtcli
-rem grafico de fechamentos
-rem entradas
+rem Copyright 2021 Valmir França
+rem atalhos de comando
 set defaultview=c
 set defaultcount=108
 set defaultma=20
-set intraday=%id%
-rem comandos
 cls
-mt bars %t% --period %p% --date %intraday% --view %defaultview% --count %defaultcount%
-sma %t% --period %p% --count %defaultma%
+mt bars %symbol% --period %p% --date %id% --view %defaultview% --count %defaultcount%
+mt mm %symbol% --period %p% --count %defaultma%

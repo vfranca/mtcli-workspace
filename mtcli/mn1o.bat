@@ -1,7 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
-rem grafico de oscilações percentuais do mensal
-set p=monthly
-set d=""
-cls
+rem mtcli
+rem Copyright 2021 Valmir França
+set PERIOD=MN1
+set ID=""
 call oscilacoes %*

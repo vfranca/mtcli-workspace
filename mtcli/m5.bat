@@ -1,7 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
-rem grafico de máximas e mínimas do m5
-set p=m5
+rem mtcli
+rem Copyright 2021 Valmir França
+set PERIOD=M5
 call maxmin %*
 time /t
-

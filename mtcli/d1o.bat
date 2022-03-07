@@ -1,7 +1,6 @@
 @echo off
 rem mtcli
-rem grafico de oscilações percentuais do diário
-set p=daily
-set id=""
-cls
+rem Copyright 2021 Valmir França
+set PERIOD=D1
+set ID=""
 call oscilacoes %*

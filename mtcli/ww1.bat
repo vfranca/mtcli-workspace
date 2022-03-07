@@ -1,6 +1,6 @@
 @echo off
 rem mtcli
-rem grafico padrão do semanal
-set p=W1
-set id=""
+rem Copyright 2021 Valmir França
+set PERIOD=W1
+set ID=""
 call default %*

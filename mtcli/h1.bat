@@ -1,6 +1,6 @@
 @echo off
 rem mtcli
-rem grafico de máximas e mínimas do h1
-set p=h1
+rem Copyright 2021 Valmir França
+set PERIOD=H1
 call maxmin %*
 time /t

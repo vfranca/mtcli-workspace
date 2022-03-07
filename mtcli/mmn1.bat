@@ -1,6 +1,6 @@
 @echo off
 rem mtcli
-rem grafico padrão do mensal
-set p=MN1
-set id=""
+rem Copyright 2021 Valmir França
+set PERIOD=MN1
+set ID=""
 call default %*

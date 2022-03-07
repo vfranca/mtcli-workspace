@@ -1,6 +1,7 @@
 @echo off
 rem mtcli
-rem gerencia o .env
+rem Copyright 2021 Valmir França
+rem variaveis de ambiente
 set envpath=C:/.env
 if "%~1" == "" (
 dotenv --file %envpath% list 

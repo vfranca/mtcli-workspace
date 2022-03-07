@@ -1,7 +1,8 @@
 @echo off
 rem mtcli
-rem grafico de fechamentos do daily
-set p=daily
+rem Copyright 2021 Valmir França
+rem variaveis de ambiente
+set p=D1
 set id=""
 cls
 call fechamentos %*

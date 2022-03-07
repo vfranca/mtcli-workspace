@@ -1,15 +1,20 @@
 @echo off
 rem mtcli
-rem grafico de máximas e mínimas
-set defaultview=ch
-set defaultcount=26
-set count="%1"
-set intraday=%id%
+rem Copyright 2021 Valmir França
+rem atalhos de comando
+call p %PERIOD%
 cls
-if %count% == "" (
-mt bars %t% --period %p% --date %intraday% --view %defaultview% --count %defaultcount%
+if "%1" == "" (
+set count=28
+call :grafico
 ) else (
-mt bars %t% --period %p% --date %intraday% --view %defaultview% --count %count%
+set count=%1
+call :grafico
 )
-rem médias
-sma %t% --period %p% --count 20
+
+:media
+mt mm %SYMBOL% --period %PERIOD% --count 20
+goto :EOF
+
+:grafico
+mt bars %SYMBOL% --period %PERIOD% --date %ID% --view ch --count %count%

@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
-rem grafico de máximas e mínimas do h4
-set p=h4
+rem mtcli
+rem Copyright 2021 Valmir França
+set PERIOD=H4
 call maxmin %*
 time /t

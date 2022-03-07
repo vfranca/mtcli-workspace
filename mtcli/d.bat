@@ -1,11 +1,12 @@
 @echo off
 rem mtcli
-rem variáveis .env
-rem casas decimais
-set dotenvfile=%SystemDrive%/.env
+rem Copyright 2021 Valmir França
+rem variaveis de ambiente
+set envfile=%SystemDrive%/.env
 if "%1" == "" (
-dotenv --file %dotenvfile% get DIGITS
+dotenv --file %envfile% get DIGITS
 goto :EOF
 )
-set digits=%1
-dotenv --file %dotenvfile% set DIGITS %1
+set DIGITS=%1
+set d=%DIGITS%
+dotenv --file %envfile% set DIGITS %1

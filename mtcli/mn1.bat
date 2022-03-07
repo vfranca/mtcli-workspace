@@ -1,7 +1,6 @@
 @echo off
 rem mtcli
-rem grafico de maximas e minimas do monthly
-set p=MN1
-set id=""
-cls
+rem Copyright 2021 Valmir França
+set PERIOD=MN1
+set ID=""
 call maxmin %*

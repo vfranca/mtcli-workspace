@@ -1,6 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
-rem grafico de máximas e mínimas do m15
-set p=m15
+rem mtcli
+rem Copyright 2021 Valmir França
+set PERIOD=M15
 call maxmin %*
 time /t

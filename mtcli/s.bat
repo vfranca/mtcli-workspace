@@ -4,14 +4,14 @@ rem Copyright 2021 Valmir França
 rem variaveis de ambiente
 set envfile=%SystemDrive%/.env
 if "%~1" == "" (
-echo %t%
-dotenv --file %envfile% get DIGITS
+dotenv --file %envfile% get SYMBOL
 goto :EOF
 )
-set t=%1
-set SYMBOL=%t%
+set SYMBOL=%1
+set s=%SYMBOL%
+dotenv --file %envfile% set SYMBOL %1
+
 if not defined id set id=""
 if not defined intraday set intraday=desligado
-title %t%
+title %SYMBOL%
 prompt $$
-echo SYMBOL=%t%

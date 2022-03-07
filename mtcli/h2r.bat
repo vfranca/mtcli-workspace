@@ -1,5 +1,6 @@
 @echo off
-rem aliases para comandos do mtcli
-rem grafico de ranges do H2
-set p=H2
+rem mtcli
+rem Copyright 2021 Valmir França
+set PERIOD=H2
 call ranges %*
+time /t
