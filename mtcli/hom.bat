@@ -1,6 +1,10 @@
 @echo off
 rem mtcli
 rem Copyright 2021 Valmir França
-rem atalhos de comando
+rem variáveis de ambiente
 rem máxima do mês
-mt bars %SYMBOL% --view h --period MN1 --count 1
+if "%1" == "" (
+echo %hom%
+goto :EOF
+)
+set hom=%1

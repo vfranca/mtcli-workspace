@@ -2,9 +2,9 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem variáveis de ambiente
-rem mínima da semana
+rem máxima de hoje
 if "%1" == "" (
-echo %low%
+echo %hod%
 goto :EOF
 )
-set low=%1
+set hod=%1

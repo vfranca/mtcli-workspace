@@ -2,6 +2,7 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem variáveis de ambiente
+rem máxima de ontem
 if "%1" == "" (
 echo %hoy%
 goto :EOF
