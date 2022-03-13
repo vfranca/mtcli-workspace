@@ -1,11 +1,13 @@
 @echo off
 rem mtcli
+rem Copyright 2021 Valmir França
+rem ferramentas de trading
 rem backtest 
-set /p s=ativo:
-set /p d=dia:
-set /p m=mes:
-set /p y=ano:
-set /p p=tempo grafico:
+set s=%SYMBOL%
+set d=%1
+set m=%MES%
+set y=%ANO%
+set p=%PERIOD%
 set file=%p%
 set count=114
 set tempdir=%TEMP%
