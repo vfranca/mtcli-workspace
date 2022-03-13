@@ -1,6 +1,8 @@
 """
-Price action
-regiões de uma lateralidade
+mtcli
+Copyright 2021 Valmir França
+ferramentas de trading
+regiões de lateralidade
 """
 import click
 
@@ -20,9 +22,11 @@ def cli(topo, fundo, digitos):
 	mm_baixa = fundo - range
 	click.echo("%i" % range)
 	click.echo("%.2f" % mm_alta)
-	click.echo("%.2f %.2f" % (terco_sup, topo))
+	click.echo("%.2f" % topo)
+	click.echo("%.2f" % terco_sup)
 	click.echo("%.2f" % meio)
-	click.echo("%.2f %.2f" % (terco_inf, fundo))
+	click.echo("%.2f" % terco_inf)
+	click.echo("%.2f" % fundo)
 	click.echo("%.2f" % mm_baixa)
 
 

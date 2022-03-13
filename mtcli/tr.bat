@@ -1,5 +1,6 @@
 @echo off
-rem ferramentas de trading
+rem mtcli
 rem Copyright 2021 Valmir França
-rem lateralidade
+rem ferramentas de trading
+rem regiões de lateralidade
 tr.py %topo% %fundo%
