@@ -1,13 +1,14 @@
 """
-rem ferramentas de trading
-rem Copyright 2021 Valmir França
-operação de compra/venda
+mtcli
+Copyright 2021 Valmir França
+ferramentas de trading
 """
 import click
 
 
 stop_default = 250
 retorno = 2
+
 
 
 @click.group()
@@ -22,11 +23,24 @@ def cli():
 def compra(entrada, stop_default, retorno):
 	"""Entrada, stop loss e alvo de uma compra."""
 	stop_loss = entrada - stop_default
-	stop_gain = stop_default * retorno
-	alvo = entrada + stop_gain
-	click.echo("%.2f entrada" % entrada)
+	gain = (stop_default * retorno) / retorno
+	alvo1 = 0
+	alvo2 = 0
+	alvo3 = 0
+	if retorno == 1:
+		alvo1 = entrada + gain
+	if retorno == 2:
+		alvo1 = entrada + gain
+		alvo2 = entrada + gain * 2
+	if retorno == 3:
+		alvo1 = entrada + gain
+		alvo2 = entrada + gain * 2
+		alvo3 = entrada + gain * 3
 	click.echo("%.2f stop loss" % stop_loss)
-	click.echo("%.2f alvo" % alvo)
+	click.echo("%.2f entrada" % entrada)
+	if alvo1: click.echo("%.2f 1x" % alvo1)
+	if alvo2: click.echo("%.2f 2x" % alvo2)
+	if alvo3: click.echo("%.2f 3x" % alvo3)
 	return 0
 
 
@@ -37,11 +51,24 @@ def compra(entrada, stop_default, retorno):
 def venda(entrada, stop_default, retorno):
 	"""Entrada, stop loss e alvo de uma venda."""
 	stop_loss = entrada + stop_default
-	stop_gain = stop_default * retorno
-	alvo = entrada - stop_gain
-	click.echo("%.2f entrada" % entrada)
+	gain = (stop_default * retorno) / retorno
+	alvo1 = 0
+	alvo2 = 0
+	alvo3 = 0
+	if retorno == 1:
+		alvo1 = entrada - gain
+	if retorno == 2:
+		alvo1 = entrada - gain
+		alvo2 = entrada - gain * 2
+	if retorno == 3:
+		alvo1 = entrada - gain
+		alvo2 = entrada - gain * 2
+		alvo3 = entrada - gain * 3
 	click.echo("%.2f stop loss" % stop_loss)
-	click.echo("%.2f alvo" % alvo)
+	click.echo("%.2f entrada" % entrada)
+	if alvo1: click.echo("%.2f 1x" % alvo1)
+	if alvo2: click.echo("%.2f 2x" % alvo2)
+	if alvo3: click.echo("%.2f 3x" % alvo3)
 	return 0
 
 cli.add_command(compra)
