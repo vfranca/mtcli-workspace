@@ -1,7 +1,7 @@
 """
 ferramentas de trading
 Copyright 2021 Valmir França
-Break even
+Break even de operacional
 """
 import click
 
