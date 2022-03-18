@@ -2,7 +2,7 @@
 mtcli
 Copyright 2021 Valmir França
 ferramentas de trading
-Calcula o valor de um range de contrato
+calculo do contrato por diferença
 """
 import click
 
@@ -11,9 +11,9 @@ import click
 @click.argument("volume_minimo", type=float)
 @click.argument("range", type=float)
 def cli(tamanho_contrato, volume_minimo, range):
-	""" Valor de um range de contrato"""
-	valor_range = range * volume_minimo * tamanho_contrato
-	click.echo("%.2f" % valor_range)
+	""" Calcula do contrato por diferença"""
+	cfd = range * volume_minimo * tamanho_contrato
+	click.echo("%.2f" % cfd)
 
 
 if __name__ == "__main__":
