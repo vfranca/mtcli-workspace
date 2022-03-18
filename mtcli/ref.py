@@ -1,6 +1,7 @@
 """
-ferramentas de trading
+mtcli
 Copyright 2021 Valmir França
+ferramentas de trading
 risco efetivo
 """
 import click
@@ -11,7 +12,7 @@ import click
 @click.argument("loss", type=float)
 @click.argument("cv")
 def cli(entrada, loss, cv):
-	"""Calcula o risco efetivo e projecoes."""
+	"""Calcula o risco efetivo e projecoes"""
 	risco_efetivo = abs(entrada - loss)
 	if cv == "v":
 		rr1 = entrada - risco_efetivo * 1
