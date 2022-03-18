@@ -12,4 +12,4 @@ call :media
 goto :EOF
 
 :media
-mt mm %SYMBOL% --period M6 --count %count%
+mt mm %SYMBOL% --period M5 --count %count%
