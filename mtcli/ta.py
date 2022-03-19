@@ -1,7 +1,8 @@
 """
-ferramentas de trading
+mtcli
 Copyright 2021 Valmir França
-Taxa de acerto
+ferramentas de trading
+taxa de acerto do operacional
 """
 import click
 
@@ -10,7 +11,7 @@ import click
 @click.argument("acertos", type=int)
 @click.argument("erros", type=int)
 def cli(acertos, erros):
-	"""Taxa de acerto."""
+	"""Taxa de acertodo operacional"""
 	trades = acertos + erros
 	taxa_acerto = acertos / trades * 100
 	click.echo("%i acertos" % acertos)
