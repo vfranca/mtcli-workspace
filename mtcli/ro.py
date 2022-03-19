@@ -1,6 +1,7 @@
 """
-rem ferramentas de trading
-rem Copyright 2021 Valmir França
+mtcli
+Copyright 2021 Valmir França
+ferramentas de trading
 range operacional
 """
 import click
@@ -11,7 +12,7 @@ import click
 @click.argument("max", type=float)
 @click.argument("min", type=float)
 def cli(range_medio, max, min):
-	"""Projeção de max/min com base no range médio."""
+	"""Estima máxima e mínima do range operável"""
 	range_atual = max - min
 	range_restante = range_medio - range_atual
 	max_projetada = max + range_restante
