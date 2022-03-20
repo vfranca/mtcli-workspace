@@ -1,8 +1,7 @@
 @echo off
 rem mtcli
-rem Copyright 2021 Valmir França
-rem variaveis de ambiente
-set p=D1
-set id=""
-cls
-call fechamentos %*
+rem Copyright 2022 Valmir França
+set PERIOD=D1
+set VIEW=c
+call barras %*
+time /t

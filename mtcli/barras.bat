@@ -1,9 +1,24 @@
 @echo off
 rem mtcli
-rem Copyright 2021 Valmir França
-rem variáveis de ambiente
+rem Copyright 2022 Valmir França
+rem atalhos de comando
+call p %PERIOD%
+call w %VIEW%
+cls
 if "%1" == "" (
-echo %barras%
-goto :EOF
+set count=110
+call :grafico
+) else (
+set count=%1
+call :grafico
 )
-set barras=%1
+goto :media
+
+:grafico
+mt bars %SYMBOL% --period %PERIOD% --date %ID% --view %VIEW% --count %count%
+goto :EOF
+
+:media
+mt mm %SYMBOL% --period %PERIOD% --count 20
+goto :EOF
+
