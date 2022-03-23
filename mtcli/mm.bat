@@ -2,7 +2,8 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem atalhos de comando
-rem média móvel  de 20 períodos
+rem média móvel
+mt bars %SYMBOL% --period %PERIOD% --view c --count 1
 if "%1" == "" (
 set count=20
 goto :media

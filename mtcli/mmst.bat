@@ -10,11 +10,7 @@ set symbol1=%1
 
 mt bars %symbol1% --period D1 --view c --count 1
 
-set count=20
-call :media
-set count=100
-call :media
-goto :EOF
-
-:media
-mt mm %symbol1% --period D1 --count %count%
+set medias=(20, 100)
+for %%i in %medias% do (
+mt mm %symbol1% --period D1 --count %%i
+)
