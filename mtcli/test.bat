@@ -9,7 +9,7 @@ set m=%MES%
 set y=%ANO%
 set p=%PERIOD%
 set file=%p%
-set count=114
+set count=180
 set tempdir=%TEMP%
 rem **********
 if "%1" == "-h" (
