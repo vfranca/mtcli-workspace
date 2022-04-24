@@ -11,4 +11,4 @@ goto :venda
 )
 
 :venda
-py trade.py venda %e% --stop-default %r% --retorno %rr%
+py trade.py venda %e% --risco %r% --retorno %rr%

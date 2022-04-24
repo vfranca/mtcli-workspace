@@ -14,4 +14,4 @@ goto :compra
 )
 
 :compra
-py trade.py compra %e% --stop-default %r% --retorno %rr%
+py trade.py compra %e% --risco %r% --retorno %rr%
