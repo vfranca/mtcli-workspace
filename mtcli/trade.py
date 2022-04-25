@@ -16,43 +16,19 @@ def get_profits(entrada, risco, rr):
     return tp
 
 
-@click.group()
-def cli():
-    pass
-
-
 @click.command()
 @click.argument("entrada", type=float)
 @click.option("--risco", "-r", type=float, default=stop_default)
 @click.option("--retorno", "-rr", type=int, default=retorno)
-def compra(entrada, risco, retorno):
-    """Entrada, stop loss e alvo de uma compra."""
+def cli(entrada, risco, retorno):
+    """Entrada, stop loss e alvo de uma operação."""
     sl = entrada - risco
     tp = get_profits(entrada, risco, retorno)
-    click.echo("%.2f stop loss" % sl)
-    click.echo("%.2f entrada" % entrada)
+    click.echo("%.0f stop loss" % sl)
+    click.echo("%.0f entrada" % entrada)
     for n in range(retorno):
-        click.echo("%.2f %ix" % (tp[n], n + 1))
+        click.echo("%.0f %ix" % (tp[n], n + 1))
     return 0
-
-
-@click.command()
-@click.argument("entrada", type=float)
-@click.option("--risco", "-r", type=float, default=stop_default)
-@click.option("--retorno", "-r", type=int, default=retorno)
-def venda(entrada, risco, retorno):
-    """Entrada, stop loss e alvo de uma venda."""
-    sl = entrada + risco
-    tp = get_profits(entrada, -risco, retorno)
-    click.echo("%.2f stop loss" % sl)
-    click.echo("%.2f entrada" % entrada)
-    for n in range(retorno):
-        click.echo("%.2f %ix" % (tp[n], n + 1))
-    return 0
-
-
-cli.add_command(compra)
-cli.add_command(venda)
 
 
 if __name__ == "__main__":

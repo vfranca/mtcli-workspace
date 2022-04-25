@@ -14,4 +14,4 @@ goto :compra
 )
 
 :compra
-py trade.py compra %e% --risco %r% --retorno %rr%
+py trade.py %e% --risco %r% --retorno %rr%
