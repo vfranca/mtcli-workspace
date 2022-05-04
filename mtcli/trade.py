@@ -24,10 +24,10 @@ def cli(entrada, risco, retorno):
     """Entrada, stop loss e alvo de uma operação."""
     sl = entrada - risco
     tp = get_profits(entrada, risco, retorno)
-    click.echo("%.0f stop loss" % sl)
-    click.echo("%.0f entrada" % entrada)
+    click.echo("%.2f stop loss" % sl)
+    click.echo("%.2f entrada" % entrada)
     for n in range(retorno):
-        click.echo("%.0f %ix" % (tp[n], n + 1))
+        click.echo("%.2f %ix" % (tp[n], n + 1))
     return 0
 
 

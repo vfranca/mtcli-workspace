@@ -20,14 +20,14 @@ def cli(topo, fundo, digitos):
 	terco_inf = fundo + terco
 	mm_alta = topo + range
 	mm_baixa = fundo - range
-	click.echo("%i" % range)
-	click.echo("%.0f" % mm_alta)
-	click.echo("%.0f" % topo)
-	click.echo("%.0f" % terco_sup)
-	click.echo("%.0f" % meio)
-	click.echo("%.0f" % terco_inf)
-	click.echo("%.0f" % fundo)
-	click.echo("%.0f" % mm_baixa)
+	click.echo("%.2f" % range)
+	click.echo("%.2f" % mm_alta)
+	click.echo("%.2f" % topo)
+	click.echo("%.2f" % terco_sup)
+	click.echo("%.2f" % meio)
+	click.echo("%.2f" % terco_inf)
+	click.echo("%.2f" % fundo)
+	click.echo("%.2f" % mm_baixa)
 
 
 if __name__ == "__main__":
