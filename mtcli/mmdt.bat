@@ -15,7 +15,7 @@ if %PERIOD% == M6 set medias=(20, 200)
 rem m10
 if %PERIOD% == M10 set medias=(20, 120)
 rem m15
-if %PERIOD% == M15 set medias=(20, 70)
+if %PERIOD% == M15 set medias=(20,120)
 rem h1
 if %PERIOD% == H1 set medias=(20, 80)
 for %%i in %medias% do mt mm %SYMBOL% --period %PERIOD% --count %%i
