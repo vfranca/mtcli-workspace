@@ -1,0 +1,21 @@
+@echo off
+set r1=
+set r2=
+set r3=
+set s1=
+set s2=
+set s3=
+set lta=
+set lca=
+set ltb=
+set lcb=
+set hoy=
+set loy=
+set coy=
+set ood=
+set topo=
+set fundo=
+set pbk=
+set rr=
+set r=
+
