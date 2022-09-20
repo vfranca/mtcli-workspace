@@ -4,6 +4,9 @@ rem Copyright 2021 Valmir França
 rem variaveis de ambiente
 set envpath=C:/.env
 if "%~1" == "" (
+echo SYMBOL = %SYMBOL%
+echo DIGITS = %DIGITS%
+echo PERIOD = %PERIOD%
 dotenv --file %envpath% list 
 goto :EOF
 )

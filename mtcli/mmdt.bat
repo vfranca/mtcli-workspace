@@ -7,9 +7,9 @@ mt bars %SYMBOL% --view c --count 1 --period %PERIOD%
 rem m3
 if %PERIOD% == M3 set medias=(20, 400)
 rem m4
-if %PERIOD% == M4 set medias=(20, 300)
+if %PERIOD% == M4 set medias=(20, 100, 300)
 rem m5
-if %PERIOD% == M5 set medias=(20, 220)
+if %PERIOD% == M5 set medias=(20, 60, 220)
 rem m6
 if %PERIOD% == M6 set medias=(20, 200)
 rem m10

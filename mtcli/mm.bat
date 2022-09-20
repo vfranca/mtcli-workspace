@@ -12,4 +12,7 @@ set count=%1
 goto :media
 
 :media
+if "%1" == "" (
+rem mt mm %SYMBOL% --period %PERIOD% --count 5
+)
 mt mm %SYMBOL% --period %PERIOD% --count %count%

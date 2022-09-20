@@ -9,7 +9,7 @@ set m=%MES%
 set y=%ANO%
 set p=%PERIOD%
 set file=%p%
-set count=180
+set count=540
 set tempdir=%TEMP%
 rem **********
 mt bars %s% --date %y%.%m%.%d% --period %p% --count %count% > %tempdir%\%file%-completo.txt

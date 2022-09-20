@@ -1,10 +1,9 @@
 @echo off
 rem mtcli
-rem Copyright 2021 Valmir França
 rem variáveis de ambiente
-rem fundo
+rem lotes
 if "%1" == "" (
-echo %FD%
+echo %lotes%
 goto :EOF
 )
-set fd=%1
+set lotes=%1

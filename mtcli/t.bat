@@ -1,3 +1,3 @@
 @echo off
 rem mtcli
-time /t & date /t
+time /t & call f

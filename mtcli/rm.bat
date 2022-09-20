@@ -2,9 +2,9 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem atalhos de comando
-rem range médio  de 20 barras
+rem range médio  de 100 barras
 if "%1" == "" (
-set count=20
+set count=100
 goto :range
 )
 set count=%1

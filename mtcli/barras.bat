@@ -13,6 +13,7 @@ set count=%1
 call :grafico
 )
 goto :media
+goto :EOF
 
 :grafico
 mt bars %SYMBOL% --period %PERIOD% --date %ID% --view %VIEW% --count %count%
@@ -21,4 +22,3 @@ goto :EOF
 :media
 mt mm %SYMBOL% --period %PERIOD% --count 20
 goto :EOF
-

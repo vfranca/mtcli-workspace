@@ -1,9 +1,9 @@
 @echo off
 rem mtcli
 rem variáveis
-rem topo
+rem stop loss
 if "%1" == "" (
-echo %TP%
+echo %SL%
 goto :EOF
 )
-set tp=%1
+set SL=%1

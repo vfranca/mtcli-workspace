@@ -1,2 +1,2 @@
 @echo off
-pb %fundo% %topo%
+pb %FD% %TP%
