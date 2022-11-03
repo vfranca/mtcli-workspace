@@ -7,3 +7,4 @@ echo %SG%
 goto :EOF
 )
 set SG=%1
+set A=%1

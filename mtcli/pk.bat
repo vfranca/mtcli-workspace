@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
 rem variáveis
-rem stop loss
+rem pullback
 if "%1" == "" (
-echo %SL%
+echo %PK%
 goto :EOF
 )
-set SL=%1
-set X=%1
+set pk=%1
+set pbk=%1

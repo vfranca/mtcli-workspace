@@ -6,12 +6,16 @@ rem atalhos de comando
 rem ferramentas de trading
 rem operacao de compra
 if "%1" == "" (
-set /p e=entrada:
-goto :compra
+goto :COMBRA
+goto:EOF
 ) else (
 set e=%1
-goto :compra
+goto :COMPRA
+goto :EOF
 )
 
-:compra
+:COMPRA
+if "%E%" == "" (
+set /p e=entrada:
+)
 py trade.py %e% --risco %r% --retorno %rr%

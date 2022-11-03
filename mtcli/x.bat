@@ -1,10 +1,12 @@
 @echo off
 rem mtcli
-rem Copyright 2021 Valmir França
-rem variáveis de ambiente
-rem preço
-if "%~1" == "" (
-echo %x%
+rem variáveis
+rem stop loss
+if "%1" == "" (
+echo %X%
 goto :EOF
 )
-set x=%1
+set X=%1
+rem obsoleto:
+set SL=%1
+

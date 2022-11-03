@@ -3,12 +3,16 @@ rem ferramentas de trading
 rem Copyright 2021 Valmir França
 rem operacao de venda
 if "%1" == "" (
-set /p e=entrada:
-goto :venda
+goto :VENDA
+goto :EOF
 ) else (
 set e=%1
-goto :venda
+goto :VENDA
+goto :EOF
 )
 
-:venda
-py trade.py %e% --risco -%r% --retorno %rr%
+:VENDA
+if "%E%" == "" (
+set /p e=entrada:
+)
+py trade.py %E% --risco -%R% --retorno %RR%
