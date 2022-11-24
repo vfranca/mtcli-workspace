@@ -1,0 +1,71 @@
+a	alvo
+b
+c	compra
+d	digitos
+e	entrada
+f	fechamento
+g	range
+h	hora
+i	dia
+j	nova janela
+k	
+l	linha de canal
+m	mes
+n	
+o	oscilação percentual
+	p	periodo
+q	
+r	risco
+s	symbol
+t	volume de tics
+u	
+v	venda
+x	loss
+y	ano
+w	view
+z	
+
+lc	linha de canal
+lt	linha de tendencia
+mm	média móvel
+lmt	
+sld	
+mta	meta
+mn	duas ultimas minimas
+mx	duas ultimas maximas
+hoy	maxima de ontem
+hod	maxima do dia
+loy	minima de ontem
+lod	minima do dia
+ood	abertura do dia
+coy	fechamento de ontem
+r1, 2, 3	resistencias 1, 2 e 3
+s1, 2, 3	suportes 1, 2 e 3
+rx	resistencias
+sx	suportes
+pk	pullback
+tp	topo
+fd	fundo
+lu	retracoes da perna de alta
+ld	retracoes da perna de baixa
+p2b	mm de perna 1 = perna 2 de uma perna de baixa
+p2a	mm de perna 1 = perna 2 de uma perna de alta
+20m	media movel de 20
+20md	media movel de 20 dias
+50md	media movel de 50 dias
+200m	 media movel de 200
+100m	 media movel de 100
+200md	media movel de 200 dias
+100md	media movel de 100 dias
+150md	media movel de 150 dias
+rm	range médio
+
+
+
+
+
+
+
+
+
+

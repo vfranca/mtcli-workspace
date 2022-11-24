@@ -6,7 +6,7 @@ rem atalhos de comando
 rem ferramentas de trading
 rem operacao de compra
 if "%1" == "" (
-goto :COMBRA
+goto :COMPRA
 goto:EOF
 ) else (
 set e=%1

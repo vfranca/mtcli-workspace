@@ -4,18 +4,18 @@ rem Copyright 2021 Valmir França
 rem
 rem variáveis de ambiente
 rem
-rem mês
-rem
+rem dia
 if "%1" == "" (
-echo %M%
+echo %I%
 goto :EOF
 )
 rem
-rem define o mês
+rem define o dia
 rem
-set m=%1
+set i=%1
 rem
-rem define a data intraday
+rem redefine a data intraday
 rem
 set id=%Y%.%M%.%I%
+
 rem
