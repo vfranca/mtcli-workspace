@@ -1,0 +1,12 @@
+ativo: mini indice
+limite de loss no dia: -3 x R
+limite de operacoes no dia: 3
+meta de ganho do dia: 4x R
+meta semanal: 6x R
+limite semanal: -6x R
+meta mensal: 12x R
+limite mensal: -12x R
+tamanho limite de posicao: 2 contratos
+capital operacional: 1000,00
+payoff: 2x1
+timeframe: M5

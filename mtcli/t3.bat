@@ -1,13 +1,12 @@
 @echo off
 rem mtcli
-rem Copyright 2021 Valmir França
 rem
 rem variáveis de ambiente
-rem mínima 1
+rem máxima 3
 rem
 if "%1" == "" (
-echo %F1%
+echo %T3%
 goto :EOF
 )
 rem
-set f1=%1
+set t3=%1

@@ -1,0 +1,21 @@
+estrategias de tendencia: 
+	tc	canal estreito
+blf/brf	bandeira
+m2b/m2s
+
+estrategias de lateralidade: 
+	fade
+	2br
+rb
+
+estrategias de reversao
+mtr
+ff
+dt/db
+wedge
+
+estrategia de abertura: 
+	opening reversal na 18b
+dt/db
+wedge
+

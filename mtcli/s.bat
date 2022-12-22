@@ -1,19 +1,21 @@
 @echo off
 rem mtcli
 rem Copyright 2021 Valmir França
+rem
 rem variaveis de ambiente
-set envfile=%SystemDrive%/.env
+rem
 if "%~1" == "" (
-rem dotenv --file %envfile% get SYMBOL
 echo %SYMBOL%
 goto :EOF
 )
+rem
 set SYMBOL=%1
 set s=%SYMBOL%
-rem dotenv --file %envfile% set SYMBOL %1
-if "%2" neq "" call d %2
-
-if not defined id set id=""
-if not defined intraday set intraday=desligado
+rem
+if not "%2" == "" (call d %2)
+rem
+rem if not defined id set id=""
+rem if not defined intraday set intraday=desligado
+rem
 title %SYMBOL%
-prompt $$
+rem prompt $$

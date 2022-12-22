@@ -2,29 +2,40 @@
 rem mtcli
 rem Copyright 2021 Valmir França
 rem
-rem variaveis de ambiente
+rem configurações do terminal de comando
 rem
-set envpath=C:/.env
+if "%1" == "term" (
+title %S%
+prompt $$
+goto :EOF
+)
 rem
-if "%~1" == "" (
+rem
+if not "%1" == "" (call s %1)
+if not "%2" == "" (call d %2)
+if not "%3" == "" (call p %3)
+
+rem
+if not defined id set id=""
+if not defined intraday set intraday=desligado
+rem
+
+rem
+rem exibe as configurações
+rem
+rem symbol/ativo de trabalho
 rem
 echo SYMBOL = %SYMBOL%
 rem
+rem dígitos da moeda
+rem
 echo DIGITS = %DIGITS%
+rem
+rem período/tempo gráfico
 rem
 echo PERIOD = %PERIOD%
 rem
+rem data do modo intraday
+rem
 echo INTRADAY = %ID%
-rem
-dotenv --file %envpath% list 
-rem
-goto :EOF
-)
-rem
-if "%~2" == "" (
-dotenv --file %envpath% get %1
-goto :EOF
-)
-rem
-dotenv --file %envpath% set %1 %2
 rem
