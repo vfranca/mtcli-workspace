@@ -1,6 +1,9 @@
 @echo off
-rem mtcli
 rem Copyright 2021 Valmir França
-rem ferramentas de trading
+rem 
+rem é necessário instalar a biblioteca pa-trading
+rem pip install pa-trading
+rem 
 rem regiões de lateralidade
-python tr.py %TP% %FD%
+rem
+pa tr %TP% %FD%

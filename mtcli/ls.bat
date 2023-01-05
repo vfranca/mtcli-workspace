@@ -1,11 +1,10 @@
 @echo off
-rem mtcli
 rem Copyright 2021 Valmir França
-rem ferramentas de trading
-rem linha superior (LCA ou LTB)
-rem é necessário ter o kt-line instalado
-rem execute o comando abaixo para instalar
-rem pip install kt-line
+
+rem necessário instalar a biblioteca pa-trading
+rem pip install pa-trading
 rem
+rem linha superior (LCA ou LTB)
 rem linha a partir de t1 e t2
-l %T1% %T2%
+rem
+pa l %T1% %T2%

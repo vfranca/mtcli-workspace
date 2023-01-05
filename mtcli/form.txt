@@ -1,0 +1,13 @@
+Porque fazer esta operação?
+tem algum padrão justificando a entrada?
+O contexto é lateral ou de força?
+a probabilidade gráfica é de 60-40 a favor?
+está perto de algum magneto?
+o range médio do dia já foi atingido}
+Já foram completadas 3 pernas de alta ou de baixa?
+o stop loss está dentro do risco limite para a operação?
+o alvo está dentro do objetivo?
+o limite de operações do dia foi alcançado?
+A meta de lucro foi atingido?
+O limite de perda foi alcançado?
+
