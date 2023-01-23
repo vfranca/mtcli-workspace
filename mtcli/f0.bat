@@ -1,8 +1,10 @@
 @echo off
-call f1 0
-call f1
-call f2 0
-call f2
-call f3 0
-call f3
-
+rem Copyright 2023 Valmir França da Silva
+rem https://github.com/vfranca
+rem
+set f1=
+f1
+set f2=
+f2
+set f3=
+f3

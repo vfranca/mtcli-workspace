@@ -1,8 +1,6 @@
 @echo off
-rem mtcli
-rem Copyright 2021 Valmir França
-rem
-rem atalhos de comando
+rem Copyright 2023 Valmir França da Silva
+rem https://github.com/vfranca
 rem
 rem média móvel simples de 100 períodos do diário
 rem

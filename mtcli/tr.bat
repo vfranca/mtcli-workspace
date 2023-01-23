@@ -1,2 +1,2 @@
 @echo off
-python tr.py %1 %2
+pa tr %1 %2

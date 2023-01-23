@@ -2,7 +2,11 @@
 rem Copyright 2023 Valmir França da Silva
 rem https://github.com/vfranca
 rem
-set PERIOD=H1
-set VIEW=full
-call barras %*
-time /t
+call g1 0
+call g1
+call g2 0
+call g2
+call g3 0
+call g3
+call g4 0
+call g4

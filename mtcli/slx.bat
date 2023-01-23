@@ -2,5 +2,5 @@
 rem
 rem risco em pontos
 rem
-set /a xx=%X%-%E%
-echo %xx%
+set /a slx=%SL%-%E%
+echo %slx%

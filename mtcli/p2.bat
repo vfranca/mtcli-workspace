@@ -1,2 +1,2 @@
 @echo off
-pa p2 %1 %2 %3
+pa p2 %*

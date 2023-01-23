@@ -17,5 +17,5 @@ rem
 rem if not defined id set id=""
 rem if not defined intraday set intraday=desligado
 rem
-title %SYMBOL%
+title %SYMBOL%-%PERIOD%
 rem prompt $$

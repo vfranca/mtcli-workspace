@@ -1,9 +1,8 @@
 @echo off
+rem Copyright 2023 Valmir França da Silva
+rem https://github.com/vfranca
+rem
 echo %G1%
-pause
 echo %G2%
-pause
 echo %G3%
-pause
 echo %G4%
-pause

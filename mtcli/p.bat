@@ -11,3 +11,7 @@ goto :EOF
 set PERIOD=%1
 set p=%PERIOD%
 rem dotenv --file %envfile% set PERIOD %1
+rem
+rem altera o título da janela
+rem
+title %SYMBOL%-%PERIOD%

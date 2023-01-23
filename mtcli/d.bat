@@ -1,10 +1,11 @@
 @echo off
-rem mtcli
-rem Copyright 2021 Valmir França
+rem Copyright 2023 Valmir França da Silva
+rem https://github.com/vfranca
+rem
 rem variaveis de ambiente
 if "%1" == "" (
-echo %DIGITS%
+echo %DIGITOS%
 goto :EOF
 )
-set DIGITS=%1
-set d=%DIGITS%
+set DIGITOS=%1
+set d=%DIGITOS%

@@ -1,6 +1,7 @@
 @echo off
-rem mtcli
-rem Copyright 2022 Valmir França
+rem Copyright 2023 Valmir França da Silva
+rem https://github.com/vfranca
+rem
 rem atalhos de comando
 call p %PERIOD%
 call w %VIEW%
@@ -12,7 +13,7 @@ call :grafico
 set count=%1
 call :grafico
 )
-goto :media
+rem goto :media
 goto :EOF
 
 :grafico

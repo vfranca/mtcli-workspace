@@ -1,15 +1,24 @@
 @echo off
-rem mtcli
-rem Copyright 2021 Valmir França
+rem Copyright 2023 Valmir França da Silva
+rem https://github.com/vfranca
+rem
 rem ferramentas de trading
+set y=2023
+rem
 rem modo intraday
+rem
 rem verifica o modo intraday
+rem
 if "%1" == "" (goto :VERIFICA)
 
+rem
 rem desativa o modo intraday
+rem
 if "%1" == "0" (goto :DESATIVA)
 
+rem
 rem ativa o modo intraday
+rem
 if not "%~1" == "" (set i=%1)
 if not "%~2" == "" (set m=%2)
 if not "%~3" == "" (set y=%3)
