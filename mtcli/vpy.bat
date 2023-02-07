@@ -1,3 +1,3 @@
 @echo off
 rem variação percentual em relação ao fechamento
-x vp %COY%
+x vp %PMP%

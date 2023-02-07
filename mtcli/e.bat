@@ -7,11 +7,11 @@ rem
 rem sem entrada
 rem
 if "%~1" == "" (
-gr e %E% %SL% %A%
+gr t %E% -sl %SL% -tp %A%
 goto :EOF
 ) 
 rem
 rem com entrada
 rem
 set e=%1
-gr e %1 %SL% %A%
+gr t %1 -sl %SL% -tp %A%

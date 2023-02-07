@@ -19,4 +19,4 @@ goto :EOF
 if "%E%" == "" (
 set /p e=entrada:
 )
-py trade.py %e% --risco %r% --retorno %rr%
+gr t %e% --risco %r% --retorno %rr%

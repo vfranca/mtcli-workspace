@@ -4,7 +4,16 @@ rem Copyright 2021 Valmir França
 rem
 rem ferramentas de trading
 rem backtest 
-
+rem
+set periodos=(mn1,w1,d1,h4,h3,h2,h1,m30,m20,m15,m12,m10,m5)
+for %%i in %periodos% do (
+if "%1" == "%%i" (
+call %%i %2 > %%i.txt
+start %%i.txt
+goto :EOF
+)
+)
+rem
 rem
 rem define o ativo
 rem
