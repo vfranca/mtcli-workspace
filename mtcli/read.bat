@@ -1,2 +1,2 @@
 @echo off
-type %S%.txt
+type %FNAME%

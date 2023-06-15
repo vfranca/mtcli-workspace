@@ -2,5 +2,10 @@
 rem Copyright 2023 Valmir França da Silva
 rem https://github.com/vfranca
 rem
-rem máxima da semana
-mt bars %SYMBOL% --view h --count 1 --period W1
+rem variáveis de ambiente
+rem PTAX
+if "%1" == "" (
+echo %PTAX%
+goto :EOF
+)
+set ptax=%1

@@ -3,11 +3,10 @@ rem Copyright 2023 Valmir França da Silva
 rem https://github.com/vfranca
 rem
 rem atalhos de comando
-rem range da barra corrente
+rem barra atual
 if "%1" == "" (
 set period1=%PERIOD%
 ) else (
 set period1=%1
 )
-rem mt rm %SYMBOL% --period %period1% --count 1
-mt bars %SYMBOL% --view r --period %period1% --count 1
+mt bars %SYMBOL% --period %period1% --count 1

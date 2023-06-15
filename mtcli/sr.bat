@@ -12,7 +12,9 @@ call r2
 rem r1
 call r1
 rem fechamento
+echo *
 mt bars --view c --count 1 --period %PERIOD% %SYMBOL%
+echo *
 rem s1
 call s1
 rem s2

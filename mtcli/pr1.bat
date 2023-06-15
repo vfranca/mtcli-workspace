@@ -3,9 +3,11 @@ rem Copyright 2023 Valmir França da Silva
 rem https://github.com/vfranca
 rem
 rem variáveis de ambiente
-rem ajuste
+rem preço 1
+rem
 if "%1" == "" (
-echo %A%
+echo %PR1%
 goto :EOF
 )
-set a=%1
+rem
+set pr1=%1

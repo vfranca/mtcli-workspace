@@ -1,5 +1,12 @@
 @echo off
-rem Copyright 2023 Valmir França da Silva
-rem https://github.com/vfranca
+rem mtcli
+rem variáveis
 rem
-time /t
+rem máxima
+rem
+if "%1" == "" (
+echo %H%
+goto :EOF
+)
+set h=%1
+set tp=%1

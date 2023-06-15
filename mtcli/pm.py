@@ -5,16 +5,19 @@ ferramentas de trading
 calcula o preço médio
 """
 import click
+from os import getenv
+
+d = getenv("DIGITOS")
 
 
 @click.command()
-@click.argument("preco1", type=float)
-@click.argument("preco2", type=float)
+@click.argument("preco1", type=float, envvar="pr1")
+@click.argument("preco2", type=float, envvar="pr2")
 def cli(preco1, preco2):
-	""" Calcula o preço médio"""
-	medio = (preco1 + preco2) / 2
-	click.echo("%.2f" % medio)
+    """Calcula o preço médio"""
+    medio = (preco1 + preco2) / 2
+    click.echo("%.{0}f".format(d) % medio)
 
 
 if __name__ == "__main__":
-	cli()
+    cli()

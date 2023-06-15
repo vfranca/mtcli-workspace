@@ -23,7 +23,7 @@ if not "%~1" == "" (set i=%1)
 if not "%~2" == "" (set m=%2)
 if not "%~3" == "" (set y=%3)
 set id=%Y%.%M%.%I%
-echo modo intraday ativado %ID%
+echo %ID%
 goto :EOF
 
 :desativa
@@ -33,7 +33,7 @@ goto :EOF
 
 :verifica
 if not %ID% == "" (
-echo modo intraday ativado %ID%
+echo %ID%
 ) else (
 echo modo intraday desativado
 )

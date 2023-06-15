@@ -8,7 +8,7 @@ d = getenv("DIGITOS")
 @click.argument("coy", envvar="coy", type=float)
 @click.argument("ood", envvar="ood", type=float)
 def gap(coy, ood):
-    gap = abs(ood - coy)
+    gap = ood - coy
     click.echo("%.{0}f".format(d) % gap)
 
 

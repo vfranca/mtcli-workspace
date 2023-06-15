@@ -5,9 +5,12 @@ rem
 rem ferramentas de trading
 rem backtest 
 rem
-set periodos=(mn1,w1,d1,h4,h3,h2,h1,m30,m20,m15,m12,m10,m5)
+rem abre um grafico minimo de um periodo
+rem
+set periodos=(mn1,w1,d1,h4,h3,h2,h1,m30,m20,m15,m12,m10,m6,m5,m4,m3,m2,m1)
 for %%i in %periodos% do (
 if "%1" == "%%i" (
+call dt 0
 call %%i %2 > %%i.txt
 start %%i.txt
 goto :EOF
