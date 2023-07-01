@@ -84,7 +84,7 @@ rem define quantidade de barras
 if not "%~1" == "" (
 set count=%1
 ) else (
-set count=540
+set count=678
 )
 rem
 
