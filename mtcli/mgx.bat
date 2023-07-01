@@ -1,2 +1,2 @@
 @echo off
-python mg.py %coy% %tam% %lot% -a %1
+python mg.py %coy% %tam% %lot% -a %ala%
