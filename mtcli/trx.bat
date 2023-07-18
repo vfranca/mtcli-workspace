@@ -6,4 +6,4 @@ rem pip install pa-trading
 rem 
 rem regiões de lateralidade
 rem
-pa tr %TP% %FD%
+pa tr %H% %L%

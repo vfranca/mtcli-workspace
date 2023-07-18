@@ -1,3 +1,3 @@
 @echo off
 rem variação percentual em relação ao fechamento
-vp %COY% -p %1
+python vp.py %COY% -p 1
