@@ -98,9 +98,14 @@ rem
 rem define o nome dos arquivos
 rem
 :nomeiatxt
+rem gráfico de maximas e minimas
 set filename=%tempdir%\%sufix%.txt
-set filename-full=%tempdir%\full.txt
+rem gráfico de ranges
 set filename-ranges=%tempdir%\ranges.txt
+rem gráfico de volumes
+set filename-volumes=%tempdir%\volumes.txt
+rem gráfico completo
+set filename-full=%tempdir%\full.txt
 rem
 
 rem
@@ -117,12 +122,14 @@ rem
 rem day trade
 rem
 :daytrade
-rem gráfico completo
-mt bars %S% --date %Y%.%M%.%I% --period %P% --count %count% > %filename-full%
-rem gráfico de canal
+rem gráfico de máximas e mínimas
 mt bars %S% --date %Y%.%M%.%I% --period %P% --view ch --count %count% > %filename%
 rem gráfico de ranges
 mt bars %S% --date %Y%.%M%.%I% --period %P% --view r --count %count% > %filename-ranges%
+rem gráfico de volumes
+mt bars %S% --date %Y%.%M%.%I% --period %P% --view vol --count %count% > %filename-volumes%
+rem gráfico completo
+mt bars %S% --date %Y%.%M%.%I% --period %P% --count %count% > %filename-full%
 goto :ABRETXT
 rem
 
@@ -130,12 +137,14 @@ rem
 rem swing trade
 rem
 :swingtrade
-rem gráfico completo
-mt bars %S% --period %P% --count %count% > %filename-full%
-rem gráfico de canal
+rem gráfico de máximas e mínimas
 mt bars %S% --period %P% --view ch --count %count% > %filename%
 rem gráfico de ranges
 mt bars %S% --period %P% --view r --count %count% > %filename-ranges%
+rem gráfico de volumes
+mt bars %S% --period %P% --view vol --count %count% > %filename-volumes%
+rem gráfico completo
+mt bars %S% --period %P% --count %count% > %filename-full%
 goto :ABRETXT
 rem
 
@@ -143,10 +152,12 @@ rem
 rem abre os arquivos no bloco de notas
 rem
 :ABRETXT
-rem abre o gráfico de canal
+rem abre o gráfico de máximas e mínimas
 start %filename%
 rem abre o gráfico de ranges
 start %filename-ranges%
+rem abre o gráfico de volumes
+start %filename-volumes%
 rem abre o gráfico completo
 start %filename-full%
 goto :EOF
