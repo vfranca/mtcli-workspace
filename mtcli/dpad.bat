@@ -2,7 +2,7 @@
 rem mtcli
 rem variáveis
 if "%1" == "" (
-echo %desvpad%
+echo %DPAD%
 goto :EOF
 )
-set desvpad=%1
+set dpad=%1
