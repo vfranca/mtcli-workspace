@@ -9,4 +9,3 @@ echo %H%
 goto :EOF
 )
 set h=%1
-set tp=%1

@@ -11,4 +11,4 @@ echo %L%
 goto :EOF
 )
 set l=%1
-set fd=%1
+rem set fd=%1

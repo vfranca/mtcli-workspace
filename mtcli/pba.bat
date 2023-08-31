@@ -1,2 +1,2 @@
 @echo off
-pa pb %TP% %FD%
+pa pb %H% %L%
