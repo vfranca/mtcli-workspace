@@ -1,0 +1,7 @@
+Pasta mtcli
+
+Instale pacotes python com os comandos abaixo:
+
+pip install pa-trading
+pip install gr-trading
+pip install x-trading

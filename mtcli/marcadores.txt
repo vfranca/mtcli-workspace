@@ -1,15 +1,15 @@
-a	alvo
-b
+a	ajuste
+b	barra corrente
 c	compra
 d	digitos
 e	entrada
 f	fechamento
 g	range
-h	hora
+h	maxima
 i	dia
 j	nova janela
 k	
-l	linha de canal
+l	minima
 m	mes
 n	
 o	oscilação percentual
@@ -24,13 +24,12 @@ x	loss
 y	ano
 w	view
 z	
-
 lc	linha de canal
 lt	linha de tendencia
 mm	média móvel
-lmt	
-sld	
-mta	meta
+lmt	limite do dia
+sld	saldo do dia
+mta	meta do dia
 mn	duas ultimas minimas
 mx	duas ultimas maximas
 hoy	maxima de ontem

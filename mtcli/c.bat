@@ -1,10 +1,7 @@
 @echo off
-rem Copyright 2023 Valmir França da Silva
-rem https://github.com/vfranca
-rem
-rem variáveis de ambiente
-rem atalhos de comando
-rem ferramentas de trading
+rem pasta mtcli
+rem Copyright 2021-2023 Valmir França da Silva
+rem https://github.com/vfranca/
 rem operacao de compra
 if "%1" == "" (
 goto :COMPRA

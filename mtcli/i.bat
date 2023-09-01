@@ -1,9 +1,7 @@
 @echo off
-rem mtcli
-rem Copyright 2021 Valmir França
-rem
-rem variáveis de ambiente
-rem
+rem pasta mtcli
+rem Copyright 2021-2023 Valmir França da Silva
+rem https://github.com/vfranca/
 rem dia
 if "%1" == "" (
 echo %I%
