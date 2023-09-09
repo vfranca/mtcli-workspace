@@ -1,106 +1,64 @@
 @echo off
 rem pasta mtcli
-rem Copyright 2021 Valmir França
-rem
-set minimo=1
-set ranges=1
-set volumes=0
-set completo=1
-set count=678
-set count_swing=20
-rem define o ativo
+rem Copyright 2021-2023 Valmir França da Silva
+rem https://github.com/vfranca/
+rem abre no bloco de notas graficos intradiários
+rem definição de parâmetros
+rem ativo
 if not defined S (set /p s=ativo:)
-rem define o período
+rem período
 if not defined P (set /p p=periodo:)
-rem define o ano
+rem ano, mês e dia
 if not "%P%" == "MN1" (
 if not "%P%" == "W1" (
 if not "%P%" == "D1" (
 if not defined Y (set /p y=ano:)
-)))
-rem define o mês
-if not "%P%" == "MN1" (
-if not "%P%" == "W1" (
-if not "%P%" == "D1" (
 if not defined M (set /p m=mes:)
-)))
-rem define o dia
-if not "%P%" == "MN1" (
-if not "%P%" == "W1" (
-if not "%P%" == "D1" (
 if not defined I (set /p i=dia:)
 )))
-rem define o prefixo do nome do arquivo txt
-set prefixo=%S%-%P%
-rem define o sufixo do nome do arquivo txt
-set sufixo=%I%-%M%-%Y%.txt
-rem define quantidade de barras
+rem quantidade de barras
 if not "%~1" == "" (
 set count=%1
 set count_swing=%1
+) else (
+set count=678
+set count_swing=20
 )
-rem define o diretório dos arquivos
-set dir_txt=%TEMP%
-rem define o nome dos arquivos
-rem gráfico minimo
-set arquivo_txt=%dir_txt%\%prefixo%-%sufixo%
-rem gráfico de ranges
-set arquivo_txt-ranges=%dir_txt%\%prefixo%-ranges-%sufixo%
-rem gráfico completo
-set arquivo_txt-full=%dir_txt%\%prefixo%-full-%sufixo%
-rem
-rem gera os arquivos
-:geratxt
+rem diretório dos arquivos
+set dir_txt=txt
+rem arquivos txt
+set txt_min=%P%-min-%S%-%M%%I%.txt
+set txt_ranges=%P%-ranges-%S%-%M%%I%.txt
+set txt_full=%P%-full-%S%-%M%%I%.txt
+rem cria a pasta dos arquivos
+if not exist %dir_txt% (
+mkdir %dir_txt%
+)
+rem salva os arquivos
 if "%P%" == "MN1" goto :SWINGTRADE
 if "%P%" == "W1" goto :SWINGTRADE
 if "%P%" == "D1" goto :SWINGTRADE
 goto :DAYTRADE
-rem
-rem day trade
+rem salva os gráficos para day trade
 :daytrade
-rem gráfico mínimo
-if %minimo% == 1 (
-mt bars %S% --date %Y%.%M%.%I% --period %P% --view ch --count %count% > %arquivo_txt%
-)
-rem gráfico de ranges
-if %ranges% == 1 (
-mt bars %S% --date %Y%.%M%.%I% --period %P% --view r --count %count% > %arquivo_txt-ranges%
-)
-rem gráfico completo
-if %completo% == 1 (
-mt bars %S% --date %Y%.%M%.%I% --period %P% --count %count% > %arquivo_txt-full%
-)
+rem salva o gráfico mínimo
+mt bars %S% -d %Y%.%M%.%I% -p %P% -v ch -c %count% > %dir_txt%\%txt_min%
+rem salva o gráfico de ranges
+mt bars %S% -d %Y%.%M%.%I% -p %P% -v r -c %count% > %dir_txt%\%txt_ranges%
+rem salva o gráfico completo
+mt bars %S% -d %Y%.%M%.%I% -p %P% -c %count% > %dir_txt%\%txt_full%
 goto :ABRETXT
-rem
-rem swing trade
+rem salva os gráficos para swing trade
 :swingtrade
-rem gráfico mínimo
-if %minimo% == 1 (
-mt bars %S% --period %P% --view ch --count %count_swing% > %arquivo_txt%
-)
-rem gráfico de ranges
-if %ranges% == 1 (
-mt bars %S% --period %P% --view r --count %count_swing% > %arquivo_txt-ranges%
-)
-rem gráfico completo
-if %completo% == 1 (
-mt bars %S% --period %P% --count %count_swing% > %arquivo_txt-full%
-)
+rem salva o gráfico mínimo
+mt bars %S% -p %P% -v ch -c %count_swing% > %dir_txt%\%txt_min%
+rem salva o gráfico de ranges
+mt bars %S% -p %P% -v r -c %count_swing% > %dir_txt%\%txt_ranges%
+rem salva o gráfico completo
+mt bars %S% -p %P% -c %count_swing% > %dir_txt%\%txt_full%
 goto :ABRETXT
-rem
 rem abre os arquivos no bloco de notas
 :ABRETXT
-rem abre o gráfico mínimo
-if %minimo% == 1 (
-start %arquivo_txt%
-)
-rem abre o gráfico de ranges
-if %ranges% == 1 (
-start %arquivo_txt-ranges%
-)
-rem abre o gráfico completo
-if %completo% == 1 (
-start %arquivo_txt-full%
-)
-goto :EOF
-rem
+start %dir_txt%\%txt_min%
+start %dir_txt%\%txt_ranges%
+start %dir_txt%\%txt_full%
