@@ -4,8 +4,8 @@ rem Copyright 2021-2023 Valmir França da Silva
 rem https://github.com/vfranca/
 rem exporta um grafico para um arquivo TXT
 rem define o nome do arquivo de exportacao
-set arquivo_exp=%SYMBOL%-%PERIOD%-%I%-%M%-%Y%.txt
-rem define o nome da pasta de exportacao
+set arquivo_exp=%SYMBOL%-%1-%I%-%M%-%Y%.txt
+rem define a pasta dos arquivos
 set pasta_exp=%HOMEPATH%\mtcli\exp
 rem cria a pasta de exportacao
 if not exist %pasta_exp% (
