@@ -6,7 +6,7 @@ rem exporta um grafico para um arquivo TXT
 rem define o nome do arquivo de exportacao
 set arquivo_exp=%SYMBOL%-%1-%I%-%M%-%Y%.txt
 rem define a pasta dos arquivos
-set pasta_exp=%HOMEPATH%\mtcli\exp
+set pasta_exp=exp
 rem cria a pasta de exportacao
 if not exist %pasta_exp% (
 mkdir %pasta_exp%
