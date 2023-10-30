@@ -4,11 +4,11 @@ rem Copyright 2021-2023 Valmir França da Silva
 rem https://github.com/vfranca/
 rem abre no bloco de notas graficos intradiários
 rem definição de parâmetros
-rem ativo
+rem define o ativo
 if not defined S (set /p s=ativo:)
-rem período
+rem define o período
 if not defined P (set /p p=periodo:)
-rem ano, mês e dia
+rem define ano, mês e dia
 if not "%P%" == "MN1" (
 if not "%P%" == "W1" (
 if not "%P%" == "D1" (
@@ -16,7 +16,7 @@ if not defined Y (set /p y=ano:)
 if not defined M (set /p m=mes:)
 if not defined I (set /p i=dia:)
 )))
-rem quantidade de barras
+rem define a quantidade de candles
 if not "%~1" == "" (
 set count=%1
 set count_swing=%1
@@ -24,12 +24,12 @@ set count_swing=%1
 set count=678
 set count_swing=20
 )
-rem diretório dos arquivos
+rem define o diretório dos arquivos
 set dir_txt=txt
-rem arquivos txt
-set txt_min=%P%-min-%S%-%M%%I%.txt
-set txt_ranges=%P%-ranges-%S%-%M%%I%.txt
-set txt_full=%P%-full-%S%-%M%%I%.txt
+rem define os nomes dos arquivos
+set txt_min=%P%-%S%-%M%-%I%.txt
+set txt_ranges=%P%R-%S%-%M%-%I%.txt
+set txt_full=M%P%-%S%-%M%-%I%.txt
 rem cria a pasta dos arquivos
 if not exist %dir_txt% (
 mkdir %dir_txt%
