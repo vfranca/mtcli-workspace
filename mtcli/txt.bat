@@ -25,7 +25,7 @@ set count=678
 set count_swing=20
 )
 rem define o diretório dos arquivos
-set dir_txt=txt
+set dir_txt=txt\%s%
 rem define os nomes dos arquivos
 set txt_min=%P%-%S%-%M%-%I%.txt
 set txt_ranges=%P%R-%S%-%M%-%I%.txt
