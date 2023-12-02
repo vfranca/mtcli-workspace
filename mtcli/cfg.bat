@@ -2,8 +2,6 @@
 rem pasta mtcli
 rem Copyright 2021-2023 Valmir França da Silva
 rem https://github.com/vfranca/
-rem deprecated
-rem renomeado para cfg.bat
 rem configurações do terminal de comando
 rem
 if "%1" == "term" (

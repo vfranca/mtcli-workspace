@@ -1,5 +1,5 @@
 @echo off
-call setdt
+call cfgdt
 call s WINZ23 0
 call lot 1
 call ala 240

@@ -1,5 +1,5 @@
 @echo off
-call setdt
+call cfgdt
 call s GBPUSD 4
 call p M15
 call lot 0.01

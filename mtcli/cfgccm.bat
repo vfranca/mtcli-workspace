@@ -1,5 +1,5 @@
 @echo off
-call setdt
+call cfgdt
 call s CCMU23 2
 call p M15
 call lot 1
