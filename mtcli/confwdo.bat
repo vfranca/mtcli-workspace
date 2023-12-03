@@ -1,5 +1,5 @@
 @echo off
-call cfgdt
+call confdt
 call s WDOZ23 0
 call lot 1
 call ala 330

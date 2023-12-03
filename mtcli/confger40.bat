@@ -1,5 +1,5 @@
 @echo off
-call cfgdt
+call confdt
 call s GER40.CASH 0
 call lot 3.15
 call ala 50

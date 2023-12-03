@@ -1,5 +1,5 @@
 @echo off
-call cfgdt
+call confdt
 call s BRENTSEP23 2
 call lot 0.01
 call ala 200

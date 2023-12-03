@@ -1,11 +1,12 @@
 @echo off
-call cfgdt
-call s USAINDSEP23 0
+call confdt
+call s JP225SEP23 0
 call lot 0.01
 call ala 200
-call r 40
+call r 50
 call rr 2
 call tam 5
-call coy 34200
-call rdia 300
+call coy 32300
+call rdia 580
 call moeda USD
+

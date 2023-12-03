@@ -1,5 +1,5 @@
 @echo off
-call cfgdt
+call confdt
 call s USDJPY 2
 call p M15
 call lot 0.01
