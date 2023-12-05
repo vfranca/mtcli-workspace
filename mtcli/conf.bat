@@ -21,20 +21,9 @@ rem
 
 rem
 rem exibe as configurações
-rem
 rem symbol/ativo de trabalho
-rem
-echo SYMBOL = %SYMBOL%
-rem
-rem dígitos da moeda
-rem
-echo DIGITOS = %DIGITOS%
-rem
+echo %SYMBOL% %DIGITOS%
 rem período/tempo gráfico
-rem
-echo PERIOD = %PERIOD%
-rem
+echo %PERIOD%
 rem data do modo intraday
-rem
-echo INTRADAY = %ID%
-rem
+echo %ID%

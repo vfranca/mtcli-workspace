@@ -1,11 +1,11 @@
 @echo off
 call confdt
-call s GBPUSD 4
-call p M15
-call lot 0.01
-call ala 200
-call r 0.0007
-call rr 2
+call s gbpusd 4
+call p d1
+call lot 0.2
+call ala 25
+call r 0.0070
+call rr 3
 call tam 100000
 call coy 1.3070
 call rdia 0.0070

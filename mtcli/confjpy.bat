@@ -1,11 +1,11 @@
 @echo off
 call confdt
 call s USDJPY 2
-call p M15
-call lot 0.01
-call ala 200
-call r 0.13
-call rr 2
+call p D1
+call lot 0.2
+call ala 25
+call r 1.2
+call rr 3
 call tam 100000
 call coy 138.00
 call rdia 1.30
