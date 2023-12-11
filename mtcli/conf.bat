@@ -22,7 +22,9 @@ rem
 rem
 rem exibe as configurações
 rem symbol/ativo de trabalho
-echo %SYMBOL% %DIGITOS%
+echo %SYMBOL%
+rem dígitos da moeda
+echo %DIGITOS%
 rem período/tempo gráfico
 echo %PERIOD%
 rem data do modo intraday
