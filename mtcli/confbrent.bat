@@ -1,6 +1,6 @@
 @echo off
 call confdt
-call s BRENTSEP23 2
+call s brent 2
 call lot 0.01
 call ala 200
 call r 0.20
