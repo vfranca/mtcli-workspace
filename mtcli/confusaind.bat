@@ -1,11 +1,11 @@
 @echo off
 call confdt
-call s USAINDSEP23 0
-call lot 0.01
-call ala 200
-call r 40
+call s usaind 0
+call lot 2
+call ala 100
+call r 100
 call rr 2
 call tam 5
-call coy 34200
+call coy 37200
 call rdia 300
 call moeda USD
