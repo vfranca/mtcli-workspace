@@ -5,7 +5,7 @@ rem https://github.com/vfranca/
 rem exporta o grafico para um arquivo TXT
 rem define o nome do arquivo de exportacao
 if "%1" == "" (
-set arquivo_exp=%SYMBOL%-%PERIOD%-%I%-%M%-%Y%.txt
+set arquivo_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%.txt
 ) else (
 set arquivo_exp=%SYMBOL%-%1-%I%-%M%-%Y%.txt
 )
