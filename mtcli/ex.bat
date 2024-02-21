@@ -7,10 +7,10 @@ rem define o nome do arquivo de exportacao
 if "%1" == "" (
 set arquivo_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%.txt
 ) else (
-set arquivo_exp=%SYMBOL%-%1-%I%-%M%-%Y%.txt
+set arquivo_exp=%SYMBOL%-%1-%Y%-%M%-%I%.txt
 )
 rem define a pasta dos arquivos
-set pasta_exp=exp\%SYMBOL%
+set pasta_exp=ex\%SYMBOL%
 rem cria a pasta de exportacao
 if not exist %pasta_exp% (
 mkdir %pasta_exp%
