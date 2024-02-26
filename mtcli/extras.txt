@@ -1,0 +1,21 @@
+## comandos extras
+
+ls	linha superior
+li	linha inferior
+ln	linha
+pba	recuos de perna de alta
+pbb	recuos de perna de baixa
+p2	movimento projetado de perna 1 = perna 2
+p2a	movimento projetado de perna de alta
+p2b	 movimento projetado de perna de baixa
+ppx	ponto pivô
+pp	ponto pivô
+c	calcula uma compra
+v	calcula uma venda
+e	calcula risco e retorno de uma operacao
+em	calcula expectativa matematica de um sistema operaional
+be	calcula break-even de um sistema operacional
+ta	calcula taxa de acerto de um sistema operacional
+po	calcula o pay-off de um sistema operacional
+tr	calcula os pontos de um trading range
+trx	calcula os pontos de um trading range

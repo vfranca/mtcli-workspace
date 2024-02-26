@@ -1,0 +1,21 @@
+## atalhos
+  
+m1 -- m30	
+mm1 - mm30	
+m1r - m30r	
+h1 - h4	
+hh1 - hh4	
+h1r - h4r	
+d1	
+dd1	
+d1r	
+w1	
+ww1	
+w1r	
+mn1	
+mmn1	
+mn1r	
+mm	
+ma	
+rm	
+ 

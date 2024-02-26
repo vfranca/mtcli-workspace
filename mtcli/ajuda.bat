@@ -1,2 +1,6 @@
 @echo off
-type %0.txt
+call readme
+call atalhos
+call extras
+call marcacoes
+call abreviaturas
