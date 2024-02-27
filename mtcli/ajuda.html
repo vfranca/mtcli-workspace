@@ -1,0 +1,189 @@
+<h1 id="mtcli-workspace">mtcli workspace</h1>
+<p>espaço de trabalho do mtcli contendo atalhos de comandos do mtcli e
+outros recursos extras para operações de day trade.</p>
+<h2 id="dependências">Dependências</h2>
+<p>Instale os pacotes python com os comandos abaixo:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode cmd"><code class="sourceCode dosbat"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install pa<span class="at">-trading</span>  </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pip install gr<span class="at">-trading</span>  </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>pip install x<span class="at">-trading</span>  </span></code></pre></div>
+<h2 id="atalhos">atalhos</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 36%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">atalho</th>
+<th style="text-align: left;">descrição</th>
+<th style="text-align: left;">exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">m1 - m30, h1 - h4, d1, w1, mn1</td>
+<td style="text-align: left;">gráfico mínimo de 1 min ao mensal</td>
+<td style="text-align: left;">m5 = mt bars winj24 -p m5 -v ch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">mm1 - mm30, hh1 - hh4, dd1, ww1, mmn1</td>
+<td style="text-align: left;">gráfico completo de 1 min ao mensal</td>
+<td style="text-align: left;">mm5 = mt bars winj24 -p m5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">m1r - m30r, h1r - h4r, d1r, w1r, mn1r</td>
+<td style="text-align: left;">gráfico de ranges de 1 min ao mensal</td>
+<td style="text-align: left;">m5r = mt bars winj24 -p m5 -v r</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">mm</td>
+<td style="text-align: left;">média móvel simples de 20 períodos</td>
+<td style="text-align: left;">mm = mt mm winj24 -p m5 -c 20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ma</td>
+<td style="text-align: left;">média móvel exponencial de 20
+períodos</td>
+<td style="text-align: left;">ma = mt ma winj24 -p m5 -c 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">rm</td>
+<td style="text-align: left;">range médio de 14 períodos</td>
+<td style="text-align: left;">rm = mt rm winj24 -p m5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="marcações">marcações</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">marcação</th>
+<th style="text-align: center;">descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">s</td>
+<td style="text-align: center;">symbol</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">d</td>
+<td style="text-align: center;">digitos</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">p</td>
+<td style="text-align: center;">período</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">i</td>
+<td style="text-align: center;">dia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">m</td>
+<td style="text-align: center;">mes</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">y</td>
+<td style="text-align: center;">ano</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">tcl</td>
+<td style="text-align: center;">linha de canal</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">tl</td>
+<td style="text-align: center;">linha de tendencia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">hoy</td>
+<td style="text-align: center;">maxima de ontem</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">loy</td>
+<td style="text-align: center;">minima de ontem</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ood</td>
+<td style="text-align: center;">abertura do dia</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">coy</td>
+<td style="text-align: center;">fechamento de ontem</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">h</td>
+<td style="text-align: center;">maxima</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">l</td>
+<td style="text-align: center;">minima</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">pk</td>
+<td style="text-align: center;">pullback</td>
+</tr>
+</tbody>
+</table>
+<h2 id="comandos-extras">comandos extras</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comando</th>
+<th style="text-align: left;">descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ls</td>
+<td style="text-align: left;">exibe preço da linha superior de
+canal</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">li</td>
+<td style="text-align: left;">exibe preço da linha inferior de
+canal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ln</td>
+<td style="text-align: left;">exibe preço de linha de canal</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">pb</td>
+<td style="text-align: left;">exibe recuos de 33%, 50% e de 66%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pba</td>
+<td style="text-align: left;">exibe recuos de alta de 33%, 50% e de
+66%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">pbb</td>
+<td style="text-align: left;">exibe recuos de 33%, 50% e de 66%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p2</td>
+<td style="text-align: left;">exibe movimento projetado de perna 1 =
+perna 2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p2a</td>
+<td style="text-align: left;">exibe movimento projetado de alta de perna
+1 = perna 2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p2b</td>
+<td style="text-align: left;">exibe movimento projetado de baixa de
+perna 1 = perna 2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">tr</td>
+<td style="text-align: left;">exibe preços de uma lateralidade</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">trx</td>
+<td style="text-align: left;">exibe preços de uma lateralidade</td>
+</tr>
+</tbody>
+</table>
