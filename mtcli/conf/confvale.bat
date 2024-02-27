@@ -7,5 +7,4 @@ call r 0.25
 call rr 3
 call tam 1
 call coy 68.00
-call rdia 1.20
 call moeda BRL
