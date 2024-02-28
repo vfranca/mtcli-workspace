@@ -1,5 +1,7 @@
 @echo off
-call dt 02 02 2024
+rem call dt 02 02 2024
+call y 2024
+call m 02
 call p m5
 call sld 0r
 call lmt -3r
