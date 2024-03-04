@@ -3,17 +3,7 @@
 
 espaço de trabalho do mtcli contendo atalhos de comandos do mtcli e outros recursos extras para operações de day trade.   
 
-## Dependências
-
-Instale os pacotes python com os comandos abaixo:  
-
-```CMD
-pip install pa-trading  
-pip install gr-trading  
-pip install x-trading  
-```
-
-## atalhos
+## atalhos de comandos
   
 atalho | descrição | exemplo
 :----- | :------ | :-----
@@ -21,10 +11,7 @@ m1 - m30, h1 - h4, d1, w1, mn1 | gráfico mínimo de 1 min ao mensal | m5 = mt b
 mm1 - mm30, hh1 - hh4, dd1, ww1, mmn1 | gráfico completo de 1 min ao mensal | mm5 = mt bars winj24 -p m5 
 m1r - m30r, h1r - h4r, d1r, w1r, mn1r | gráfico de ranges de 1 min ao mensal | m5r = mt bars winj24 -p m5 -v r
 mm | média móvel simples de 20 períodos | mm = mt mm winj24 -p m5 -c 20
-ma | média móvel exponencial de 20 períodos | ma = mt ma winj24 -p m5 -c 1
 rm | range médio de 14 períodos | rm = mt rm winj24 -p m5
-
- 
 
 ## marcações
 
@@ -48,6 +35,14 @@ pk | pullback
 
 
 ## comandos extras
+
+Instale os pacotes python com os comandos abaixo:  
+
+```CMD
+pip install pa-trading  
+pip install gr-trading  
+pip install x-trading  
+```
 
 comando | descrição 
 :---- | :------
