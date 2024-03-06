@@ -5,4 +5,3 @@ rem https://github.com/vfranca/
 set PERIOD=H1
 set VIEW=ch
 call barras %*
-time /t
