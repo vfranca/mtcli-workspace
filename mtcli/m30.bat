@@ -4,4 +4,3 @@ rem Copyright 2022 Valmir França
 set PERIOD=M30
 set VIEW=ch
 call barras %*
-time /t

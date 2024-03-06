@@ -4,4 +4,4 @@ rem Copyright 2022 Valmir França
 set PERIOD=M6
 set VIEW=r
 call barras %*
-time /t
+
