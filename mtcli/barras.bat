@@ -11,7 +11,7 @@ call :grafico
 set count=%1
 call :grafico
 )
-call :media
+rem call :media
 time /t
 goto :EOF
 
