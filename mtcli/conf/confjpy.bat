@@ -8,6 +8,5 @@ call r 1.2
 call rr 3
 call tam 100000
 call coy 138.00
-call rdia 1.30
 call moeda JPY
 call spread 0.01

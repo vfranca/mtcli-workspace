@@ -8,6 +8,5 @@ call r 0.0030
 call rr 3
 call tam 100000
 call coy 1.0920
-call rdia 0.0070
 call moeda USD
 call spread 0.0001

@@ -7,5 +7,4 @@ call r 100
 call rr 2
 call tam 5
 call coy 37200
-call rdia 300
 call moeda USD

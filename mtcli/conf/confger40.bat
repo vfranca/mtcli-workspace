@@ -7,5 +7,4 @@ call r 50
 call rr 3
 call tam 1
 call coy 16800
-call rdia 200
 call moeda EUR

@@ -60,7 +60,6 @@ mt bars %S% -p %P% -c %count_swing% > %dir_txt%\%txt_full%
 goto :ABRETXT
 rem abre os arquivos no bloco de notas
 :ABRETXT
-start %dir_txt%\%txt_min%
 start %dir_txt%\%txt_ranges%
 start %dir_txt%\%txt_full%
-
+start %dir_txt%\%txt_min%
