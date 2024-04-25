@@ -1,10 +1,10 @@
 @echo off
 call confdt
-call s JP225 0
+call s LCRUDE 2
 call lot 0.01
 call ala 200
-call r 50
+call r 0.20
 call rr 2
-call tam 5
-call coy 32300
+call tam 1000
+call coy 81.00
 call moeda USD

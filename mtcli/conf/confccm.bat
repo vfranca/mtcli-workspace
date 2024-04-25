@@ -1,6 +1,6 @@
 @echo off
 call confdt
-call s ccmh24 2
+call s CCMK24 2
 call p Mh1
 call lot 1
 call ala 15

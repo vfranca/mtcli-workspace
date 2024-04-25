@@ -1,6 +1,6 @@
 @echo off
 call confdt
-call s usa500 0
+call s USA500 0
 call lot 0.05
 call ala 25
 call r 20

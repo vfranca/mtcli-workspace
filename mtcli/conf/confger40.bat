@@ -1,6 +1,6 @@
 @echo off
 call confdt
-call s ger40 0
+call s GER40 0
 call lot 1
 call ala 100
 call r 50
