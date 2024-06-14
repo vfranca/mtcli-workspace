@@ -13,3 +13,6 @@ echo set f1=%f1%>>%fname%
 echo set f2=%f2%>>%fname%
 echo set tl=%tl%>>%fname%
 echo set tcl=%tcl%>>%fname%
+echo set tg=%TG%>>%fname%
+echo set sl=%SL%>>%fname%
+echo set e=%E%>>%fname%

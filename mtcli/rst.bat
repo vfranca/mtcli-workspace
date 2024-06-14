@@ -11,3 +11,6 @@ set f1=
 set f2=
 set tl=
 set tcl=
+set tg=
+set sl=
+set e=
