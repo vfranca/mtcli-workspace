@@ -16,3 +16,4 @@ echo set tcl=%tcl%>>%fname%
 echo set tg=%TG%>>%fname%
 echo set sl=%SL%>>%fname%
 echo set e=%E%>>%fname%
+echo as marcacoes foram salvas em %fname%
