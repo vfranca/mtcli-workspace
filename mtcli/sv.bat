@@ -18,4 +18,13 @@ echo set sl=%SL%>>%fname%
 echo set e=%E%>>%fname%
 echo set tga=%TGA%>>%fname%
 echo set tgb=%TGB%>>%fname%
+echo set sld=%SLD%>>%fname%
+echo set mta=%MTA%>>%fname%
+echo set lmt=%LMT%>>%fname%
+echo set r=%R%>>%fname%
+echo set rr=%RR% >>%fname%
+echo set e=%E%>>%fname%
+echo set lot=%LOT% >>%fname%
+echo set tam=%TAM% >>%fname%
+echo set ala=%ALA% >>%fname%
 echo as marcacoes foram salvas em %fname%
