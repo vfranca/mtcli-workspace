@@ -1,6 +1,6 @@
 @echo off
 call confdt
-call s BITJ24 0
+call s BITM24 0
 call lot 1
 call ala 320
 call r 1300
