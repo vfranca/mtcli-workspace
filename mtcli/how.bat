@@ -3,4 +3,8 @@ rem pasta mtcli
 rem Copyright 2021-2023 Valmir França da Silva
 rem https://github.com/vfranca/
 rem máxima da semana
-mt bars %SYMBOL% --view h --count 1 --period W1
+if "%1" == "" (
+echo %HOW%
+goto :EOF
+)
+set how=%1

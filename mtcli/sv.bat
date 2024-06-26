@@ -5,6 +5,11 @@ echo set coy=%COY%>>%fname%
 echo set ood=%ood%>>%fname%
 echo set hoy=%hoy%>>%fname%
 echo set loy=%loy%>>%fname%
+
+echo set how=%HOW% >>%fname%
+echo set low=%LOW% >>%fname%
+echo set cow=%COW% >>%fname%
+
 echo set h=%h%>>%fname%
 echo set l=%l%>>%fname%
 echo set t1=%t1%>>%fname%
@@ -21,7 +26,7 @@ echo set tgb=%TGB%>>%fname%
 echo set sld=%SLD%>>%fname%
 echo set mta=%MTA%>>%fname%
 echo set lmt=%LMT%>>%fname%
-echo set r=%R%>>%fname%
+echo set r=%R% >>%fname%
 echo set rr=%RR% >>%fname%
 echo set e=%E%>>%fname%
 echo set lot=%LOT% >>%fname%
