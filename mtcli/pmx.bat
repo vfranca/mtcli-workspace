@@ -1,2 +1,5 @@
 @echo off
-py pm.py %p1% %p2%
+echo %E1%
+echo %E2%
+echo %E3%
+echo %E4%
