@@ -1,5 +1,13 @@
 @echo off
 rem mtcli
+rem zera as entradas
+if "%1" == "0" (
+set e1=0
+set e2=0
+set e3=0
+set e4=0
+goto :EOF
+)
 rem entrada 1
 if "%1" neq "" (
 set e1=%1
