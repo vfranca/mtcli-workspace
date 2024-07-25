@@ -1,5 +1,12 @@
 @echo off
 rem mtcli
+rem exibe as entradas
+if "%1" == "x" (
+goto :EXIBE
+)
+if "%1" == "X" (
+goto :EXIBE
+)
 rem zera as entradas
 if "%1" == "0" (
 set e1=0
@@ -22,3 +29,11 @@ set e3=%3
 )
 rem calcula o preço médio
 python pm.py %*
+goto :EOF
+
+:EXIBE
+echo %E1%
+echo %E2%
+echo %E3%
+echo %E4%
+goto :EOF
