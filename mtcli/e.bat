@@ -7,7 +7,7 @@ rem
 rem sem entrada
 rem
 if "%~1" == "" (
-gr t %E% -sl %SL% -tp %A%
+gr t %E% -sl %SL% -tp %TG%
 goto :EOF
 ) 
 rem
