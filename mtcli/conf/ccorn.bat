@@ -1,11 +1,9 @@
 @echo off
 call confdt
-call s CORNSEP23 0
-call lot 0.01
+call s CORNSEP24 2
 call ala 200
-call r 6.00
-call rr 2
 call tam 50
-call coy 540.00
-call rdia 20.00
+call lot 0.01
+call r 0.20
+call rr 2
 call moeda USD
