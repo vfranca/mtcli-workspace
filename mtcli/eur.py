@@ -1,18 +1,15 @@
-"""Calcula conversoes de moeda com euro."""
+"""
+Converte euro para dolar
+"""
 import click
 
 
 @click.command()
 @click.argument("preco", type=float)
-@click.option("--brl", "-b", type=float, default=5.36)
-@click.option("--usd", "-u", type=float, default=1.075)
-def eur(preco, brl, usd):
-    """Converte euro para real e dolar americano."""
-    # Converte euro para real brasileiro
-    preco_brl = preco * brl
-    click.echo("%.2f BRL" % preco_brl)
-    # Converte euro para dólar americano
-    preco_usd = preco * usd
+@click.option("--cambio", "-c", type=float, default=1.10)
+def eur(preco, cambio):
+    """Converte euro para dolar."""
+    preco_usd = preco * cambio
     click.echo("%.2f USD" % preco_usd)
 
 
