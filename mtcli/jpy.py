@@ -1,13 +1,15 @@
+"""
+Converte ien para dolar
+"""
 import click
 
 
 @click.command()
 @click.argument("preco", type=float)
-@click.option("--usd", "-u", type=float, default=138)
-def jpy(preco, usd):
-    """Converte iene para dolar americano."""
-    # Converte iene para dólar americano
-    preco_usd = preco * (1 / usd)
+@click.option("--cambio", "-c", type=float, default=145.00)
+def jpy(preco, cambio):
+    """Converte ien para dolar."""
+    preco_usd = preco * (1 / cambio)
     click.echo("USD %.2f" % preco_usd)
 
 
