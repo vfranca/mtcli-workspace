@@ -16,10 +16,11 @@ d = getenv("DIGITOS")
 @click.argument("e5", type=float, envvar="E5")
 def cli(e1, e2, e3, e4, e5):
     """Calcula o preço médio do trade"""
+    medio = e1
+    if e2: medio = (e1 + e2)/2
     if e3: medio = (e1 + e2 + e3)/3
-    elif e4: medio = (e1 + e2 + e3 + e4)/4
-    elif e5: medio = (e1 + e2 + e3 + e4 + e5)/5
-    else: medio = (e1 + e2) / 2
+    if e4: medio = (e1 + e2 + e3 + e4)/4
+    if e5: medio = (e1 + e2 + e3 + e4 + e5)/5
     click.echo("%.{0}f".format(d) % medio)
 
 
