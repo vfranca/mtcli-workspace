@@ -12,11 +12,11 @@ set count=%1
 call :grafico
 )
 rem call :media
-time /t
+rem time /t
 goto :EOF
 
 :grafico
-mt bars %SYMBOL% --period %PERIOD% --date %ID% --view %VIEW% --count %count%
+mt bars %SYMBOL% --period %PERIOD% --date %INTRADAY% --view %VIEW% --count %count%
 goto :EOF
 
 :media

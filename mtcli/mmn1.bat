@@ -1,8 +1,7 @@
 @echo off
 rem mtcli
-rem Copyright 2022 Valmir França
-rem Desativa o modo intraday
-set id=""
-set PERIOD=MN1
-set VIEW=full
+rem gráfico cheio
+call intra 0
+call p MN1
+call w full
 call barras %*
