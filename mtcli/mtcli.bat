@@ -5,21 +5,21 @@ if not defined digitos set digitos=0
 if not defined period set period=D1
 if not defined view set period=CH
 
-if not defined currency set currency=BRL
-if not defined leverage set leverage=1
-if not defined size set size=1
+if not defined moeda set moeda=BRL
+if not defined ala set ala=1
+if not defined tam set tam=1
 if not defined spread set spread=0
 if not defined lot set lot=1
-if not defined risc set risc=200
-if not defined risc_reward set risc_reward=3
-if not defined profit set profit=9
-if not defined stop set stop=-3
-if not defined balance set balance=0
+
+if not defined r set r=200
+if not defined rr set rr=3
+if not defined mta set mta=9
+if not defined lmt set lmt=-3
+if not defined sld set sld=0
 
 if not defined i set i=01
 if not defined m set m=01
 if not defined y set y=2024
-rem if not defined intraday set intraday=%Y%.%M%.%I%
 
 set dir_txt=TX\%SYMBOL%
 set txt_full=%SYMBOL%-%PERIOD%-%M%-%I%F.txt

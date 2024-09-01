@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
-rem saldo mensal do trading
+rem saldo do dia
+call mtcli
 if "%1" == "" (
 echo %SLD%
 goto :EOF
 )
 set SLD=%1
-set SALDO=%1

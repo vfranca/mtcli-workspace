@@ -1,14 +1,10 @@
 @echo off
 rem mtcli
 rem variáveis de ambiente
-rem ano
-rem
+rem year
+call mtcli
 if "%1" == "" (
 echo %Y%
 goto :EOF
 )
 set y=%1
-rem
-rem redefine a data intraday
-rem
-set id=%Y%.%M%.%I%

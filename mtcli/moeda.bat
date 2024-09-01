@@ -1,8 +1,8 @@
 @echo off
-rem pasta mtcli
-rem Copyright 2021-2023 Valmir França da Silva
-rem https://github.com/vfranca/
+rem mtcli
+rem variáveis de ambiente
 rem moeda de negociação
+call mtcli
 if "%1" == "" (
 echo %MOEDA%
 goto :EOF

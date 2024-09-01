@@ -1,13 +1,24 @@
 @echo off
-rem variáveis
+rem mtcli
 rem intraday
 call mtcli
-if "%1" == "" (
-echo %INTRADAY%
+if "%1" == "" goto :show
+
+if /i "%1" == "on" goto :activate
+if %1 == 1 goto :activate
+
+if /i "%1" == "off" goto :deactivate
+if %1 == 0 goto :deactivate
+
+:activate
+set intraday=%Y%.%M%.%I%
 goto :EOF
-)
-if %1 == 0 (
+
+:deactivate
 set intraday=""
 goto :EOF
-)
-set intraday=%3.%2.%1
+
+:show
+echo %INTRADAY%
+goto:EOF
+
