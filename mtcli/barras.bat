@@ -13,6 +13,7 @@ call :grafico
 )
 rem call :media
 rem time /t
+call term
 goto :EOF
 
 :grafico

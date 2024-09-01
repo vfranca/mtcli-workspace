@@ -8,6 +8,5 @@ echo %SYMBOL%
 goto :EOF
 )
 set SYMBOL=%1
-set s=%SYMBOL%
-rem digitos
 if not "%2" == "" (call d %2)
+call term

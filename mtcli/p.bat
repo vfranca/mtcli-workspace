@@ -7,3 +7,4 @@ echo %PERIOD%
 goto :EOF
 )
 set PERIOD=%1
+call term
