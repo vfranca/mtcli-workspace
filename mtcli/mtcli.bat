@@ -21,8 +21,8 @@ if not defined m set m=01
 if not defined y set y=2024
 rem if not defined intraday set intraday=%Y%.%M%.%I%
 
-set dir_txt=GRAFICOS\TX
-set txt_full=%SYMBOL%-%PERIOD%-%MONTH%-%DAY%F.txt
-set txt_min=%SYMBOL%-%PERIOD%-%MONTH%-%DAY%.txt
-set txt_ranges=%SYMBOL%-%PERIOD%-%MONTH%-%DAY%R.txt
-set dir_exp=GRAFICOS\EX
+set dir_txt=TX\%SYMBOL%
+set txt_full=%SYMBOL%-%PERIOD%-%M%-%I%F.txt
+set txt_min=%SYMBOL%-%PERIOD%-%M%-%I%.txt
+set txt_ranges=%SYMBOL%-%PERIOD%-%M%-%I%R.txt
+set dir_exp=EX\%SYMBOL%
