@@ -3,7 +3,7 @@ rem variáveis do workspace
 if not defined symbol set symbol=IBOV
 if not defined digitos set digitos=0
 if not defined period set period=D1
-if not defined view set period=CH
+if not defined view set view=ch
 
 if not defined moeda set moeda=BRL
 if not defined ala set ala=1
@@ -26,3 +26,4 @@ set txt_full=%SYMBOL%-%PERIOD%-%M%-%I%F.txt
 set txt_min=%SYMBOL%-%PERIOD%-%M%-%I%.txt
 set txt_ranges=%SYMBOL%-%PERIOD%-%M%-%I%R.txt
 set dir_exp=EX\%SYMBOL%
+set file_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%
