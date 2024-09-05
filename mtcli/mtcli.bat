@@ -26,4 +26,4 @@ set txt_full=%SYMBOL%-%PERIOD%-%M%-%I%F.txt
 set txt_min=%SYMBOL%-%PERIOD%-%M%-%I%.txt
 set txt_ranges=%SYMBOL%-%PERIOD%-%M%-%I%R.txt
 set dir_exp=EX\%SYMBOL%
-set file_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%
+rem set file_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%

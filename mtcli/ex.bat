@@ -2,6 +2,8 @@
 rem mtcli
 rem exporta o grafico para um arquivo TXT
 call mtcli
+rem define o nome do arquivo de esportação
+set file_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%
 rem cria diretório de exportacao
 if not exist %DIR_EXP% (
 mkdir %DIR_EXP%
