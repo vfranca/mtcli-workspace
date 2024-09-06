@@ -5,10 +5,10 @@ rem https://github.com/vfranca/
 call p %PERIOD%
 call w %VIEW%
 if "%1" == "" (
-set count=110
+call q 114
 call :grafico
 ) else (
-set count=%1
+call q %1
 call :grafico
 )
 rem call :media

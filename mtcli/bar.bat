@@ -1,2 +1,2 @@
 @echo off
-call barras
+call barras %*
