@@ -10,7 +10,7 @@ pip --version
 rem versão do mtcli instalado
 mt --version
 rem exibe o conteúdo do arquivo de variáveis
-type .mtcli
+type mtcli.ini
 rem usuário logado
 echo %username%
 rem exibe o caminho da  pasta atual

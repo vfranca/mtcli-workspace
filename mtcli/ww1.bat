@@ -1,7 +1,7 @@
 @echo off
 rem mtcli
-rem gráfico cheio
-call intra 0
+rem gráfico
+call intra off
 call p W1
 call w full
-call barras %*
+call bar %*

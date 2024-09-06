@@ -1,6 +1,7 @@
 @echo off
 rem mtcli
-call intra 0
+rem gráfico
+call intra off
 call p D1
 call w var
-call barras %*
+call bar %*
