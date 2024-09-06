@@ -1,5 +1,5 @@
 @echo off
 rem mtcli
-call mtcli
+call term
 call intra on
-call ps1
+call conf
