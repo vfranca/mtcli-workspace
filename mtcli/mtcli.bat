@@ -28,3 +28,4 @@ set txt_min=%SYMBOL%-%PERIOD%-%M%-%I%.txt
 set txt_ranges=%SYMBOL%-%PERIOD%-%M%-%I%R.txt
 set dir_exp=%GR%\EX\%SYMBOL%
 rem set file_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%
+set dir_templates=TEMPLATES
