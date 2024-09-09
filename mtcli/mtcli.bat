@@ -22,10 +22,10 @@ if not defined i set i=01
 if not defined m set m=01
 if not defined y set y=2024
 
-set dir_txt=%GR%\TX\%SYMBOL%
+set dir_txt=GRAFICOS\TX\%SYMBOL%
 set txt_full=%SYMBOL%-%PERIOD%-%M%-%I%F.txt
 set txt_min=%SYMBOL%-%PERIOD%-%M%-%I%.txt
 set txt_ranges=%SYMBOL%-%PERIOD%-%M%-%I%R.txt
-set dir_exp=%GR%\EX\%SYMBOL%
+set dir_exp=GRAFICOS\EX\%SYMBOL%
 rem set file_exp=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%
 set dir_templates=TEMPLATES
