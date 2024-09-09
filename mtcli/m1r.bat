@@ -1,6 +1,7 @@
 @echo off
 rem mtcli
-rem Copyright 2022 Valmir França
-set PERIOD=M1
-set VIEW=r
-call barras %*
+rem gráfico
+call mtcli
+call p M1
+call w r
+call bar %*
