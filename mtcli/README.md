@@ -1,7 +1,7 @@
 # mtcli workspace
 
 
-espaço de trabalho do mtcli contendo atalhos de comandos do mtcli e outros recursos extras para operações de day trade.   
+Área de trabalho do mtcli contendo atalhos de comandos do mtcli e outros recursos extras para operações de day trade.   
 
 ## atalhos de comandos
   
