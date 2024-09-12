@@ -1,2 +1,4 @@
 @echo off
-python cad.py %*
+rem mtcli
+rem converte CAD para USD
+call bin\cad %*

@@ -1,2 +1,4 @@
 @echo off
-python chf.py %*
+rem mtcli
+rem converte CHF para USD
+call bin\chf %*

@@ -1,2 +1,4 @@
 @echo off
-python eur.py %*
+rem mtcli
+rem converte EUR para USD
+call bin\eur %*

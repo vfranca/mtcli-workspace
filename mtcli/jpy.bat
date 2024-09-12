@@ -1,2 +1,4 @@
 @echo off
-python jpy.py %*
+rem mtcli
+rem converte JPY para USD
+call bin\jpy %*
