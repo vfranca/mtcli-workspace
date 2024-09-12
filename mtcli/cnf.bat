@@ -1,5 +1,6 @@
 @echo off
 rem mtcli
+call mtcli
 echo CODIGO %SYMBOL%
 echo DIGITOS %DIGITOS%
 echo PERIODO %PERIOD%
