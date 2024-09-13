@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
-rem risco efetivo
-python ref.py %*
+rem calcula projeções de risco efetivo
+call bin\ref %*
