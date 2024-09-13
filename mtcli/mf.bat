@@ -1,2 +1,4 @@
 @echo off
-python mf.py %*
+rem mtcli
+rem calcula um contrato futuro
+call bin\mf %*

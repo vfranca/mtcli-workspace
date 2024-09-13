@@ -1,2 +1,4 @@
 @echo off
-python cfd.py %*
+rem mtcli
+rem calcula um cfd
+call bin\cfd %*
