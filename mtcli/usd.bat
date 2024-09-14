@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
 rem converte USD para BRL
-call bin\usd %*
+cal mtcli
+call %DIR_BIN%\usd %*

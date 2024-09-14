@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
 rem calcula margem de garantia
-call bin\mg %*
+call mtcli
+call %DIR_BIN%\mg %*

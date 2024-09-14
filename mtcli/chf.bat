@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
 rem converte CHF para USD
-call bin\chf %*
+call mtcli
+call %DIR_BIN%\chf %*

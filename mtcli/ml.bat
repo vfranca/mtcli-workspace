@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
 rem exibe a margem livre
-call bin\ml %*
+call mtcli
+call %DIR_BIN%\ml %*

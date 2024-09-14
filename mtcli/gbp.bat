@@ -1,4 +1,5 @@
 @echo off
 rem mtcli
 rem converte GBP para USD
-call bin\gbp %*
+call mtcli
+call %DIR_BIN%\gbp %*
