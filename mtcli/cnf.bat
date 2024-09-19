@@ -1,7 +1,7 @@
 @echo off
 rem mtcli
 call mtcli
-echo CODIGO %SYMBOL%
+echo %SYMBOL%
 echo DIGITOS %DIGITOS%
 echo PERIODO %PERIOD%
 echo GRAFICO %VIEW%
