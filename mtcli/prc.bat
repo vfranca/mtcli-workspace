@@ -2,6 +2,7 @@
 rem mtcli
 rem configurações de price action
 call mtcli
+echo %SYMBOL%
 echo MAXIMA %H%
 echo MINIMA %L%
 echo MOVIMENTO PROJETADO %MP%
