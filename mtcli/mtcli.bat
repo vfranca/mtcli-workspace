@@ -24,5 +24,5 @@ if not defined y set y=2024
 
 set dir_txt=GRAFICOS\TX\%SYMBOL%
 set dir_exp=GRAFICOS\EX\%SYMBOL%
-set dir_templates=TEMPLATES
+set dir_tpl=TEMPLATES
 set dir_bin=bin
