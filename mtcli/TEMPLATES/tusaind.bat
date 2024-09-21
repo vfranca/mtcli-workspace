@@ -1,10 +1,12 @@
 @echo off
 call confdt
-call s USAINDSEP24 0
-call lot 2
-call ala 100
-call r 30
+call s USAIND 0
+call p M5
+call ala 200
+call tam  1
+call lot 0.05
+call r 40
 call rr 3
-call tam 5
-REM call coy 37200
+call coy 40200
 call moeda USD
+call spread 0.8
