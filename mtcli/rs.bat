@@ -1,10 +1,13 @@
 @echo off
+rem mtcli
+rem reset
 set coy=
 set ood=
 set hoy=
 set loy=
 set h=
 set l=
+set mp=
 set t1=
 set t2=
 set f1=
@@ -23,7 +26,4 @@ set ala=
 set sld=
 set lmt=
 set mta=
-call pm 0
-
-
-
+call px 0
