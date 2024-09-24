@@ -11,7 +11,8 @@ echo set cow=%COW% >>%fname%
 
 echo set h=%H% >>%fname%
 echo set l=%L% >>%fname%
-echo set mp=%MP% >>%fname%
+echo set mmu=%MMU% >>%fname%
+echo set mmd=%MMD% >>%fname%
 
 echo set t1=%T1% >>%fname%
 echo set t2=%T2% >>%fname%
@@ -23,8 +24,6 @@ echo set tcl=%TCL% >>%fname%
 echo set tg=%TG% >>%fname%
 echo set sl=%SL% >>%fname%
 echo set e=%E% >>%fname%
-echo set tga=%TGA% >>%fname%
-echo set tgb=%TGB% >>%fname%
 
 echo set sld=%SLD% >>%fname%
 echo set mta=%MTA% >>%fname%

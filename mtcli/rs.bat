@@ -7,23 +7,26 @@ set hoy=
 set loy=
 set h=
 set l=
-set mp=
+set mmu=
+set mmd=
+
 set t1=
 set t2=
 set f1=
 set f2=
 set tl=
 set tcl=
+
 set tg=
-set tga=
-set tgb=
 set sl=
 set e=
 set r=
 set rr=
-set tam=
-set ala=
-set sld=
-set lmt=
-set mta=
+
+rem set tam=
+rem set ala=
+rem set sld=
+rem set lmt=
+rem set mta=
+
 call px 0

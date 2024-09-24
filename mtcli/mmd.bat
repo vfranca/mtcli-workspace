@@ -1,9 +1,9 @@
 @echo off
 rem mtcli
 rem marcações
-rem target above
+rem measured movie down
 if "%1" == "" (
-echo %TGA%
+echo %MMd%
 goto :EOF
 )
-set TGA=%1
+set mmd=%1
