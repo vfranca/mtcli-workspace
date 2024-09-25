@@ -14,6 +14,9 @@ echo set l=%L% >>%fname%
 echo set mmu=%MMU% >>%fname%
 echo set mmd=%MMD% >>%fname%
 
+echo set mga=%MGA% >>%fname%
+echo set mgb=%MGB% >>%fname%
+
 echo set t1=%T1% >>%fname%
 echo set t2=%T2% >>%fname%
 echo set f1=%F1% >>%fname%

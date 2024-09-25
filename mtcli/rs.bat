@@ -9,6 +9,8 @@ set h=
 set l=
 set mmu=
 set mmd=
+set mga=
+set mgb=
 
 set t1=
 set t2=
