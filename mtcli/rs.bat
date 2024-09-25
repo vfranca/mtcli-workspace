@@ -11,6 +11,8 @@ set mmu=
 set mmd=
 set mga=
 set mgb=
+set gxh=
+set gxl=
 
 set t1=
 set t2=
