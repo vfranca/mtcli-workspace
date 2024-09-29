@@ -16,7 +16,3 @@ echo MOEDA=%MOEDA%
 echo SALDO=%SLD%
 echo META=%MTA%
 echo LIMITE=%LMT%
-echo risco
-CALL RX
-echo margem
-CALL MGX
