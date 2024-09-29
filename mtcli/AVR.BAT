@@ -1,10 +1,9 @@
 @echo off
 rem mtcli
-rem Copyright 2021 Valmir França
 rem atalhos de comando
-rem range médio  das barras
+rem average range
 if "%1" == "" (
-set count=14
+set count=10
 goto :range
 )
 set count=%1
