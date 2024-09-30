@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s gold 0
 call lot 0.05
 call ala 25

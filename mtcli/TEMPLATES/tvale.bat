@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s VALE3 2
 call lot 200
 call ala 125

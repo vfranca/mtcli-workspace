@@ -1,6 +1,6 @@
 @echo off
-call confdt
-call s WINQ24 0
+call _tpl
+call s WINV24 0
 call p M5
 call ala 240
 call tam 0.2

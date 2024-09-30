@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s LCRUDE 2
 call lot 0.01
 call ala 200

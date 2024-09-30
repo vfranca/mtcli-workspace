@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s BRA50 0
 call ala 200
 call tam 0.2

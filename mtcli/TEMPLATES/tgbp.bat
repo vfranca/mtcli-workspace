@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s gbpusd 4
 call ala 200
 call tam 100000

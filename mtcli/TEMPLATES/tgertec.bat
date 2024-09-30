@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s GERTECSEP24 1
 call ala 200
 call tam 10

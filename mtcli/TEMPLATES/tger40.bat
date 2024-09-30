@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s GER40 0
 call p M5
 call ala 200

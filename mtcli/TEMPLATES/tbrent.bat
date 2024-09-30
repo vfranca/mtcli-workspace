@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s BRENT 2
 call ala 100
 call tam 1000

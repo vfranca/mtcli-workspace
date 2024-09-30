@@ -1,5 +1,5 @@
 @echo off
-call confdt
+call _tpl
 call s EURUSD 4
 call p D1
 call ala 200
