@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s USDHKD 4
 call p D1
 call ala 200

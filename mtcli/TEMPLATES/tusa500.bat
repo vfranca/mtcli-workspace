@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s USA500 0
 call p M5
 call ala 200

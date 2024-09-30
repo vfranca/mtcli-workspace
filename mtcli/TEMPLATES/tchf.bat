@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s USDCHF 4
 call ala 200
 call tam 100000

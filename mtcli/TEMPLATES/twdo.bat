@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s WDOU24 0
 call p M2
 call ala 330

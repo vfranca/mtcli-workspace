@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s BTCUSD 0
 call ala 20
 call tam 1

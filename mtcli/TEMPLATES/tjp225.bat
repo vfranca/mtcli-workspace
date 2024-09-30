@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s JP225 0
 call ala 200
 call tam 5

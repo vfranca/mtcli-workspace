@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s CORNSEP24 2
 call ala 200
 call tam 50

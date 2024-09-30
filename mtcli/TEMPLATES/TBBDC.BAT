@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s BBDC4 2
 call lot 200
 call ala 125

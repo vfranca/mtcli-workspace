@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s CCMK24 2
 call p Mh1
 call lot 1

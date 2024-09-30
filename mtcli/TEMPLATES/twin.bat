@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s WINV24 0
 call p M5
 call ala 240

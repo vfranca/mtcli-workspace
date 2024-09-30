@@ -1,5 +1,4 @@
 @echo off
-call _tpl
 call s MINDOLAUG24 0
 call ala 200
 call tam 10

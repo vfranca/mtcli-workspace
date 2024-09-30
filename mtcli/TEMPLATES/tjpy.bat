@@ -1,6 +1,6 @@
 @echo off
 call _tpl
-call s USDJPY 2
+all s USDJPY 2
 call ala 200
 call tam 100000
 call lot 0.01
