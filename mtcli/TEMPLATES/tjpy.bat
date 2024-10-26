@@ -1,11 +1,11 @@
 @echo off
-call _tpl
-all s USDJPY 2
+call s USDJPY 2
+call p D1
 call ala 200
 call tam 100000
 call lot 0.01
-call r 0.07
+call r 0.70
 call rr 3
 call coy 150.00
-call moeda JPY
-call spread 0.01
+call moeda USD
+call spread 0.0001
