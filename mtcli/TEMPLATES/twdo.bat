@@ -1,5 +1,5 @@
 @echo off
-call s WDOU24 0
+call s WDOX24 0
 call p M2
 call ala 330
 call tam 10

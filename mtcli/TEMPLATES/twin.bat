@@ -1,5 +1,5 @@
 @echo off
-call s WINV24 0
+call s WINZ24 0
 call p M5
 call ala 240
 call tam 0.2
