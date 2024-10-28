@@ -9,8 +9,8 @@ import click
 @click.option("--cambio", "-c", type=float, default=7.79)
 def hkd(preco, cambio):
     """Converte dolar de hong kong para dolar."""
-    preco_usd = preco * (1 / cambio)
-    click.echo("USD %.2f" % preco_usd)
+    usd = preco * (1 / cambio)
+    click.echo("%.2f USD" % usd)
 
 
 if __name__ == "__main__":

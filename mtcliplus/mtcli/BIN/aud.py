@@ -9,8 +9,8 @@ import click
 @click.option("--cambio", "-c", type=float, default=0.69)
 def aud(preco, cambio):
     """Converte dólar australiano para dolar."""
-    preco_usd = preco * cambio
-    click.echo("%.2f USD" % preco_usd)
+    usd = preco * cambio
+    click.echo("%.2f USD" % usd)
 
 
 if __name__ == "__main__":

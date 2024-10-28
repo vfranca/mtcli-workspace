@@ -9,8 +9,8 @@ import click
 @click.option("--cambio", "-c", type=float, default=0.87)
 def chf(preco, cambio):
     """Converte franco suisso para dolar."""
-    preco_usd = preco * (1 / cambio)
-    click.echo("USD %.2f" % preco_usd)
+    usd = preco * (1 / cambio)
+    click.echo("%.2f USD" % usd)
 
 
 if __name__ == "__main__":
