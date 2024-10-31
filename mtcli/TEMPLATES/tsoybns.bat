@@ -1,5 +1,5 @@
 @echo off
-call s CORNDEC24 2
+call s SOYBNSJAN25 2
 call ala 200
 call tam 50
 call lot 0.01
