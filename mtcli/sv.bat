@@ -11,6 +11,8 @@ echo set cow=%COW% >>%fname%
 
 echo set h=%H% >>%fname%
 echo set l=%L% >>%fname%
+echo set sz=%SZ% >>%fname%
+echo set bz=%BZ% >>%fname%
 echo set mmu=%MMU% >>%fname%
 echo set mmd=%MMD% >>%fname%
 
