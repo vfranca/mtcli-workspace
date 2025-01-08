@@ -17,6 +17,9 @@ def lg(begin, end):
     leg = end - begin
     click.echo("%.{0}f".format(digits) % abs(leg))
 
+    projecao = end + leg
+    click.echo("%.{0}f MM".format(digits) % projecao)
+
     pullback1 = end - leg * 0.23
     pullback2 = end - leg * 0.33
     pullback3 = end - leg * 0.5
@@ -28,20 +31,6 @@ def lg(begin, end):
     click.echo("%.{0}f 50%%".format(digits) % pullback3)
     click.echo("%.{0}f 62%%".format(digits) % pullback4)
     click.echo("%.{0}f 75%%".format(digits) % pullback5)
-
-    projecao = end + leg
-    click.echo("%.{0}f MM".format(digits) % projecao)
-
-    # expansao1 = end + leg *0.33
-    # expansao2 = end + leg * 0.50
-    # expansao3 = end + leg *0.66
-    # expansao4 = end + leg * 1
-
-    # click.echo("expansoes")
-    # click.echo("%.{0}f".format(digits) % expansao1)
-    # click.echo("%.{0}f".format(digits) % expansao2)
-    # click.echo("%.{0}f".format(digits) % expansao3)
-    # click.echo("%.{0}f".format(digits) % expansao4)
 
 
 if __name__ == "__main__":
