@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
+rem marcações
 rem spread 
 call mtcli
 if "%1" == "" (
-echo %SPREAD%
+echo %SPD%
 goto :EOF
 )
-set spread=%1
+set spd=%1
