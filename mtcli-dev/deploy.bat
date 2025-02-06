@@ -1,5 +1,5 @@
 @echo off
-set fzip=mtcliplus.zip
+set fzip=mtcli-dev.zip
 set dir=mtcli
 set dirdest1="G:\Meu Drive"
 set dirdest2=%HOMEPATH%
