@@ -1,10 +1,9 @@
 @echo off
-rem pasta mtcli
-rem Copyright 2021-2023 Valmir França da Silva
-rem https://github.com/vfranca/
-rem rend line
+rem mtcli
+rem marcações
+rem Trend line
 if "%1" == "" (
-echo %TL%
+echo L TENDENCIA  %TL%
 goto :EOF
 )
 set tl=%1

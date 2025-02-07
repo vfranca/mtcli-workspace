@@ -4,7 +4,7 @@ rem variaveis de ambiente
 rem view
 call mtcli
 if "%1" == "" (
-echo %VIEW%
+echo VIEW %VIEW%
 goto :EOF
 )
 set VIEW=%1

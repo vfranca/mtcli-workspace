@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
+rem marcações
 rem lot
 call mtcli
 if "%1" == "" (
-echo %LOT%
+echo LOTE %LOT%
 goto :EOF
 )
 set lot=%1
