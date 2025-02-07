@@ -2,16 +2,16 @@
 rem mtcli
 rem configurações de price action
 call mtcli
-echo CODIGO=%SYMBOL%
-echo MAXIMA DE ONTEM=%HOY%
-echo MINIMA DE ONTEM=%LOY%
-echo FECHAMENTO=%COY%
-echo ABERTURA=%OOD%
-echo MAXIMA=%H%
-echo MINIMA=%L%
-echo MOVIMENTO PROJETADO ACIMA=%MMU%
-echo MOVIMENTO PROJETADO ABAIXO=%MMD%
-echo MAGNETO ACIMA=%MGA%
-echo MAGNETO ABAIXO=%MGB%
-echo LINHA DE TENDENCIA=%TL%
-echo LINHA DE CANAL=%TCL%
+call s
+call hoy
+call loy
+call coy
+call ood
+call h
+call l
+call mmu
+call mmd
+call mga
+call mgb
+call tl
+call tcl

@@ -1,5 +1,5 @@
 @echo off
 call s
 call p
-call in
-
+call dte
+call intra

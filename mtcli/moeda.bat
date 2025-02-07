@@ -4,7 +4,7 @@ rem variáveis de ambiente
 rem moeda de negociação
 call mtcli
 if "%1" == "" (
-echo %MOEDA%
+echo MOEDA %MOEDA%
 goto :EOF
 )
 set MOEDA=%1

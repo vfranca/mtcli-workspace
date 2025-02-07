@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variaveis de ambiente
+rem marcações
 rem count
 call mtcli
 if "%1" == "" (
-echo %COUNT%
+echo BARRAS %COUNT%
 goto :EOF
 )
 set COUNT=%1

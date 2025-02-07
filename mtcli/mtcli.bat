@@ -9,7 +9,7 @@ if not defined count set count=20
 if not defined moeda set moeda=BRL
 if not defined ala set ala=1
 if not defined tam set tam=1
-if not defined spread set spread=0
+if not defined spd set spd=0
 if not defined lot set lot=1
 
 if not defined r set r=200
@@ -19,8 +19,9 @@ if not defined lmt set lmt=-3
 if not defined sld set sld=0
 
 if not defined i set i=01
-if not defined m set m=01
-if not defined y set y=2024
+if not defined m set m=02
+if not defined y set y=2025
+if not defined intraday set intraday=""
 
 set dir_txt=GRAFICOS\TX\%SYMBOL%
 set dir_exp=GRAFICOS\EX\%SYMBOL%

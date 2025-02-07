@@ -19,6 +19,10 @@ set intraday=""
 goto :EOF
 
 :show
-echo %INTRADAY%
+if %intraday% == "" (
+echo intraday nao
+) else (
+echo intraday sim
+)
 goto:EOF
 

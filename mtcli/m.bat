@@ -4,7 +4,7 @@ rem variáveis de ambiente
 rem month
 call mtcli
 if "%1" == "" (
-echo %M%
+echo MES %M%
 goto :EOF
 )
 set m=%1

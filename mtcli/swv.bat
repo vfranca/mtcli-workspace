@@ -3,7 +3,7 @@ rem mtcli
 rem marcações
 rem swap de venda
 if "%1" == "" (
-echo %SWV%
+echo SWAP VENDA %SWV%
 goto :EOF
 )
 set swv=%1
