@@ -4,7 +4,7 @@ rem variáveis de ambiente
 rem risc reward
 call mtcli
 if "%1" == "" (
-echo R/R %rr%
+echo RR %rr%
 goto :EOF
 )
 set rr=%1
