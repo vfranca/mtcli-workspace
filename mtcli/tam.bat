@@ -4,7 +4,7 @@ rem variáveis de ambiente
 rem tamanho de contrato
 call mtcli
 if "%1" == "" (
-echo %TAM%
+echo TAMANHO %TAM%
 goto :EOF
 )
 set tam=%1
