@@ -1,5 +1,5 @@
 @echo off
-call s CCMX24 2
+call s CCMH25 2
 call p Mh1
 call ala 15
 call tam 450

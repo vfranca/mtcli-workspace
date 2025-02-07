@@ -1,6 +1,5 @@
 @echo off
-call s WINZ24 0
-call p M5
+call s WING25 0
 call ala 240
 call tam 0.2
 call lot 1
