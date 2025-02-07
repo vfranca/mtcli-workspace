@@ -41,5 +41,7 @@ echo set rr=%RR% >>%fname%
 echo set lot=%LOT% >>%fname%
 echo set tam=%TAM% >>%fname%
 echo set ala=%ALA% >>%fname%
+echo set swc=%SWC% >>%fname%
+echo set swv=%SWV% >>%fname%
 
 echo as marcacoes foram salvas em %fname%
