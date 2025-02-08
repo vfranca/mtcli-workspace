@@ -25,3 +25,8 @@ $RECYCLE.BIN/
 
 # arquivos python
 __pycache__/*
+
+# artefatos de distribuição
+dist/
+/*.zip
+/*.rar
