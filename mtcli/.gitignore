@@ -3,16 +3,6 @@ ex/*
 tx/*
 # binários
 *.exe
-BIN/nzd/
-BIN/eur/
-BIN/gbp/
-BIN/chf/
-BIN/cad/
-BIN/jpy/
-BIN/aud/
-BIN/hkd/
-BIN/brl/
-BIN/usd/
 BIN/cfd/
 BIN/mf/
 BIN/fx/
@@ -23,3 +13,4 @@ BIN/gp/
 BIN/mg/
 BIN/ml/
 BIN/cur/
+BIN/bo/
