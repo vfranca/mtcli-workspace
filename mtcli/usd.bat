@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 call mtcli
-%DIR_BIN%\cu\cu.exe usd %*
+%DIR_BIN%\cur\cur.exe usd %*

@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 call mtcli
-%DIR_BIN%\cu\cu.exe jpy %*
+%DIR_BIN%\cur\cur.exe jpy %*
