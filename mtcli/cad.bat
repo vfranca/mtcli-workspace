@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 call mtcli
-%DIR_BIN%\cad\cad.exe %*
+%DIR_BIN%\cu\cu.exe cad %*

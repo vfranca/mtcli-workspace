@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 call mtcli
-%DIR_BIN%\gbp\gbp.exe %*
+%DIR_BIN%\cu\cu.exe gbp %*
