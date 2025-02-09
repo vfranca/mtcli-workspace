@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 call mtcli
-%DIR_BIN%\mf\mf.exe %*
+%DIR_BIN%\op\op.exe mf %*
