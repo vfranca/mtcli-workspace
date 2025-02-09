@@ -1,2 +1,4 @@
 @echo off
-pa tr %1 %2
+rem mtcli
+call mtcli
+%DIR_BIN%\tr\tr.exe %*
