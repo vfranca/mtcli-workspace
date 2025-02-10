@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
 call mtcli
-%DIR_BIN%\gp\gp.exe %*
+@%DIR_BIN%\pa\pa.exe gp %*

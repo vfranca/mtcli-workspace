@@ -3,7 +3,6 @@ ex/*
 tx/*
 # binários
 *.exe
-BIN/gp/
 BIN/ml/
 BIN/cur/
 BIN/pa/
