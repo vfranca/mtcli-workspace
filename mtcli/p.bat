@@ -1,9 +1,10 @@
 @echo off
-rem variáveis de ambiente
+rem mtcli
+rem marcações
 rem period
 call mtcli
 if "%1" == "" (
-echo PERIODO %PERIOD%
+echo PERI %PERIOD%
 goto :EOF
 )
 set PERIOD=%1

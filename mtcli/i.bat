@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
+rem marcações
 rem day
 call mtcli
 if "%1" == "" (
-echo DIA %I%
+echo D %I%
 goto :EOF
 )
 set i=%1

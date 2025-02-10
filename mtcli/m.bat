@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
+rem marcações
 rem month
 call mtcli
 if "%1" == "" (
-echo MES %M%
+echo M %M%
 goto :EOF
 )
 set m=%1

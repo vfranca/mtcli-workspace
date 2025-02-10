@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variaveis de ambiente
+rem marcações
 rem symbol
 call mtcli
 if "%~1" == "" (
-echo SYMBOL %SYMBOL%
+echo SYMB %SYMBOL%
 goto :EOF
 )
 set SYMBOL=%1

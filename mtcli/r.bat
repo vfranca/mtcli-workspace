@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
-rem risc
+rem marcações
+rem risco
 call mtcli
 if "%1" == "" (
-echo RISCO %R%
+echo R %R%
 goto :EOF
 )
 set r=%1

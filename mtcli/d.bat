@@ -1,10 +1,10 @@
 @echo off
 rem mtcli
-rem variáveis de ambiente
+rem marcações
 rem digitos
 call mtcli
 if "%1" == "" (
-echo DIGITOS %DIGITOS%
+echo DIG %DIGITOS%
 goto :EOF
 )
 set DIGITOS=%1
