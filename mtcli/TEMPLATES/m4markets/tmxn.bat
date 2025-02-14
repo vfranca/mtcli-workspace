@@ -1,10 +1,9 @@
 @echo off
-call s NZDUSD 4
+call s USDMXN 4
 call ala 1000
 call tam 100000
 call lot 0.01
-call r 0.0060
+call r 0.2780
 call rr 2
-call coy 0.6050
-call moeda USD
+call moeda MXN
 call spd 0.0001
