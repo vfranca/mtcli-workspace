@@ -11,5 +11,5 @@ call term
 goto :EOF
 
 :grafico
-mt bars %SYMBOL% --period %PERIOD% --view %VIEW% --date %INTRADAY% --count %COUNT%
+call mt bars %SYMBOL% --period %PERIOD% --view %VIEW% --date %INTRADAY% --count %COUNT%
 goto :EOF
