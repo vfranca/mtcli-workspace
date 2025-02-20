@@ -1,6 +1,5 @@
 @echo off
-call s BGIX24 2
-call p Mh1
+call s BGIG25 2
 call ala 15
 call tam 320
 call lot 1
