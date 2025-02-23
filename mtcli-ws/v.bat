@@ -1,18 +1,13 @@
 @echo off
-rem ferramentas de trading
-rem Copyright 2021 Valmir França
-rem operacao de venda
+rem mtcli
+rem calcula uma venda
 if "%1" == "" (
-goto :VENDA
-goto :EOF
+if defined e (
+op e --venda %E%
 ) else (
-set e=%1
-goto :VENDA
-goto :EOF
+echo entrada indefinida
 )
-
-:VENDA
-if "%E%" == "" (
-set /p e=entrada:
+) else (
+op e --venda %1
+call e %1
 )
-gr t %E% --risco -%R% --retorno %RR%

@@ -1,19 +1,13 @@
 @echo off
-rem pasta mtcli
-rem Copyright 2021-2023 Valmir França da Silva
-rem https://github.com/vfranca/
-rem operacao de compra
+rem mtcli
+rem calcula uma compra
 if "%1" == "" (
-goto :COMPRA
-goto:EOF
+if defined e (
+op e --compra %E%
 ) else (
-set e=%1
-goto :COMPRA
-goto :EOF
+echo entrada indefinida
 )
-
-:COMPRA
-if "%E%" == "" (
-set /p e=entrada:
+) else (
+op e --compra %1
+call e %1
 )
-gr t %e% --risco %r% --retorno %rr%
