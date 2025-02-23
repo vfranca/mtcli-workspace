@@ -1,2 +1,2 @@
 @echo off
-cfd %TAM% %LOT% %R%
+call cfd --tamanho %TAM% %R% %LOT%
