@@ -4,7 +4,7 @@ rem marcações
 rem meta do dia
 call mtcli
 if "%1" == "" (
-echo META %MTA%
+echo %MTA%
 goto :EOF
 )
 set MTA=%1

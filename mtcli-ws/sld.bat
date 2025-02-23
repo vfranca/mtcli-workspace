@@ -4,7 +4,7 @@ rem marcações
 rem saldo do dia
 call mtcli
 if "%1" == "" (
-echo SALDO %SLD%
+echo %SLD%
 goto :EOF
 )
 set SLD=%1

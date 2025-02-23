@@ -4,7 +4,7 @@ rem marcações
 rem symbol
 call mtcli
 if "%~1" == "" (
-echo SYMB %SYMBOL%
+echo %SYMBOL%
 goto :EOF
 )
 set SYMBOL=%1

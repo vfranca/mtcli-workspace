@@ -4,7 +4,7 @@ rem marcações
 rem day
 call mtcli
 if "%1" == "" (
-echo D %I%
+echo %I%
 goto :EOF
 )
 set i=%1

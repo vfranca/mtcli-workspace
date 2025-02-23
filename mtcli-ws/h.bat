@@ -4,7 +4,7 @@ rem marcações
 rem máxima
 rem
 if "%1" == "" (
-echo MAX %H%
+echo %H%
 goto :EOF
 )
 set h=%1

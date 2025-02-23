@@ -4,7 +4,7 @@ rem marcações
 rem mínima de ontem
 call mtcli
 if "%1" == "" (
-echo MIN ONT %loy%
+echo %loy%
 goto :EOF
 )
 set loy=%1

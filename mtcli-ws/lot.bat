@@ -4,7 +4,7 @@ rem marcações
 rem lot
 call mtcli
 if "%1" == "" (
-echo LOTE %LOT%
+echo %LOT%
 goto :EOF
 )
 set lot=%1

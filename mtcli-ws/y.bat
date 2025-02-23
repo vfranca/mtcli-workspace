@@ -4,7 +4,7 @@ rem marcações
 rem year
 call mtcli
 if "%1" == "" (
-echo A %Y%
+echo %Y%
 goto :EOF
 )
 set y=%1

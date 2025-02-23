@@ -4,7 +4,7 @@ rem marcações
 rem risco
 call mtcli
 if "%1" == "" (
-echo R %R%
+echo %R%
 goto :EOF
 )
 set r=%1

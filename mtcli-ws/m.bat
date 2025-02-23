@@ -4,7 +4,7 @@ rem marcações
 rem month
 call mtcli
 if "%1" == "" (
-echo M %M%
+echo %M%
 goto :EOF
 )
 set m=%1

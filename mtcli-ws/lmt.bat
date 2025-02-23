@@ -4,7 +4,7 @@ rem marcações
 rem limite do dia
 call mtcli
 if "%1" == "" (
-echo LIMITE %LMT%
+echo %LMT%
 goto :EOF
 )
 set LMT=%1

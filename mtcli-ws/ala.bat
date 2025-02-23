@@ -4,7 +4,7 @@ rem marcações
 rem alavancagem
 call mtcli
 if "%1" == "" (
-echo ALAVAN %ALA%
+echo %ALA%
 goto :EOF
 )
 set ala=%1
