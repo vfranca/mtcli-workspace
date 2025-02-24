@@ -1,5 +1,5 @@
 @echo off
-call s BITF25 0
+call s BITG25 0
 call ala 320
 call tam 0.1
 call lot 1
