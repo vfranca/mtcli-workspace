@@ -4,7 +4,7 @@ rem marcações
 rem fechamento de ontem
 call mtcli
 if "%1" == "" (
-echo FECH ONT %coy%
+echo %coy%
 goto :EOF
 )
 set coy=%1

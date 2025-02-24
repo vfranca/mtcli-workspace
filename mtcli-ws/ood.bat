@@ -3,7 +3,7 @@ rem mtcli
 rem marcações
 rem abertura do dia
 if "%1" == "" (
-echo ABERT DIA %ood%
+echo %ood%
 goto :EOF
 )
 set ood=%1

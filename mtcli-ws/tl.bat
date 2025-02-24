@@ -4,7 +4,7 @@ rem marcações
 rem Trend line
 call mtcli
 if "%1" == "" (
-echo L TEND  %TL%
+echo %TL%
 goto :EOF
 )
 set tl=%1
