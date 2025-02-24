@@ -1,7 +1,7 @@
 @echo off
 if "%1" == "" (
 set dte=%Y%.%M%.%I%
-echo DATA %Y%.%M%.%I%
+echo %Y%.%M%.%I%
 goto :EOF
 )
 call y%1

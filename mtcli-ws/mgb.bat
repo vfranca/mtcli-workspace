@@ -3,7 +3,7 @@ rem mtcli
 rem marcações
 rem magnetic below
 if "%1" == "" (
-echo MAG ABAIXO %MGB%
+echo %MGB%
 goto :EOF
 )
 set mgb=%1

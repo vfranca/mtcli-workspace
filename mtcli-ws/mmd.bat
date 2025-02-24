@@ -3,7 +3,7 @@ rem mtcli
 rem marcações
 rem measured movie down
 if "%1" == "" (
-echo MOV PROJ ABAIXO %MMd%
+echo %MMd%
 goto :EOF
 )
 set mmd=%1
