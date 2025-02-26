@@ -1,7 +1,7 @@
 @echo off
 call s SPX500P 0
 call ala 1000
-call tam  1
+call tam  10
 call lot 0.5
 call r 8
 call rr 3
