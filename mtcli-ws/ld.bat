@@ -1,5 +1,5 @@
 @echo off
-set fname=%SYMBOL%.bat
+set fname=tmp\%SYMBOL%.bat
 if exist %fname% (
 call %fname%
 echo as marcacoes foram carregadas de %fname%

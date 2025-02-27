@@ -1,5 +1,5 @@
 @echo off
-set fname=%SYMBOL%.bat
+set fname=tmp\%SYMBOL%.bat
 echo @echo off>%fname%
 echo set coy=%COY% >>%fname%
 echo set ood=%OOD% >>%fname%
