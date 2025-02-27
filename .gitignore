@@ -30,3 +30,16 @@ __pycache__/*
 dist/
 /*.zip
 /*.rar
+
+#pasta mtcli
+# graficos txt
+ex/*
+tx/*
+# binários
+*.exe
+*/BIN/ml/
+*/BIN/cur/
+*/BIN/pa/
+*/BIN/op/
+*/BIN/mtcli/
+
