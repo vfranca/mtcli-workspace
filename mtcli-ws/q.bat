@@ -4,7 +4,7 @@ rem marcações
 rem count
 call mtcli
 if "%1" == "" (
-echo BARRAS %COUNT%
+echo %COUNT%
 goto :EOF
 )
 set COUNT=%1

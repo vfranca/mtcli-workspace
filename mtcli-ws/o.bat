@@ -1,8 +1,6 @@
 @echo off
-rem pasta mtcli
-rem Copyright 2021-2023 Valmir França da Silva
-rem https://github.com/vfranca/
-rem variação percentual da barra corrente
+rem mtcli
+rem variação percentual da barra atual
 if "%1" == "" (
 set period1=%PERIOD%
 ) else (
