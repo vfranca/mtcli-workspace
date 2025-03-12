@@ -19,7 +19,7 @@ if not defined lmt set lmt=-3
 if not defined sld set sld=0
 
 if not defined i set i=01
-if not defined m set m=02
+if not defined m set m=03
 if not defined y set y=2025
 if not defined intraday set intraday=""
 
