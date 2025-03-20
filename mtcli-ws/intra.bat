@@ -20,9 +20,9 @@ goto :EOF
 
 :show
 if %intraday% == "" (
-echo intraday nao
+echo intraday desativado
 ) else (
-echo intraday sim
+echo intraday ativado
 )
 goto:EOF
 

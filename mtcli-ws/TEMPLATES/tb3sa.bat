@@ -1,5 +1,5 @@
 @echo off
-call s BBDC4 2
+call s B3SA3 2
 call lot 200
 call ala 125
 call r 0.05
