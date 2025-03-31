@@ -5,7 +5,8 @@ rem echo %Y%-%M%-%I%
 echo %DAY%
 goto :EOF
 )
-call y %1
-call m %2
-call i %3
-set day=%y%-%m%-%i%
+rem call y %1
+rem call m %2
+rem call i %3
+rem set day=%Y%-%M%-%I%
+set day=%1-%2-%3

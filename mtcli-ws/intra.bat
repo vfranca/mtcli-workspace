@@ -11,8 +11,7 @@ if /i "%1" == "off" goto :deactivate
 if %1 == 0 goto :deactivate
 
 :activate
-rem set intraday=%Y%-%M%-%I%
-call day %Y%-%M%-%I%
+call day %Y% %M% %I%
 goto :EOF
 
 :deactivate

@@ -8,4 +8,4 @@ echo %I%
 goto :EOF
 )
 set i=%1
-rem call intra on
+call day %Y% %M% %1
