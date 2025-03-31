@@ -1,10 +1,10 @@
 @echo off
 if "%1" == "" (
-set dte=%Y%.%M%.%I%
-echo %Y%.%M%.%I%
+set dte=%Y%-%M%-%I%
+echo %Y%-%M%-%I%
 goto :EOF
 )
 call y%1
 call m %2
 call i %3
-set dte=%y%.%m%.%i%
+set dte=%y%-%m%-%i%
