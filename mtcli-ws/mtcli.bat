@@ -21,7 +21,7 @@ if not defined sld set sld=0
 if not defined i set i=01
 if not defined m set m=03
 if not defined y set y=2025
-if not defined intraday set intraday=""
+if not defined day set day=
 
 set dir_txt=GRAFICOS\TX\%SYMBOL%
 set dir_exp=GRAFICOS\EX\%SYMBOL%
