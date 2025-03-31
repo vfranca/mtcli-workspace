@@ -4,6 +4,6 @@ call s
 echo periodo
 call p
 echo data
-call dte
+call day
 call intra
 call n

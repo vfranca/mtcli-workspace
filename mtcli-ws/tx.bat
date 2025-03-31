@@ -15,5 +15,5 @@ if not exist %dir_txt% (
 mkdir %dir_txt%
 )
 rem exporta os arquivos
-call mt bars %SYMBOL% --period %PERIOD% --view %VIEW% --count %COUNT% --date %Y%.%M%.%I% %SD% %N% > %DIR_TXT%\%FILE_txt%
+call mt bars %SYMBOL% --period %PERIOD% --view %VIEW% --count %COUNT% --date %DAY% %SD% %N% > %DIR_TXT%\%FILE_txt%
 start %DIR_TXT%\%FILE_TXT%

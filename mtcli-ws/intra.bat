@@ -11,15 +11,16 @@ if /i "%1" == "off" goto :deactivate
 if %1 == 0 goto :deactivate
 
 :activate
-set intraday=%Y%-%M%-%I%
+rem set intraday=%Y%-%M%-%I%
+call day %Y%-%M%-%I%
 goto :EOF
 
 :deactivate
-set intraday=""
+set day=
 goto :EOF
 
 :show
-if %intraday% == "" (
+if not defined day (
 echo intraday desativado
 ) else (
 echo intraday ativado

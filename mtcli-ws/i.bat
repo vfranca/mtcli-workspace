@@ -8,4 +8,4 @@ echo %I%
 goto :EOF
 )
 set i=%1
-call intra on
+rem call intra on

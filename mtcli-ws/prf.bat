@@ -8,7 +8,7 @@ call d
 echo periodo
 call p
 echo data
-call dte
+call day
 call intra
 echo exibicao
 call w
