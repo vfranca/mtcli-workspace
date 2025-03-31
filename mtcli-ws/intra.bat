@@ -15,7 +15,7 @@ call day %Y% %M% %I%
 goto :EOF
 
 :deactivate
-set day=
+set day=""
 goto :EOF
 
 :show
