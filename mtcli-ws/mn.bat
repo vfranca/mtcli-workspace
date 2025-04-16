@@ -6,4 +6,4 @@ set per=%PERIOD%
 ) else (
 set per=%1
 )
-mt bars %SYMBOL% --view l --period %per% --count 1
+mt bars %SYMBOL% --view l --period %per% --count 2

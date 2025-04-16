@@ -19,7 +19,7 @@ set day=""
 goto :EOF
 
 :show
-if not defined day (
+if %day% == "" (
 echo intraday desativado
 ) else (
 echo intraday ativado
