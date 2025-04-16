@@ -1,0 +1,1 @@
+@copy at\*.bat
