@@ -1,6 +1,9 @@
 @echo off
 rem GABARITO DE PRICE ACTION
-set gabarito=GABARITO.txt
+if not exist GB (
+mkdir GB
+)
+set gabarito=GB\GABARITO-%Y%-%M%-%I%.txt
 if "%1" == "0" (
 echo GABARITO %SYMBOL% %I% %M% %Y%>%gabarito%
 goto :EOF
