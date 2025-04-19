@@ -12,4 +12,4 @@ if "%1" == "" (
 type %gabarito%
 goto :EOF
 )
-echo %*>>%gabarito%
+echo "%*" >>%gabarito%
