@@ -1,12 +1,16 @@
 @echo off
 rem mtcli
 if "%1" == "" (
+call w ch
+) else (
+call w %1
+)
+if "%2" == "" (
 call q 500
-call :grafico
 ) else (
 call q %1
-call :grafico
 )
+call :grafico
 call term
 goto :EOF
 

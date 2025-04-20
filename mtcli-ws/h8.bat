@@ -2,6 +2,6 @@
 rem mtcli
 rem gráfico
 call mtcli
-call p M6
-call w r
+call p H8
+call w ch
 call bar %*
