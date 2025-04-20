@@ -8,7 +8,7 @@ call w %1
 if "%2" == "" (
 call q 500
 ) else (
-call q %1
+call q %2
 )
 call :grafico
 call term

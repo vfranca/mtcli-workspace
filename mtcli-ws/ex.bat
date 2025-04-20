@@ -10,7 +10,7 @@ mkdir %DIR_EXP%
 )
 rem gera o arquivo de exportacao
 if "%1" == "" (
-call %PERIOD% 20 > %DIR_EXP%\%FILE_EXP%.txt
+call %PERIOD% ch 20 > %DIR_EXP%\%FILE_EXP%.txt
 ) else (
 call %* > %DIR_EXP%\%FILE_EXP%.txt
 )
