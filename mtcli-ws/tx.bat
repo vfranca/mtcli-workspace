@@ -5,6 +5,7 @@ call mtcli
 rem define view
 call w ch
 if /i "%1" == "f" (call w f)
+if /i "%1" == "i" (call w i)
 if /i "%1" == "r" (call w r)
 rem define count
 call q 678
