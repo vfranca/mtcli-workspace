@@ -3,5 +3,5 @@ rem mtcli
 rem gráfico
 call _bar
 call p MN1
-call w var
+call w va
 call bar %*
