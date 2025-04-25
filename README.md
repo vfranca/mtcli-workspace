@@ -7,17 +7,17 @@
   
 atalho | descrição | exemplo
 :----- | :------ | :-----
-m1 - m30, h1 - h4, d1, w1, mn1 | gráfico mínimo de 1 min ao mensal | m5 = mt bars winj24 -p m5 -v ch
-mm1 - mm30, hh1 - hh4, dd1, ww1, mmn1 | gráfico completo de 1 min ao mensal | mm5 = mt bars winj24 -p m5 
-m1r - m30r, h1r - h4r, d1r, w1r, mn1r | gráfico de ranges de 1 min ao mensal | m5r = mt bars winj24 -p m5 -v r
+m1 - m30, h1 - h4, h6, h8 h12, d1, w1, mn1 | gráfico mínimo | m5 = mt bars winj24 -p m5 -v ch
+mm1 - mm30, hh1 - hh4, hh6, hh8, hh12, dd1, ww1, mmn1 | gráfico completo | mm5 = mt bars winj24 -p m5 -v f 
+m1r - m30r, h1r - h4r, h6r, h8r, h12r , d1r, w1r, mn1r | gráfico de ranges | m5r = mt bars winj24 -p m5 -v r
 mm | média móvel simples de 20 períodos | mm = mt mm winj24 -p m5 -c 20
-rm | range médio de 14 períodos | rm = mt rm winj24 -p m5
+rm | range médio de 10 períodos | rm = mt rm winj24 -p m5
 
 ## marcações
 
 marcação | descrição
 :----: | :----:
-s| symbol
+s| ativo
 d | digitos
 p | período
 i | dia
@@ -36,25 +36,14 @@ pk | pullback
 
 ## comandos extras
 
-Instale os pacotes python com os comandos abaixo:  
-
-```CMD
-pip install pa-trading  
-pip install gr-trading  
-pip install x-trading  
-```
-
 comando | descrição 
 :---- | :------
 ls | exibe preço da linha superior de canal
 li | exibe preço da linha inferior de canal
 ln | exibe preço de linha de canal
-pb | exibe recuos de 33%, 50% e de 66%
-pba | exibe recuos de alta de 33%, 50% e de 66%
-pbb | exibe recuos de 33%, 50% e de 66%
-p2  | exibe movimento projetado de perna 1 = perna 2
-p2a  | exibe movimento projetado de alta de perna 1 = perna 2
-p2b  | exibe movimento projetado de baixa de perna 1 = perna 2
+bo | exibe recuos de 33%, 50% e de 66%
+ra | exibe recuos de alta de 33%, 50% e de 66%
+rb | exibe recuos de 33%, 50% e de 66%
 tr | exibe preços de uma lateralidade
 trx | exibe preços de uma lateralidade
 
