@@ -17,18 +17,21 @@ outros recursos extras para operações de day trade.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">m1 - m30, h1 - h4, d1, w1, mn1</td>
-<td style="text-align: left;">gráfico mínimo de 1 min ao mensal</td>
+<td style="text-align: left;">m1 - m30, h1 - h4, h6, h8 h12, d1, w1,
+mn1</td>
+<td style="text-align: left;">gráfico mínimo</td>
 <td style="text-align: left;">m5 = mt bars winj24 -p m5 -v ch</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">mm1 - mm30, hh1 - hh4, dd1, ww1, mmn1</td>
-<td style="text-align: left;">gráfico completo de 1 min ao mensal</td>
-<td style="text-align: left;">mm5 = mt bars winj24 -p m5</td>
+<td style="text-align: left;">mm1 - mm30, hh1 - hh4, hh6, hh8, hh12,
+dd1, ww1, mmn1</td>
+<td style="text-align: left;">gráfico completo</td>
+<td style="text-align: left;">mm5 = mt bars winj24 -p m5 -v f</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">m1r - m30r, h1r - h4r, d1r, w1r, mn1r</td>
-<td style="text-align: left;">gráfico de ranges de 1 min ao mensal</td>
+<td style="text-align: left;">m1r - m30r, h1r - h4r, h6r, h8r, h12r ,
+d1r, w1r, mn1r</td>
+<td style="text-align: left;">gráfico de ranges</td>
 <td style="text-align: left;">m5r = mt bars winj24 -p m5 -v r</td>
 </tr>
 <tr class="even">
@@ -38,7 +41,7 @@ outros recursos extras para operações de day trade.</p>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">rm</td>
-<td style="text-align: left;">range médio de 14 períodos</td>
+<td style="text-align: left;">range médio de 10 períodos</td>
 <td style="text-align: left;">rm = mt rm winj24 -p m5</td>
 </tr>
 </tbody>
@@ -54,7 +57,7 @@ outros recursos extras para operações de day trade.</p>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">s</td>
-<td style="text-align: center;">symbol</td>
+<td style="text-align: center;">ativo</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">d</td>
@@ -115,11 +118,6 @@ outros recursos extras para operações de day trade.</p>
 </tbody>
 </table>
 <h2 id="comandos-extras">comandos extras</h2>
-<p>Instale os pacotes python com os comandos abaixo:</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode cmd"><code class="sourceCode dosbat"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install pa<span class="at">-trading</span>  </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pip install gr<span class="at">-trading</span>  </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>pip install x<span class="at">-trading</span>  </span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -143,38 +141,23 @@ canal</td>
 <td style="text-align: left;">exibe preço de linha de canal</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">pb</td>
+<td style="text-align: left;">bo</td>
 <td style="text-align: left;">exibe recuos de 33%, 50% e de 66%</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">pba</td>
+<td style="text-align: left;">ra</td>
 <td style="text-align: left;">exibe recuos de alta de 33%, 50% e de
 66%</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">pbb</td>
+<td style="text-align: left;">rb</td>
 <td style="text-align: left;">exibe recuos de 33%, 50% e de 66%</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">p2</td>
-<td style="text-align: left;">exibe movimento projetado de perna 1 =
-perna 2</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">p2a</td>
-<td style="text-align: left;">exibe movimento projetado de alta de perna
-1 = perna 2</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">p2b</td>
-<td style="text-align: left;">exibe movimento projetado de baixa de
-perna 1 = perna 2</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">tr</td>
 <td style="text-align: left;">exibe preços de uma lateralidade</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">trx</td>
 <td style="text-align: left;">exibe preços de uma lateralidade</td>
 </tr>
