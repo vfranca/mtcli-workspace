@@ -1,0 +1,1 @@
+@op h --barra-inicial 1 --horario-abertura 9 %1
