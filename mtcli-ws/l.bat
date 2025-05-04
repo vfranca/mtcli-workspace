@@ -7,3 +7,4 @@ echo %L%
 goto :EOF
 )
 set l=%1
+call sv /q

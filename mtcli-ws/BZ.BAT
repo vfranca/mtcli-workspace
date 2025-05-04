@@ -7,3 +7,4 @@ echo %BZ%
 goto :EOF
 )
 set bZ=%1
+call sv /q

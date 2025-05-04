@@ -8,3 +8,4 @@ echo %loy%
 goto :EOF
 )
 set loy=%1
+call sv /q

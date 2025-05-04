@@ -7,3 +7,4 @@ echo %SZ%
 goto :EOF
 )
 set SZ=%1
+call sv /q

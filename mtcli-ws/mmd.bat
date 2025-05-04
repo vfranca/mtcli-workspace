@@ -7,3 +7,4 @@ echo %MMd%
 goto :EOF
 )
 set mmd=%1
+call sv /q

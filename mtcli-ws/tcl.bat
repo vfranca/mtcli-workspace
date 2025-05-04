@@ -8,3 +8,4 @@ echo %TCL%
 goto :EOF
 )
 set tcl=%1
+call sv /q

@@ -8,3 +8,4 @@ echo %SLD%
 goto :EOF
 )
 set SLD=%1
+call sv /q

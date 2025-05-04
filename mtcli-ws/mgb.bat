@@ -7,3 +7,4 @@ echo %MGB%
 goto :EOF
 )
 set mgb=%1
+call sv /q

@@ -7,3 +7,4 @@ echo %ood%
 goto :EOF
 )
 set ood=%1
+call sv /q

@@ -7,3 +7,4 @@ echo %MMU%
 goto :EOF
 )
 set mmu=%1
+call sv /q

@@ -8,3 +8,4 @@ echo %TL%
 goto :EOF
 )
 set tl=%1
+call sv /q

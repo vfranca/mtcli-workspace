@@ -7,3 +7,4 @@ echo %TG%
 goto :EOF
 )
 set TG=%1
+call sv /q

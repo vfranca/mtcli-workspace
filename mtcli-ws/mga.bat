@@ -7,3 +7,4 @@ echo %MGA%
 goto :EOF
 )
 set mga=%1
+call sv /q

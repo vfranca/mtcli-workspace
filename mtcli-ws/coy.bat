@@ -8,3 +8,4 @@ echo %coy%
 goto :EOF
 )
 set coy=%1
+call sv /q

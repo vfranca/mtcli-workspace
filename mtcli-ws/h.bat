@@ -8,3 +8,4 @@ echo %H%
 goto :EOF
 )
 set h=%1
+call sv /q
