@@ -6,6 +6,7 @@ rem define view
 call w ch
 if /i "%1" == "f" (call w f)
 if /i "%1" == "r" (call w r)
+if /i "%1" == "v" (call w v)
 rem define count
 call q 678
 rem define nome do arquivo
