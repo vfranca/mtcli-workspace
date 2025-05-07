@@ -8,3 +8,4 @@ echo %MTA%
 goto :EOF
 )
 set MTA=%1
+call sv /q

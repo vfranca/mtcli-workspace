@@ -8,4 +8,3 @@ echo %hoy%
 goto :EOF
 )
 set hoy=%1
-call sv /q

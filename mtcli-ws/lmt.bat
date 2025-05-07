@@ -8,3 +8,4 @@ echo %LMT%
 goto :EOF
 )
 set LMT=%1
+call sv /q
