@@ -1,13 +1,10 @@
 @echo off
-rem Copyright 2023 Valmir França da Silva
-rem https://github.com/vfranca
-rem
-rem variáveis de ambiente
-rem preço 2
-rem
+rem mtcli
+rem marcacoes
+rem preco 2
+call mtcli
 if "%1" == "" (
 echo %E2%
-goto :EOF
-)
-rem
+) else (
 set e2=%1
+)
