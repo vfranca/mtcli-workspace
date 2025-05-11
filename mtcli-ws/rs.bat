@@ -1,7 +1,7 @@
 @echo off
 rem mtcli
 rem reset
-if not "%i" == "" (
+if not "%1" == "" (
 set %1=
 ) else (
 set coy=
@@ -35,6 +35,4 @@ rem set ala=
 rem set sld=
 rem set lmt=
 rem set mta=
-
-call px 0
 )
