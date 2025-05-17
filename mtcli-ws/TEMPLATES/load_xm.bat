@@ -1,0 +1,1 @@
+@copy xm\*.bat
