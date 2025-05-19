@@ -14,4 +14,4 @@ goto :venda
 goto :eof
 
 :venda
-op e %1 --risco %SP% --retorno %RR% --venda
+op e %1 --risco %R% --retorno %RR% --venda

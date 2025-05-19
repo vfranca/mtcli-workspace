@@ -4,7 +4,7 @@ rem marcações
 rem spread 
 call mtcli
 if "%1" == "" (
-echo SPREAD %SPD%
+echo %SPD%
 goto :EOF
 )
 set spd=%1
