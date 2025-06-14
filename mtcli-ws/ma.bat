@@ -1,7 +1,7 @@
 @echo off
 rem mtcli
 rem media movel
-rem Exibe uma média de n barras
+call mtcli
 if not "%1" == "" (
 set q=%1
 ) else (
@@ -14,7 +14,7 @@ goto :time
 )
 
 
-mt ma %SYMBOL% --period %PERIOD% --count %q% --date %Y%-%M%-%I%
+mt ma %SYMBOL% --period %PERIOD% --count %q% --date %Y%-%M%-%I% --time %hr%
 goto :EOF
 
 :time

@@ -3,7 +3,7 @@ rem mtcli
 rem atalhos de comando
 rem volume tick médio  
 if "%1" == "" (
-set count=10
+set count=5
 ) else (
 set count=%1
 )

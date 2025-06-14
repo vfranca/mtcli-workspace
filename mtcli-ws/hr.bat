@@ -1,11 +1,10 @@
 @echo off
 rem mtcli
 rem marcações
-rem dia
+rem hora
 call mtcli
 if "%1" == "" (
-echo %I%
+echo %HR%
 goto :EOF
 )
-set i=%1
-call day %Y% %M% %1
+set hr=%1
