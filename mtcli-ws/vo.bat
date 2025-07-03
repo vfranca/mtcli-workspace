@@ -1,11 +1,10 @@
 @echo off
 rem mtcli
-rem atalhos de comando
-rem volume tick médio  
+rem marcações
+rem volume
+rem
 if "%1" == "" (
-set count=5
-) else (
-set count=%1
+echo %VOLUME%
+goto :EOF
 )
-
-mt vm %SYMBOL% --period %PERIOD% --type %VOLUME% --count %count%
+set volume=%1
