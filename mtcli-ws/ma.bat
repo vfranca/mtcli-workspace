@@ -14,7 +14,12 @@ goto :time
 )
 
 
+if defined hr (
 mt ma %SYMBOL% --period %PERIOD% --count %q% --date %Y%-%M%-%I% --time %hr%
+) else (
+mt ma %SYMBOL% --period %PERIOD% --count %q% --date %Y%-%M%-%I%
+)
+
 goto :EOF
 
 :time
