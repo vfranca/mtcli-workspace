@@ -43,6 +43,7 @@ echo set tam=%TAM% >>%fname%
 echo set ala=%ALA% >>%fname%
 echo set swc=%SWC% >>%fname%
 echo set swv=%SWV% >>%fname%
+echo set aj=%AJ% >>%fname%
 
 if /i not "%1" == "/q" (
 echo as marcacoes foram salvas em %fname%
