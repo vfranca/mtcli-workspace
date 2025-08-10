@@ -2,16 +2,16 @@
 rem mtcli
 rem ativa o numerador de barras
 if "%1" == "1" (
-set n=-n
+set num=-n
 echo numerador ativado
 goto :EOF
 )
 if "%1" == "0" (
-set n=
+set num=
 echo numerador desativado
 goto :EOF
 )
-if defined n (
+if defined num (
 echo numerador ativado
 ) else (
 echo numerador desativado
