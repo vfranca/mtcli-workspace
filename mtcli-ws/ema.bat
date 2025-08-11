@@ -1,4 +1,3 @@
-
 @echo off
 if "%1" == "" (
 set periodos=20
