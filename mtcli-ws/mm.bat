@@ -15,4 +15,4 @@ goto :media
 if "%1" == "" (
 rem mt mm %SYMBOL% --period %PERIOD% --count 5
 )
-mt mm %SYMBOL% --period %PERIOD% --count %count%
+mt mm %SYMBOL% --period %PERIOD% --periodos %count%
