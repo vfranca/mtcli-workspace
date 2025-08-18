@@ -1,18 +1,14 @@
 @echo off
-rem pasta mtcli
-rem Copyright 2021-2023 Valmir França da Silva
-rem https://github.com/vfranca/
-rem média móvel
-rem mt bars %SYMBOL% --period %PERIOD% --view c --count 1
-if "%1" == "" (
-set count=20
-goto :media
+rem define a quantidade de períodos default 20
+if not "%1" == "" (
+set periodos=%1
+) else (
+set periodos=20
 )
-set count=%1
-goto :media
-
-:media
-if "%1" == "" (
-rem mt mm %SYMBOL% --period %PERIOD% --count 5
+rem define o tipo da média default ema
+if not "%2" == "" (
+set tipo=%2
+) else (
+set tipo=ema
 )
-mt mm %SYMBOL% --period %PERIOD% --periodos %count%
+mt mm %SYMBOL% --period %PERIOD% --periodos %periodos% --tipo %tipo%

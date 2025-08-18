@@ -1,13 +1,9 @@
 @echo off
-rem mtcli
-rem atalhos de comando
-rem average range
-if "%1" == "" (
-set count=10
-goto :range
+rem define o período
+if not "%1" == "" (
+set periodos=%1
+) else (
+set periodos=5
 )
-set count=%1
-goto :range
+mt rm %SYMBOL% --period %PERIOD% --periodos %periodos%
 
-:range
-mt rm %SYMBOL% --period %PERIOD% --count %count%

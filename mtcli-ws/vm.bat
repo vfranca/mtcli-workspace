@@ -8,4 +8,4 @@ set count=5
 set count=%1
 )
 
-mt vm %SYMBOL% --period %PERIOD% --type tick --count %count%
+mt vm %SYMBOL% --period %PERIOD% --tipo %VOLUME% --periodos %count%
