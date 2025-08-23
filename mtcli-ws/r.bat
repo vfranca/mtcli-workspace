@@ -8,3 +8,4 @@ echo %R%
 goto :EOF
 )
 set r=%1
+set sl=%1

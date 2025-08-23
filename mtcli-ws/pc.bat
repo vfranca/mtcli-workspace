@@ -1,10 +1,9 @@
 @echo off
 rem mtcli
 rem marcações
-rem stop loss
+rem preço de compra
 if "%1" == "" (
-echo %SL%
+echo %PC%
 goto :EOF
 )
-set SL=%1
-set r=%1
+set pc=%1

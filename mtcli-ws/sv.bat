@@ -31,7 +31,10 @@ echo set tcl=%TCL% >>%fname%
 
 echo set tg=%TG% >>%fname%
 echo set sl=%SL% >>%fname%
+echo set tp=%TP% >>%fname%
 echo set e=%E% >>%fname%
+echo set pc=%PC% >>%fname%
+echo set pv=%PV% >>%fname%
 
 echo set sld=%SLD% >>%fname%
 echo set mta=%MTA% >>%fname%
