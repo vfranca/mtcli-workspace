@@ -1,5 +1,5 @@
 @echo off
-call s GER40 0
+call s Ger40 0
 call p M5
 call ala 200
 call tam 1

@@ -1,0 +1,1 @@
+@mt macd -s %symbol% --dias 1 --period 5

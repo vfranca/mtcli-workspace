@@ -1,4 +1,1 @@
-@echo off
-rem mtcli
-rem calcula linha de baixa
-@call ln %T1% %T2%
+@mt pa ln %T1% %T2%

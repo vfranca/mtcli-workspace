@@ -1,1 +1,1 @@
-@mt trade zera
+@mt trade zera --symbol %symbol%

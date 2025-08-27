@@ -1,5 +1,5 @@
 @echo off
-call s EURO50 0
+call s Euro50 0
 call p M5
 call ala 200
 call tam 1

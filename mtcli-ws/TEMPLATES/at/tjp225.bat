@@ -1,5 +1,5 @@
 @echo off
-call s JP225 0
+call s Jp225 0
 call ala 200
 call tam 5
 call lot 0.05

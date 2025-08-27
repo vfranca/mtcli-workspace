@@ -1,7 +1,7 @@
 @echo off
-if not "%1" == "%1" (
+if not "%1" == "" (
 set preco=%1
 ) else (
 set preco=%pc%
 )
-mt trade compra -s %symbol% -l %lot% -sl %sl% -tp %tp% --preco %preco% --pendente
+mt trade buy --symbol %symbol% --lot %lot% -sl %sl% -tp %tp% --preco %preco% --limit

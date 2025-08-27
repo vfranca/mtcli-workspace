@@ -1,5 +1,5 @@
 @echo off
-call s USA500 0
+call s Usa500 0
 call p M5
 call ala 200
 call tam  1

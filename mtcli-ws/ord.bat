@@ -1,1 +1,1 @@
-@mt trade ordens
+@mt trade orders --symbol %symbol%

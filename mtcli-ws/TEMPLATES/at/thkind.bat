@@ -1,5 +1,5 @@
 @echo off
-call s HKIND 0
+call s HKInd 0
 call ala 100
 call tam 1
 call lot 0.1

@@ -1,5 +1,5 @@
 @echo off
-call s BRA50 0
+call s Bra50 0
 call ala 200
 call tam 0.2
 call lot 0.05

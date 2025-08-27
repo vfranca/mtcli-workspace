@@ -1,1 +1,1 @@
-@mt trade posicoes
+@mt trade pos --symbol %symbol%

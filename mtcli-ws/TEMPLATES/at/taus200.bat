@@ -1,5 +1,5 @@
 @echo off
-call s AUS200 0
+call s Aus200 0
 call p M5
 call ala 200
 call tam 1
