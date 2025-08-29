@@ -1,0 +1,1 @@
+@mt pp --symbol %symbol%
