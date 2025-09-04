@@ -1,1 +1,1 @@
-@mt pa tr %H% %L%
+@mt pa tr %*

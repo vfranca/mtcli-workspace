@@ -9,4 +9,7 @@ echo tp
 call tp
 echo volume
 call lot
+echo risco
+call rx
+
 
