@@ -1,1 +1,1 @@
-@date /t
+@mt trade zera --symbol %symbol%

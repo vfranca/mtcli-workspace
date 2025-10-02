@@ -1,7 +1,7 @@
 @echo off
 rem mtcli
 if "%1" == "" (
-call q 20
+rem call q 999
 call :grafico
 ) else (
 call q %1

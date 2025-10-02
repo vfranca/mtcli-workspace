@@ -1,1 +1,1 @@
-@mt atr --symbol %symbol% --timeframe %period% --periodo 5
+@mt atr --symbol %symbol% --period %period% --bars 5

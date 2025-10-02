@@ -4,7 +4,7 @@ if not defined symbol set symbol=IBOV
 if not defined digitos set digitos=0
 if not defined period set period=D1
 if not defined view set view=ch
-if not defined count set count=20
+if not defined count set count=500
 
 if not defined moeda set moeda=BRL
 if not defined ala set ala=1

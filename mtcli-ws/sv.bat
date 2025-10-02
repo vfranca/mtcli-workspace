@@ -47,6 +47,10 @@ echo set ala=%ALA% >>%fname%
 echo set swc=%SWC% >>%fname%
 echo set swv=%SWV% >>%fname%
 echo set aj=%AJ% >>%fname%
+echo set step=%STEP% >>%fname%
+echo set vah=%VAH% >>%fname%
+echo set val=%VAL% >>%fname%
+echo set poc=%POC% >>%fname%
 
 if /i not "%1" == "/q" (
 echo as marcacoes foram salvas em %fname%
