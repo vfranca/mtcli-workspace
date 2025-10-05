@@ -1,1 +1,1 @@
-@mt risco trades --total
+@mt trades --total

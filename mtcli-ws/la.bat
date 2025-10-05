@@ -1,1 +1,1 @@
-@mt risco trades --aberto
+@mt trades --aberto

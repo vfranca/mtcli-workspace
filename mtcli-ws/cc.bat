@@ -1,1 +1,1 @@
-@mt trade buy --symbol %symbol% --lot %lot% -sl %sl% -tp %tp%
+@mt buy --symbol %symbol% --lot %lot% -sl %sl% -tp %tp%

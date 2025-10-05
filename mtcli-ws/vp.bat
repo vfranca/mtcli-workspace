@@ -1,5 +1,6 @@
 @echo off
-rem mtcli
-rem calcula variações percentuais
-call mtcli
-call %DIR_BIN%\vp %*
+if "%1" == "" (
+mt volume
+) else (
+mt volume -p %1 %2
+)
