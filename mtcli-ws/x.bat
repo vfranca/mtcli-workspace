@@ -1,1 +1,1 @@
-@mt trade cancel --symbol %symbol%
+@mt cancel --symbol %symbol%

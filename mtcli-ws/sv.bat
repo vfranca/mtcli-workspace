@@ -51,6 +51,9 @@ echo set step=%STEP% >>%fname%
 echo set vah=%VAH% >>%fname%
 echo set val=%VAL% >>%fname%
 echo set poc=%POC% >>%fname%
+echo set block=%BLOCK% >>%fname%
+echo set by=%BY% >>%fname%
+
 
 if /i not "%1" == "/q" (
 echo as marcacoes foram salvas em %fname%

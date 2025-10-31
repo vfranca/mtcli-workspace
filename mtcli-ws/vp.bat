@@ -1,6 +1,6 @@
 @echo off
-if "%1" == "" (
-mt volume
+if not "%1" == "" (
+@mt volume --period M1 --bars %1
 ) else (
-mt volume -p %1 %2
+@mt volume --period M1 --bars 566
 )
