@@ -5,6 +5,7 @@ if not defined digitos set digitos=0
 if not defined period set period=D1
 if not defined view set view=ch
 if not defined count set count=500
+if not defined volume set volume=tick
 
 if not defined moeda set moeda=BRL
 if not defined ala set ala=1
@@ -23,7 +24,7 @@ if not defined m set m=04
 if not defined y set y=2025
 if not defined day set day=""
 
-set dir_txt=GRAFICOS\TX\%SYMBOL%
-set dir_exp=GRAFICOS\EX\%SYMBOL%
+set dir_txt=%appdata%\mtcli\TX\%SYMBOL%
+set dir_exp=%appdata%\mtcli\EX\%SYMBOL%
 set dir_tpl=TEMPLATES
 set dir_bin=bin

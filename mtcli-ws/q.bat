@@ -8,3 +8,4 @@ echo %COUNT%
 goto :EOF
 )
 set COUNT=%1
+set periodos=%1

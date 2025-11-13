@@ -1,6 +1,6 @@
 @echo off
 if not "%1" == "" (
-@mt volume --period M1 --bars %1
+@mt vp --period M1 --periodos %1
 ) else (
-@mt volume --period M1 --bars 566
+@mt vp --period M1 --periodos 566
 )

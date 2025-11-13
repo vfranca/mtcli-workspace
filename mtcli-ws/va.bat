@@ -1,0 +1,1 @@
+@bin\vp n %coy% -p 0.5 -n 6
