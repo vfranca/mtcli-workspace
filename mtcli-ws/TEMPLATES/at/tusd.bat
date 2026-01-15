@@ -1,5 +1,5 @@
 @echo off
-call s USDINDSEP23 2
+call s USDIndDec25 2
 call lot 0.01
 call ala 200
 call r 0.10

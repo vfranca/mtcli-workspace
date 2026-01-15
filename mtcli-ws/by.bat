@@ -1,8 +1,8 @@
 @echo off
-REM marcação by
-set cmd=%1
-if "%cmd%" == "" (
-	echo %by%
-) else (
-	set by=%cmd%
+rem mtcli marcações by do market profile
+rem
+if "%1" == "" (
+echo %BY%
+goto :EOF
 )
+set by=%1

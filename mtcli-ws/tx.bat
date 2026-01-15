@@ -8,7 +8,7 @@ if /i "%1" == "f" (call w f)
 if /i "%1" == "r" (call w r)
 if /i "%1" == "v" (call w v)
 rem define count
-call q 678
+rem call q 678
 rem define nome do arquivo
 set file_txt=%SYMBOL%-%PERIOD%-%M%-%I%-%VIEW%.txt
 rem cria a pasta dos arquivos

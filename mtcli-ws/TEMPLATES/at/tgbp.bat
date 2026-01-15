@@ -1,5 +1,5 @@
 @echo off
-call s gbpusd 4
+call s GBPUSD 4
 call ala 200
 call tam 100000
 call lot 0.01

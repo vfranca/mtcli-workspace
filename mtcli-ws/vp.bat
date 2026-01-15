@@ -1,6 +1,6 @@
 @echo off
 if not "%1" == "" (
-@mt vp --period M1 --periodos %1
+@mt vap --show-rest --period M1 --limit %1
 ) else (
-@mt vp --period M1 --periodos 566
+@mt vap --show-rest --period M1 --limit %LIMIT%
 )

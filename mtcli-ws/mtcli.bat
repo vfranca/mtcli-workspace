@@ -4,8 +4,10 @@ if not defined symbol set symbol=IBOV
 if not defined digitos set digitos=0
 if not defined period set period=D1
 if not defined view set view=ch
-if not defined count set count=500
+if not defined count set count=600
+if not defined limit set limit=600
 if not defined volume set volume=tick
+if not defined by set by=tick
 
 if not defined moeda set moeda=BRL
 if not defined ala set ala=1
@@ -15,6 +17,8 @@ if not defined lot set lot=1
 
 if not defined r set r=200
 if not defined rr set rr=3
+if not defined sl set sl=150
+if not defined tp set tp=1500
 if not defined mta set mta=9
 if not defined lmt set lmt=-3
 if not defined sld set sld=0

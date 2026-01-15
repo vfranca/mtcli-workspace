@@ -1,5 +1,5 @@
 @echo off
-call s gold 2
+call s GOLD 0
 call ala 200
 call tam 100
 call lot 0.05
