@@ -1,6 +1,6 @@
 @echo off
 if "%1" == "" (
-mt vwap -l %limit%
+mt vwp --limit 0 --anchor abertura
 ) else (
-mt vwap -l %1
+mt vwp --limit %1
 )

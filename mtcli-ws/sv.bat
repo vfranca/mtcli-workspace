@@ -61,6 +61,10 @@ echo set vwap=%vwap% >>%fname%
 echo set loss_limit=%loss_limit% >>%fname%
 echo set tick_size=%tick_size% >>%fname%
 echo set rows=%rows% >>%fname%
+echo set brick=%brick% >>%fname%
+echo set renko=%renko% >>%fname%
+echo set max_ticks=%max_ticks% >>%fname%
+echo set tick_style=%tick_style% >>%fname%
 
 if /i not "%1" == "/q" (
 echo as marcacoes foram salvas em %fname%

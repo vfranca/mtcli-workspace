@@ -6,4 +6,4 @@ set period1=%PERIOD%
 ) else (
 set period1=%1
 )
-mt bars %SYMBOL% --view r --period %period1% --count 1
+mt bars %SYMBOL% --view r --period %period1% --count 2

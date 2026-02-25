@@ -1,6 +1,6 @@
 @echo off
 if "%1" == "" (
-	echo %brick%
+	echo %bands%
 ) else (
-	set brick=%1
+	set bands=%1
 )

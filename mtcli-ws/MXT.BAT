@@ -1,6 +1,6 @@
 @echo off
 if "%1" == "" (
-	echo %brick%
+	echo %MAX_TICKS%
 ) else (
-	set brick=%1
+	set MAX_TICKS=%1
 )

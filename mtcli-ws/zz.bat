@@ -1,1 +1,2 @@
-@mt zera --symbol %symbol%
+@mt zera
+@mt cancel

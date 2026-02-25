@@ -1,6 +1,6 @@
 @echo off
 if "%1" == "" (
-	echo %TICK_SIZE%
+	echo %tick_style%
 ) else (
-	set tick_size=%1
+	set tick_style=%1
 )
