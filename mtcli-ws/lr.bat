@@ -1,1 +1,1 @@
-@mt risco trades --realizado
+@mt risco lucro --realizado

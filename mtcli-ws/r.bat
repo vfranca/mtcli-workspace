@@ -1,11 +1,10 @@
 @echo off
 rem mtcli
 rem marcações
-rem stop padrão
-call mtcli
+rem stop loss
 if "%1" == "" (
-echo %R%
+echo %SL%
 goto :EOF
 )
+set SL=%1
 set r=%1
-set sl=%1

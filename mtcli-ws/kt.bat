@@ -1,8 +1,14 @@
 @echo off
-set tf=%period%
+call mtcli
+
+set ancorar=--ancorar-abertura
+set numerar=
+set filename=renko-%brick%-%y%-%m%-%i%.txt
+
 if "%1" == "" (
-@mt renko --data-mode %renko% --ancorar-abertura --brick %brick% --timeframe %tf% --bars 0 > rk.txt
+@mt rk --data-mode %renko% %ancorar% %numerar% --brick %brick% --timeframe %period% > %dir_txt%\%filename%
 ) else (
-@mt renko --data-mode %renko% --ancorar-abertura --brick %brick% --timeframe %tf% --bars %1 > rk.txt
+@mt rk --data-mode %renko% %ancorar% %numerar% --brick %brick% --timeframe %period% --bars %1 > %dir_txt%\%filename%
 )
-start rk.txt
+
+start %dir_txt%\%filename%

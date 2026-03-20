@@ -1,1 +1,1 @@
-@mt risco trades --total
+@mt risco lucro --total

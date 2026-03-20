@@ -1,7 +1,8 @@
 @echo off
-set tf=%period%
+set ancorar=--ancorar-abertura
+set numerar=
 if "%1" == "" (
-@mt renko --data-mode %renko% --ancorar-abertura --brick %brick% --timeframe %tf% --bars 0
+@mt rk --data-mode %renko% %ancorar% --brick %brick% --timeframe %period% --bars 0 %numerar%
 ) else (
-@mt renko --data-mode %renko% --ancorar-abertura --brick %brick% --timeframe %tf% --bars %1
+@mt rk --data-mode %renko% %ancorar% --brick %brick% --timeframe %period% --bars %1 %numerar%
 )
