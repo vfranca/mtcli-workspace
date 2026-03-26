@@ -46,13 +46,15 @@ echo set tam=%TAM% >>%fname%
 echo set ala=%ALA% >>%fname%
 echo set swc=%SWC% >>%fname%
 echo set swv=%SWV% >>%fname%
-echo set aj=%AJ% >>%fname%
+echo set ajuste=%AJUSTE% >>%fname%
 echo set range=%range% >>%fname%
 echo set vah=%VAH% >>%fname%
 echo set val=%VAL% >>%fname%
 echo set ibh=%IBH% >>%fname%
 echo set ibl=%IBL% >>%fname%
 echo set poc=%POC% >>%fname%
+echo set poc-2=%POC-2% >>%fname%
+echo set poc-3=%POC-3% >>%fname%
 echo set block=%BLOCK% >>%fname%
 echo set ib=%IB% >>%fname%
 echo set periodos=%periodos% >>%fname%
@@ -62,10 +64,10 @@ echo set loss_limit=%loss_limit% >>%fname%
 echo set tick_size=%tick_size% >>%fname%
 echo set rows=%rows% >>%fname%
 echo set brick=%brick% >>%fname%
-echo set renko=%renko% >>%fname%
+echo set data_mode=%data_mode% >>%fname%
 echo set max_ticks=%max_ticks% >>%fname%
-echo set session_open=%session_open% >>%fname%
-echo set session_open_offset_seconds=%session_open_offset_seconds% >>%fname%
+rem echo set session_open=%session_open% >>%fname%
+rem echo set session_open_offset_seconds=%session_open_offset_seconds% >>%fname%
 
 if /i not "%1" == "/q" (
 echo as marcacoes foram salvas em %fname%

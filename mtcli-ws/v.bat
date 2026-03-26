@@ -1,17 +1,18 @@
 @echo off
 rem mtcli
 rem calcula uma venda
-if "%1" == "" (
-if defined e (
-goto :venda
-) else (
-echo entrada indefinida
-)
-) else (
-call e %1
-goto :venda
-)
-goto :eof
 
-:venda
-op e %1 --risco %R% --retorno %RR% --venda
+set "ENTRADA=%~1"
+
+if "%ENTRADA%"=="" (
+    if defined e (
+        set "ENTRADA=%e%"
+    ) else (
+        echo entrada indefinida
+        goto :eof
+    )
+) else (
+    call e %ENTRADA%
+)
+
+op e %ENTRADA% --risco %SL% --retorno %RR% --venda

@@ -5,4 +5,4 @@ call ala 200
 call r 15
 call rr 3
 call tam 1000
-call moeda USD
+call mo USD

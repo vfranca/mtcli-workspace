@@ -5,5 +5,5 @@ call tam 1
 call lot 0.1
 call r 50
 call rr 3
-call moeda HKD
+call mo HKD
 call coy 17250

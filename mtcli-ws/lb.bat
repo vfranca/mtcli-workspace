@@ -1,6 +1,1 @@
-@echo off
-if "%1" == "" (
-	echo %limit_bricks%
-) else (
-	set limit_bricks=%1
-)
+@call env LIMIT_BRICKS %*

@@ -7,5 +7,5 @@ call lot 0.01
 call r 0.0050
 call rr 3
 call coy 7.7900
-call moeda HKD
+call mo HKD
 call spread 0.0001

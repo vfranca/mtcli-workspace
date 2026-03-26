@@ -7,5 +7,5 @@ call lot 0.5
 call r 4
 call rr 3
 call coy 2200
-call moeda USD
+call mo USD
 call spread 0.8

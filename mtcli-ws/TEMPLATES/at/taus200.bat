@@ -7,5 +7,5 @@ call lot 0.25
 call r 16
 call rr 3
 call coy 18600
-call moeda EUR
+call mo EUR
 call spread 1.9

@@ -6,4 +6,7 @@ call lot 0.05
 call r 50
 call rr 3
 call coy 34300
-call moeda USD
+call mo USD
+call vo tick
+call by tick
+call mkt cfd_jp

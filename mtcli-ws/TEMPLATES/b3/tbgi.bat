@@ -6,4 +6,4 @@ call lot 1
 call r 0.90
 call rr 3
 call coy 280.00
-call moeda BRL
+call mo BRL

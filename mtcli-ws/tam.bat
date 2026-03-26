@@ -1,10 +1,1 @@
-@echo off
-rem mtcli
-rem marcações
-rem tamanho de contrato
-call mtcli
-if "%1" == "" (
-echo %TAM%
-goto :EOF
-)
-set tam=%1
+@call env TAM %*

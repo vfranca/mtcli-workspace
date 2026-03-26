@@ -5,4 +5,4 @@ call tam 1000
 call lot 0.01
 call r 0.20
 call rr 2
-call moeda USD
+call mo USD

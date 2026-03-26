@@ -6,4 +6,9 @@ call lot 1
 call r 200
 call rr 3
 call coy 130000
-call moeda BRL
+call mo BRL
+call mkt b3_stk
+call by tick
+call vo tick
+
+

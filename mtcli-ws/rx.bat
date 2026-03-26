@@ -1,4 +1,6 @@
 @echo off
 rem mtcli
+
 call mtcli
-call cfd --tamanho %TAM% %R% %LOT%
+
+call cfd --tamanho %TAM% %SL% %LOT%

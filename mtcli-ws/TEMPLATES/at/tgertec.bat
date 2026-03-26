@@ -5,4 +5,4 @@ call tam 10
 call lot 0.02
 call r 15
 call rr 3
-call moeda EUR
+call mo EUR

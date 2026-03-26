@@ -1,0 +1,1 @@
+@call env DATA_MODE %*

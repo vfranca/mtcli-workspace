@@ -5,4 +5,7 @@ call tam 10
 call lot 0.01
 call r 6
 call rr 3
-call moeda BRL
+call mo BRL
+call vo tick
+call by tick
+call mkt cfd_br

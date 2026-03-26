@@ -6,4 +6,4 @@ call lot 0.05
 call r 7
 call rr 3
 call coy 2000
-call moeda usd
+call mo usd

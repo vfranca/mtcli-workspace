@@ -1,6 +1,1 @@
-@echo off
-if "%1" == "" (
-	echo %brick%
-) else (
-	set brick=%1
-)
+@call env BRICK %*

@@ -1,6 +1,1 @@
-@echo off
-if "%1" == "" (
-	echo %vwap%
-) else (
-	set vwap=%1
-)
+@call env VWAP %*
