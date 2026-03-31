@@ -52,7 +52,7 @@ REM =========================
 
 set "DIR_TXT=%APPDATA%\mtcli\TX\%SYMBOL%"
 set "DIR_EXP=%APPDATA%\mtcli\EX\%SYMBOL%"
-set "DIR_TPL=TEMPLATES"
+set "DIR_PROFILES=PROFILES"
 set "DIR_BIN=bin"
 
 REM =========================
@@ -94,6 +94,6 @@ endlocal & (
 
     set DIR_TXT=%DIR_TXT%
     set DIR_EXP=%DIR_EXP%
-    set DIR_TPL=%DIR_TPL%
+    set DIR_PROFILES=%DIR_PROFILES%
     set DIR_BIN=%DIR_BIN%
 )
