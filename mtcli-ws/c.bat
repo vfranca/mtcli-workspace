@@ -2,11 +2,12 @@
 rem mtcli
 rem calcula uma compra
 
+setlocal
 set "ENTRADA=%~1"
 
 if "%ENTRADA%"=="" (
-    if defined e (
-        set "ENTRADA=%e%"
+    if defined E (
+        set "ENTRADA=%E%"
     ) else (
         echo entrada indefinida
         goto :eof
@@ -15,4 +16,5 @@ if "%ENTRADA%"=="" (
     call e %ENTRADA%
 )
 
-op e %ENTRADA% --risco %SL% --retorno %RR% --compra
+call op e %ENTRADA% --risco %SL% --retorno %RR% --compra
+endlocal

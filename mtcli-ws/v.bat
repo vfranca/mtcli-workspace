@@ -2,6 +2,7 @@
 rem mtcli
 rem calcula uma venda
 
+setlocal
 set "ENTRADA=%~1"
 
 if "%ENTRADA%"=="" (
@@ -15,4 +16,5 @@ if "%ENTRADA%"=="" (
     call e %ENTRADA%
 )
 
-op e %ENTRADA% --risco %SL% --retorno %RR% --venda
+call op e %ENTRADA% --risco %SL% --retorno %RR% --venda
+endlocal

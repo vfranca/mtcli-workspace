@@ -1,74 +1,102 @@
 @echo off
-set fname=tmp\%SYMBOL%.bat
-echo @echo off>%fname%
-echo set coy=%COY% >>%fname%
-echo set ood=%OOD% >>%fname%
-echo set hoy=%HOY% >>%fname%
-echo set loy=%LOY% >>%fname%
-echo set how=%HOW% >>%fname%
-echo set low=%LOW% >>%fname%
-echo set cow=%COW% >>%fname%
+setlocal EnableDelayedExpansion
 
-echo set h=%H% >>%fname%
-echo set l=%L% >>%fname%
-echo set sz=%SZ% >>%fname%
-echo set bz=%BZ% >>%fname%
-echo set mmu=%MMU% >>%fname%
-echo set mmd=%MMD% >>%fname%
-
-echo set mga=%MGA% >>%fname%
-echo set mgb=%MGB% >>%fname%
-
-echo set gxh=%GXH% >>%fname%
-echo set gxl=%GXL% >>%fname%
-
-echo set t1=%T1% >>%fname%
-echo set t2=%T2% >>%fname%
-echo set f1=%F1% >>%fname%
-echo set f2=%F2% >>%fname%
-echo set tl=%TL% >>%fname%
-echo set tcl=%TCL% >>%fname%
-
-echo set tg=%TG% >>%fname%
-echo set sl=%SL% >>%fname%
-echo set tp=%TP% >>%fname%
-echo set e=%E% >>%fname%
-echo set pc=%PC% >>%fname%
-echo set pv=%PV% >>%fname%
-
-echo set sld=%SLD% >>%fname%
-echo set mta=%MTA% >>%fname%
-echo set lmt=%LMT% >>%fname%
-echo set r=%R% >>%fname%
-echo set rr=%RR% >>%fname%
-echo set lot=%LOT% >>%fname%
-echo set tam=%TAM% >>%fname%
-echo set ala=%ALA% >>%fname%
-echo set swc=%SWC% >>%fname%
-echo set swv=%SWV% >>%fname%
-echo set ajuste=%AJUSTE% >>%fname%
-echo set range=%range% >>%fname%
-echo set vah=%VAH% >>%fname%
-echo set val=%VAL% >>%fname%
-echo set ibh=%IBH% >>%fname%
-echo set ibl=%IBL% >>%fname%
-echo set poc=%POC% >>%fname%
-echo set poc-2=%POC-2% >>%fname%
-echo set poc-3=%POC-3% >>%fname%
-echo set block=%BLOCK% >>%fname%
-echo set ib=%IB% >>%fname%
-echo set periodos=%periodos% >>%fname%
-echo set limit=%limit% >>%fname%
-echo set vwap=%vwap% >>%fname%
-echo set loss_limit=%loss_limit% >>%fname%
-echo set tick_size=%tick_size% >>%fname%
-echo set rows=%rows% >>%fname%
-echo set brick=%brick% >>%fname%
-echo set data_mode=%data_mode% >>%fname%
-echo set max_ticks=%max_ticks% >>%fname%
-rem echo set session_open=%session_open% >>%fname%
-rem echo set session_open_offset_seconds=%session_open_offset_seconds% >>%fname%
-
-if /i not "%1" == "/q" (
-echo as marcacoes foram salvas em %fname%
+if "%SYMBOL%"=="" (
+    echo SYMBOL nao definido
+    exit /b 1
 )
+
+set "DIR=tmp"
+set "FNAME=%DIR%\%SYMBOL%.bat"
+
+if not exist "%DIR%" mkdir "%DIR%"
+
+(
+echo @echo off
+
+call :save coy
+call :save ood
+call :save hoy
+call :save loy
+call :save how
+call :save low
+call :save cow
+
+call :save h
+call :save l
+call :save sz
+call :save bz
+call :save mmu
+call :save mmd
+
+call :save mga
+call :save mgb
+
+call :save gxh
+call :save gxl
+
+call :save t1
+call :save t2
+call :save f1
+call :save f2
+call :save tl
+call :save tcl
+
+call :save tg
+call :save sl
+call :save tp
+call :save e
+call :save pc
+call :save pv
+
+call :save sld
+call :save mta
+call :save lmt
+call :save r
+call :save rr
+call :save lot
+call :save tam
+call :save ala
+call :save swc
+call :save swv
+call :save ajuste
+call :save range
+call :save vah
+call :save val
+call :save ibh
+call :save ibl
+call :save poc
+
+rem substituindo nomes invalidos
+call :save poc2
+call :save poc3
+
+call :save block
+call :save ib
+call :save periodos
+call :save limit
+call :save vwap
+call :save loss_limit
+call :save tick_size
+call :save rows
+call :save brick
+call :save data_mode
+call :save max_ticks
+call :save modo
+call :save mtcli_log_per_process
+
+) > "%FNAME%"
+
+if /i not "%1"=="/q" (
+    echo marcacoes salvas em %FNAME%
+)
+
+exit /b
+
+:save
+set "VAR=%~1"
+call set "VAL=%%%VAR%%%"
+if defined VAL (
+    echo set %VAR%=!VAL!
+)
+exit /b

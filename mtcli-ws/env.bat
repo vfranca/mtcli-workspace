@@ -6,34 +6,34 @@ REM env VAR
 REM env VAR valor
 REM env VAR clear
 
-set "VAR=%~1"
-set "VAL=%~2"
+set "_VAR=%~1"
+set "_VAL=%~2"
 
-if "%VAR%"=="" (
+if "%_VAR%"=="" (
     echo Uso: env VAR [valor^|clear]
     goto :EOF
 )
 
 REM === GETTER ===
-if "%VAL%"=="" (
-    if defined %VAR% (
-        call echo %VAR% %%%VAR%%%
+if "%_VAL%"=="" (
+    if defined %_VAR% (
+        call echo %_VAR% %%%_VAR%%%
     ) else (
-        echo %VAR% nao definido
+        echo %_VAR% nao definido
     )
     goto :EOF
 )
 
 REM === CLEAR ===
-if /i "%VAL%"=="clear" (
-    set "%VAR%="
-    echo %VAR% removido
-    endlocal & set "%VAR%="
+if /i "%_VAL%"=="clear" (
+    set "%_VAR%="
+    echo %_VAR% removido
+    endlocal & set "%_VAR%="
     goto :EOF
 )
 
 REM === SETTER ===
-set "%VAR%=%VAL%"
-call echo %VAR% %%%VAR%%%
+set "%_VAR%=%_VAL%"
+call echo %_VAR% %%%_VAR%%%
 
-endlocal & set "%VAR%=%VAL%"
+endlocal & set "%_VAR%=%_VAL%"

@@ -76,7 +76,7 @@ endlocal & (
     set MOEDA=%MOEDA%
     set ALA=%ALA%
     set TAM=%TAM%
-    set SPD=%SPD%
+    set SPREAD=%SPREAD%
     set LOT=%LOT%
 
     set R=%R%
