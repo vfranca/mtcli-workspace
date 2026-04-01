@@ -17,4 +17,6 @@ if "%ENTRADA%"=="" (
 )
 
 call op e %ENTRADA% --risco %SL% --retorno %RR% --compra
-endlocal
+endlocal & (
+    set E=%ENTRADA%
+)
