@@ -52,7 +52,7 @@ REM =========================
 
 set "DIR_TXT=%APPDATA%\mtcli\TX\%SYMBOL%"
 set "DIR_EXP=%APPDATA%\mtcli\EX\%SYMBOL%"
-set "DIR_PROFILES=PROFILES"
+set "DIR_PROFILES=profiles"
 set "DIR_BIN=bin"
 
 REM =========================
