@@ -15,7 +15,7 @@ if "%~1"=="0"      goto :deactivate
 goto :EOF
 
 :activate
-set "DAY=%Y% %M% %I%"
+set "DAY=%Y%-%M%-%I%"
 goto :EOF
 
 :deactivate

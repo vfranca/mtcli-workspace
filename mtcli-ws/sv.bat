@@ -66,8 +66,7 @@ call :save val
 call :save ibh
 call :save ibl
 call :save poc
-
-rem substituindo nomes invalidos
+call :save poc1
 call :save poc2
 call :save poc3
 
