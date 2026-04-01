@@ -1,1 +1,3 @@
-@call env PERIOD %*
+@echo off
+call env PERIOD %*
+call term
