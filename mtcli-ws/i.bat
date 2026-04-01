@@ -1,11 +1,2 @@
-@echo off
-rem mtcli
-rem marcações
-rem dia
-call mtcli
-if "%1" == "" (
-echo %I%
-goto :EOF
-)
-set i=%1
-call day %Y% %M% %1
+@call env I %*
+if not "%~1"=="" (set "DAY=%Y%-%M%-%I%")
