@@ -1,6 +1,6 @@
 @echo off
 
-set "TF=h8"
+set "TF=H8"
 
 doskey %TF%=tf %TF% ch $*
 doskey %TF%f=tf %TF% f $*

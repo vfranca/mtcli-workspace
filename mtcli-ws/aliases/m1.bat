@@ -1,6 +1,6 @@
 @echo off
 
-set "TF=m1"
+set "TF=M1"
 
 doskey %TF%=tf %TF% ch $*
 doskey %TF%f=tf %TF% f $*
