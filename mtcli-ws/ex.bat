@@ -4,7 +4,7 @@ setlocal
 rem mtcli
 rem exporta o grafico para um arquivo TXT
 
-call mtcli
+call settings
 
 rem -----------------------------
 rem validacoes basicas
@@ -26,7 +26,7 @@ if not defined DIR_EXP (
 rem -----------------------------
 rem nome do arquivo
 rem -----------------------------
-set "FILE_EXP=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%"
+set "FILE_EXP=%SYMBOL%-%PERIOD%-%Y%-%M%-%I%-%VIEW%.txt"
 
 rem fallback para VIEW
 if not defined VIEW set "VIEW=ch"
@@ -57,15 +57,15 @@ echo %COUNT% | findstr /r "^[0-9][0-9]*$" >nul
 
 if not errorlevel 1 (
     rem parametro eh numero
-    %PERIOD% %COUNT% > "%DIR_EXP%\%FILE_EXP%.txt"
+    call tf %PERIOD% %VIEW% %COUNT% > "%DIR_EXP%\%FILE_EXP%"
 ) else (
     rem comando completo (ex: tf 5 ch)
-    call %* > "%DIR_EXP%\%FILE_EXP%.txt"
+    call %* > "%DIR_EXP%\%FILE_EXP%"
 )
 
 rem -----------------------------
 rem abre arquivo
 rem -----------------------------
-start "" "%DIR_EXP%\%FILE_EXP%.txt"
+start "" "%DIR_EXP%\%FILE_EXP%"
 
 endlocal

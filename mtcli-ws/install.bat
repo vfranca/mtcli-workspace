@@ -1,6 +1,11 @@
 @echo off
 
-set "SCRIPT=%USERPROFILE%\b3\startup.bat"
+call settings
+
+setx MTCLIPATH %CD%
+setx MTCLIDEBUG 1
+
+set "SCRIPT=%MTCLIPATH%\startup.bat"
 
 if not exist "%SCRIPT%" (
     echo [ERRO] startup.bat nao encontrado em:
@@ -13,5 +18,7 @@ reg add "HKCU\Software\Microsoft\Command Processor" ^
 /t REG_SZ ^
 /d "call \"%SCRIPT%\"" ^
 /f
+
+call %SCRIPT%
 
 echo [OK] AutoRun configurado.

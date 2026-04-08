@@ -18,10 +18,10 @@ if "%~2"=="" (
 if "%~3"=="" (
     set "COUNT=600"
 ) else (
-    set "COUNT=%3"
+    set "COUNT=%~3"
 )
 
-call mtcli
+call settings
 call p %PERIOD%
 call w %VIEW%
 call q %COUNT%

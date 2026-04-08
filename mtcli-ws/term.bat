@@ -4,7 +4,7 @@ rem Configuração do terminal mtcli
 rem ==========================================
 
 rem Inicializa ambiente mtcli
-call mtcli
+call settings
 
 rem Define título apenas se variáveis existirem
 if defined SYMBOL if defined PERIOD (

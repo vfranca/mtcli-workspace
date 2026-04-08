@@ -3,7 +3,7 @@ rem mtcli
 rem exporta candles para TXT e abre no notepad
 rem unificado: intraday + count + view + custom command
 
-call mtcli
+call settings
 
 rem =========================
 rem validações básicas

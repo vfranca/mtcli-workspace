@@ -1,6 +1,6 @@
 @echo off
 rem mtcli
-call mtcli
+call settings
 if not "%~1"=="" (
 call %DIR_PROFILES%\t%1
 ) else (

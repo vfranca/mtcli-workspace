@@ -2,7 +2,7 @@
 rem mtcli
 rem intraday
 
-call mtcli
+call settings
 
 if "%~1"=="" goto :show
 
