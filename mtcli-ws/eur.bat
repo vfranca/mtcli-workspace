@@ -1,4 +1,4 @@
 @echo off
 rem mtcli
-call mtcli
+call settings
 %DIR_BIN%\cur\cur.exe eur %*

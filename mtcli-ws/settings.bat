@@ -5,6 +5,9 @@ REM =========================
 REM WORKSPACE DEFAULTS
 REM =========================
 
+set "MTCLIPATH=%CD%"
+set "PATH_WS_LOGS=%MTCLIPATH%\logs"
+
 if not defined SYMBOL set SYMBOL=IBOV
 if not defined DIGITOS set DIGITOS=0
 if not defined PERIOD set PERIOD=D1
@@ -41,7 +44,7 @@ if not defined M (
 )
 
 if not defined I (
-    for /f %%a in ('powershell -NoProfile -Command "Get-Date -Format dd-HHmmss"') do set I=%%a
+    for /f %%a in ('powershell -NoProfile -Command "Get-Date -Format dd"') do set I=%%a
 )
 
 if not defined DAY set DAY=
@@ -92,6 +95,8 @@ endlocal & (
     set I=%I%
     set DAY=%DAY%
 
+    set MTCLIPATH=%MTCLIPATH%
+    set PATH_WS_LOGS=%PATH_WS_LOGS%
     set DIR_TXT=%DIR_TXT%
     set DIR_EXP=%DIR_EXP%
     set DIR_PROFILES=%DIR_PROFILES%
