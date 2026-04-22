@@ -27,6 +27,9 @@ call :save l
 call :save sz
 call :save bz
 call :save mmu
+call :save orh
+call :save orl
+
 call :save mmd
 
 call :save mga
@@ -70,6 +73,9 @@ call :save poc1
 call :save poc2
 call :save poc3
 
+call :save oferta
+call :save demanda
+
 call :save block
 call :save ib
 call :save periodos
@@ -94,8 +100,8 @@ exit /b
 
 :save
 set "VAR=%~1"
-call set "VAL=%%%VAR%%%"
-if defined VAL (
-    echo set %VAR%=!VAL!
+call set "_VAL=%%%VAR%%%"
+if defined _VAL (
+    echo set %VAR%=!_VAL!
 )
 exit /b

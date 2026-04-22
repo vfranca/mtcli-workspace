@@ -5,10 +5,10 @@ call settings
 setx MTCLIPATH %CD%
 setx MTCLIDEBUG 1
 
-set "SCRIPT=%MTCLIPATH%\startup.bat"
+set "SCRIPT=%MTCLIPATH%\autorun.bat"
 
 if not exist "%SCRIPT%" (
-    echo [ERRO] startup.bat nao encontrado em:
+    echo [ERRO] autorun.bat nao encontrado em:
     echo %SCRIPT%
     exit /b 1
 )

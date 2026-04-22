@@ -1,1 +1,1 @@
-@mt pa ln %*
+@mt levels ln %*
